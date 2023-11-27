@@ -76,6 +76,3 @@ document.getElementById('price-filter-checkbox').addEventListener('change', func
     }
   }
 });
-
-// Initially display all items
-filterSelection('all');
