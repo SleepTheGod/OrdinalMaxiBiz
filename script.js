@@ -16,29 +16,30 @@ document.addEventListener('DOMContentLoaded', function() {
         itemHtml += `</div></a></div>`;
         gallery.innerHTML += itemHtml;
       });
+      // After adding all images to the gallery, initialize lazy loading
+      initializeLazyLoad();
     })
     .catch(error => console.error('Error loading image data:', error));
 });
 
-document.addEventListener('DOMContentLoaded', (event) => {
-  const observer = new IntersectionObserver((entries, observer) => {
+function initializeLazyLoad() {
+  const lazyImages = document.querySelectorAll('img.lazyload');
+
+  const imageObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        const image = entry.target;
-        const src = image.getAttribute('data-src');
-        image.setAttribute('src', src);
-        observer.unobserve(image);
+        const img = entry.target;
+        img.src = img.getAttribute('data-src');
+        img.classList.remove('lazyload');
+        observer.unobserve(entry.target);
       }
     });
-  }, {
-    rootMargin: '0px',
-    threshold: 0.1
   });
 
-  // Target all images with the data-src attribute
-  const images = document.querySelectorAll('img[data-src]');
-  images.forEach(img => observer.observe(img));
-});
+  lazyImages.forEach(img => {
+    imageObserver.observe(img);
+  });
+}
 
 function filterSelection(color) {
   var elements = document.getElementsByClassName('gallery-item');
