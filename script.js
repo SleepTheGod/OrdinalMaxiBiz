@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let itemHtml = `<div class="gallery-item ${itemClass}">`;
         itemHtml += `<a href="https://magiceden.io/ordinals/item-details/${image.tokenId}" target="_blank">`;
         itemHtml += `<div class="image-container">`;
-        itemHtml += `<img src="${imageUrl}" alt="Ordinal Maxi Biz #${image.tokenId}">`;
+        itemHtml += `<img data-src="${imageUrl}" alt="Ordinal Maxi Biz #${image.tokenId}">`;
         if (image.price) {
           itemHtml += `<div class="price-tag">${image.price}</div>`;
         }
@@ -18,6 +18,26 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     })
     .catch(error => console.error('Error loading image data:', error));
+});
+
+document.addEventListener('DOMContentLoaded', (event) => {
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const image = entry.target;
+        const src = image.getAttribute('data-src');
+        image.setAttribute('src', src);
+        observer.unobserve(image);
+      }
+    });
+  }, {
+    rootMargin: '0px',
+    threshold: 0.1
+  });
+
+  // Target all images with the data-src attribute
+  const images = document.querySelectorAll('img[data-src]');
+  images.forEach(img => observer.observe(img));
 });
 
 function filterSelection(color) {
