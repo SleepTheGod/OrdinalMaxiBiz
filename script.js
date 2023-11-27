@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const gallery = document.querySelector('.gallery');
       data.forEach(image => {
         const imageUrl = `https://ord-mirror.magiceden.dev/content/${image.tokenId}`;
-        const itemClass = image.eyeColor; // Assuming this is a class like 'red', 'green', etc.
+        const itemClass = image.eyeColor; // Assuming this is a class like 'red', 'green' or 'blue'.
         let itemHtml = `<div class="gallery-item ${itemClass}">`;
         itemHtml += `<a href="https://magiceden.io/ordinals/item-details/${image.tokenId}" target="_blank">`;
         itemHtml += `<div class="image-container">`;
