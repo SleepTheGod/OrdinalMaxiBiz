@@ -30,10 +30,14 @@
 	    display: inline-block; /* Allows text-align center in parent to work */
 	  }
 	  .price-filter {
-	    text-align: right; /* Aligns the checkbox to the right */
 	    margin-right: 10px; /* Adjust as necessary */
 	    color: white; /* Or the color that fits your design */
 	    vertical-align: middle;
+	  }
+	  #checkbox-container {
+	    text-align: right; /* Aligns the checkbox to the right */
+  	    margin-top: 20px; /* Add space above the checkbox */
+    	    margin-bottom: 20px; /* Add space below the checkbox, before the gallery starts */
 	  }
 	  .gallery {
 	    display: grid;
@@ -128,7 +132,7 @@
 </div>
 
 <!-- Checkbox for filtering items with a price-tag -->
-<div id="filter-container">
+<div id="checkbox-container">
     <label class="price-filter">
         <input type="checkbox" id="price-filter-checkbox">
         Listed Only
