@@ -5,11 +5,12 @@ document.addEventListener('DOMContentLoaded', function() {
       const gallery = document.querySelector('.gallery');
       data.forEach(image => {
         const imageUrl = `https://ord-mirror.magiceden.dev/content/${image.tokenId}`;
-        const itemClass = image.eyeColor; // Assuming this is a class like 'red', 'green' or 'blue'.
+        const itemClass = image.eyeColor; // Assuming this is a class like 'red', 'green', or 'blue'.
         let itemHtml = `<div class="gallery-item ${itemClass}">`;
         itemHtml += `<a href="https://magiceden.io/ordinals/item-details/${image.tokenId}" target="_blank">`;
         itemHtml += `<div class="image-container">`;
-        itemHtml += `<img data-src="${imageUrl}" alt="Ordinal Maxi Biz #${image.tokenId}">`;
+        // Set data-src with the actual image URL and src with a placeholder
+        itemHtml += `<img data-src="${imageUrl}" alt="Ordinal Maxi Biz #${image.tokenId}" class="lazyload">`;
         if (image.price) {
           itemHtml += `<div class="price-tag">${image.price}</div>`;
         }
