@@ -55,21 +55,6 @@
 	    display: block; /* Show items when filtered */
 	  }
 	
-	  .filter-btn.active {
-	    background-color: rgba(255, 165, 0, 0.9);
-	  }
-	
-	  .filter-btn {
-	    padding: 5px 10px;
-	    margin: 1px;
-	    background-color: rgba(255, 255, 255, 0.7);
-	    color: black;
-	    border: none;
-	    font-weight: bold;
-	    border-radius: 7px;
-	    cursor: pointer;
-	  }
-	
 	  .price-filter {
 	    display: inline-block;
 	    margin-right: 10px; /* Adjust as necessary */
@@ -144,14 +129,8 @@
     </a>
 </div>
 
-<!-- Filter buttons -->
+<!-- Checkbox for filtering items with a price-tag -->
 <div id="filter-container">
-    <button class="filter-btn active" onclick="filterSelection('all')">Show All</button>
-    <button class="filter-btn" onclick="filterSelection('red')">Red Eyes (3)</button>
-    <button class="filter-btn" onclick="filterSelection('blue')">Blue Eyes (2)</button>
-    <button class="filter-btn" onclick="filterSelection('green')">Green Eyes (18)</button>
-
-    <!-- Checkbox for filtering items with a price-tag -->
     <label class="price-filter" style="float: right;">
         <input type="checkbox" id="price-filter-checkbox">
         Listed Only
