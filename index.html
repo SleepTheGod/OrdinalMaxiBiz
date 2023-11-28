@@ -30,17 +30,6 @@
 	    	display: inline-block; /* Allows text-align center in parent to work */
 			}
 
-		.count-display {
-			text-align: right; /* Aligns the text to the right */
-			padding: 10px 0; /* Adds some padding above and below the text */
-			font-size: 1em; /* Sets the size of the text */
-			color: white; /* Sets the text color */
-			position: absolute; /* Positions the element in relation to the nearest positioned ancestor or to the initial containing block */
-			top: 0; /* Positions the element at the top of the container */
-			right: 0; /* Positions the element on the right side of the container */
-			z-index: 5; /* Ensures the count is above other elements */
-			}
-
 		.filter-dropdown {
  			position: relative;
 			display: inline-block;
@@ -49,7 +38,7 @@
 		.filter-dropdown .dropdown-content {
 			display: none;
 			position: absolute;
-			background-color: rgba(0, 0, 0, 0.9);
+			background-color: rgba(0, 0, 0, 0.8);
 			color: white; /* Set the text color to black */
 			font-weight: bold; /* Make the text bold */
 			box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Soft shadow */
@@ -166,6 +155,17 @@
 		.image-container:hover::before {
 			background: rgba(255, 165, 0, 0.2);
 			}
+
+		.count-display {
+			text-align: right; /* Aligns the text to the right */
+			padding: 10px 0; /* Adds some padding above and below the text */
+			font-size: 1em; /* Sets the size of the text */
+			color: white; /* Sets the text color */
+			position: absolute; /* Positions the element in relation to the nearest positioned ancestor or to the initial containing block */
+			top: 0; /* Positions the element at the top of the container */
+			right: 0; /* Positions the element on the right side of the container */
+			z-index: 5; /* Ensures the count is above other elements */
+			}
 	
 		.price-tag {
 			position: absolute;
@@ -213,7 +213,7 @@
 	</div>
 </div>
 
-<div id="count-display" class="count-display">0 OMBs</div>
+<div id="count-display" class="count-display">Number of OMBs Displayed</div>
 
 <div class="gallery">
     <!-- Images will be loaded here by JavaScript -->

@@ -88,7 +88,7 @@ function updateCount() {
 	// Update the display with the new count. You will need an element in your HTML to show the count.
 	const countDisplay = document.getElementById('count-display');
 	if (countDisplay) {
-	countDisplay.textContent = `Showing ${count} items`;
+	countDisplay.textContent = `${count} OMBs`;
 	}
 }
 
