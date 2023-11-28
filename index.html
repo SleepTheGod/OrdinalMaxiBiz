@@ -30,24 +30,6 @@
 	    	display: inline-block; /* Allows text-align center in parent to work */
 			}
 
-		.count-display {
-			position: absolute; /* This makes the absolute positioning of children relative to this container */
-			font-size: 1em; /* Sets the size of the text */
-			color: white; /* Sets the text color */
-			top: -10px; /* Adjust this value as needed to move the count-display above the gallery */
-  			right: 0; /* Align to the right edge of .gallery */
-			z-index: 5; /* Ensures the count is above other elements */
-			}
-
-		/* You might want to add media queries to adjust the position on smaller screens */
-		@media (max-width: 700px) {
-		.count-display {
-			top: -5px; /* You might need a smaller offset on smaller screens */
-			right: 0; /* You could adjust this if the full width is not available */
-			padding: 3px 7px; /* Smaller padding on smaller screens */
-		}
-		}
-
 		.filter-dropdown {
  			position: relative;
 			display: inline-block;
@@ -102,6 +84,24 @@
 		.filter-dropdown .dropdown-content input[type="checkbox"] {
 			margin-right: 5px; /* Space between the checkbox and label text */
 			}
+
+		.count-display {
+			position: absolute; /* This makes the absolute positioning of children relative to this container */
+			font-size: 1em; /* Sets the size of the text */
+			color: white; /* Sets the text color */
+			top: -10px; /* Adjust this value as needed to move the count-display above the gallery */
+  			right: 0; /* Align to the right edge of .gallery */
+			z-index: 5; /* Ensures the count is above other elements */
+			}
+
+		/* You might want to add media queries to adjust the position on smaller screens */
+		@media (max-width: 700px) {
+		.count-display {
+			top: -5px; /* You might need a smaller offset on smaller screens */
+			right: 0; /* You could adjust this if the full width is not available */
+			padding: 3px 7px; /* Smaller padding on smaller screens */
+			}
+		}
 
 		.gallery {
 			display: grid;
@@ -197,6 +197,7 @@
 </div>
 
 <div class="filter-dropdown">
+	<div id="count-display" class="count-display">Number of OMBs Displayed</div>
 	<button onmouseover="toggleDropdown(true)" onmouseout="toggleDropdown(false)">Traits Filter</button>
 	<div id="filter-options" class="dropdown-content" onmouseover="toggleDropdown(true)" onmouseout="toggleDropdown(false)">
 		<label for="eyeColorRed"><input type="checkbox" id="eyeColorRed" name="eyeColor" value="red"> Red Eyes</label>
@@ -221,7 +222,6 @@
 </div>
 
 <div class="gallery">
-	<div id="count-display" class="count-display">Number of OMBs Displayed</div>
     <!-- Images will be loaded here by JavaScript -->
 </div>
 
