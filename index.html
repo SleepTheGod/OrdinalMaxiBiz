@@ -89,19 +89,9 @@
 			position: absolute; /* This makes the absolute positioning of children relative to this container */
 			font-size: 1em; /* Sets the size of the text */
 			color: white; /* Sets the text color */
-			top: -10px; /* Adjust this value as needed to move the count-display above the gallery */
-  			right: 0; /* Align to the right edge of .gallery */
+  			right: 30%; /* Adjust as needed for spacing from the right edge */
 			z-index: 5; /* Ensures the count is above other elements */
 			}
-
-		/* You might want to add media queries to adjust the position on smaller screens */
-		@media (max-width: 700px) {
-		.count-display {
-			top: -5px; /* You might need a smaller offset on smaller screens */
-			right: 0; /* You could adjust this if the full width is not available */
-			padding: 3px 7px; /* Smaller padding on smaller screens */
-			}
-		}
 
 		.gallery {
 			display: grid;
