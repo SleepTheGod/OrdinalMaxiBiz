@@ -80,6 +80,28 @@ function initializeLazyLoad() {
   });
 }
 
+function toggleDropdown() {
+	const filterOptions = document.getElementById('filter-options');
+	filterOptions.style.display = filterOptions.style.display === 'block' ? 'none' : 'block';
+  }
+  
+  // Add event listeners to checkboxes
+  document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(checkbox => {
+	checkbox.addEventListener('change', filterGallery);
+  });
+  
+  function filterGallery() {
+	const checkedAttributes = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"]:checked')).map(checkbox => checkbox.name);
+  
+	document.querySelectorAll('.gallery-item').forEach(item => {
+	  const matchesAll = checkedAttributes.every(attr => item.dataset[attr] !== undefined);
+	  item.style.display = matchesAll ? 'block' : 'none';
+	});
+  }
+  
+  // Call this function initially to set up the initial state
+  filterGallery();  
+
 document.getElementById('price-filter-checkbox').addEventListener('change', function() {
   var elements = document.getElementsByClassName('gallery-item');
   var isChecked = this.checked;

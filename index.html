@@ -39,6 +39,7 @@
   	    margin-top: 20px; /* Add space above the checkbox */
     	margin-bottom: 20px; /* Add space below the checkbox, before the gallery starts */
 	  }
+	  
 	  .gallery {
 	    display: grid;
 	    grid-template-columns: repeat(6, 1fr); /* 6 columns for desktop */
@@ -131,6 +132,28 @@
         <img src="https://math0616.github.io/OrdinalMaxiBiz/OMB.png" alt="Title Image">
     </a>
 </div>
+
+<div class="filter-dropdown">
+	<button onclick="toggleDropdown()">Filter Options</button>
+	<div id="filter-options" class="dropdown-content">
+	  <label for="gender"><input type="checkbox" id="gender" name="gender"> Female</label>
+	  <label for="hat"><input type="checkbox" id="hat" name="hat"> Hat</label>
+	  <label for="speaking"><input type="checkbox" id="speaking" name="speaking"> Speaking</label>
+	  <label for="smoking"><input type="checkbox" id="smoking" name="smoking"> Smoking</label>
+	  <label for="noFace"><input type="checkbox" id="noFace" name="noFace"> No Face</label>
+	  <label for="demon"><input type="checkbox" id="demon" name="demon"> Demon</label>
+	  <label for="alien"><input type="checkbox" id="alien" name="alien"> Alien</label>
+	  <label for="weapon"><input type="checkbox" id="weapon" name="weapon"> Weapon</label>
+	  <label for="ape"><input type="checkbox" id="ape" name="ape"> Ape</label>
+	  <label for="miner"><input type="checkbox" id="miner" name="miner"> Miner</label>
+	  <label for="shadow"><input type="checkbox" id="shadow" name="shadow"> Shadow</label>
+	  <label for="lfg"><input type="checkbox" id="lfg" name="lfg"> LFG Saying</label>
+	  <label for="clown"><input type="checkbox" id="clown" name="clown"> Clown</label>
+	  <label for="hoodie"><input type="checkbox" id="hoodie" name="hoodie"> Hoodie</label>
+	  <!-- Add other checkboxes for each attribute -->
+	</div>
+</div>
+  
 
 <!-- Checkbox for filtering items with a price-tag -->
 <div id="checkbox-container">
