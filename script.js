@@ -6,39 +6,63 @@ document.addEventListener('DOMContentLoaded', function() {
 		data.forEach(image => {
 		  const imageUrl = `https://ord-mirror.magiceden.dev/content/${image.tokenId}`;
 		  const itemClass = image.eyeColor; // Assuming this is a class like 'red', 'green', or 'blue'.
-		  let itemHtml = `<div class="gallery-item ${itemClass}">`;
-		  itemHtml += `<a href="https://magiceden.io/ordinals/item-details/${image.tokenId}" target="_blank">`;
-		  itemHtml += `<div class="image-container">`;
   
-		  // Set data-src with the actual image URL and src with a placeholder
-		  itemHtml += `<img data-src="${imageUrl}" alt="Ordinal Maxi Biz #${image.tokenId}" class="lazyload">`;
+		  // Create gallery item container
+		  const galleryItem = document.createElement('div');
+		  galleryItem.classList.add('gallery-item', itemClass);
   
-		  // Close the image-container div
-		  itemHtml += `</div>`; // It's important to close this here
+		  // Create link element
+		  const link = document.createElement('a');
+		  link.href = `https://magiceden.io/ordinals/item-details/${image.tokenId}`;
+		  link.target = "_blank";
   
-		  // Add a div for optional attributes outside of image-container
+		  // Create image container
+		  const imageContainer = document.createElement('div');
+		  imageContainer.classList.add('image-container');
+  
+		  // Create and set image element
+		  const img = document.createElement('img');
+		  img.dataset.src = imageUrl;
+		  img.alt = `Ordinal Maxi Biz #${image.tokenId}`;
+		  img.classList.add('lazyload');
+  
+		  // Append image to its container
+		  imageContainer.appendChild(img);
+  
+		  // Append image container to link
+		  link.appendChild(imageContainer);
+  
+		  // Append link to gallery item
+		  galleryItem.appendChild(link);
+  
+		  // Optional attributes
 		  const optionalAttributes = ['gender', 'hat', 'speaking', 'smoking', 'noFace', 'demon', 'alien', 'weapon', 'ape', 'miner', 'shadow', 'lfg', 'clown', 'hoodie'];
 		  optionalAttributes.forEach(attr => {
 			if (image[attr]) {
-			  itemHtml += `<div class="${attr}-tag">${image[attr]}</div>`;
+			  const tagDiv = document.createElement('div');
+			  tagDiv.classList.add(`${attr}-tag`);
+			  tagDiv.textContent = image[attr];
+			  galleryItem.appendChild(tagDiv);
 			}
 		  });
   
 		  // Price tag with Bitcoin symbol
 		  if (image.price) {
-			itemHtml += `<div class="price-tag">₿${image.price}</div>`;
+			const priceTag = document.createElement('div');
+			priceTag.classList.add('price-tag');
+			priceTag.textContent = `₿${image.price}`;
+			galleryItem.appendChild(priceTag);
 		  }
   
-		  itemHtml += `</a></div>`; // Close the gallery-item div
-		  gallery.innerHTML += itemHtml;
+		  // Append gallery item to gallery
+		  gallery.appendChild(galleryItem);
 		});
+  
 		// After adding all images to the gallery, initialize lazy loading
 		initializeLazyLoad();
 	  })
 	  .catch(error => console.error('Error loading image data:', error));
   });
-  
-  
 
 function initializeLazyLoad() {
   const lazyImages = document.querySelectorAll('img.lazyload');
