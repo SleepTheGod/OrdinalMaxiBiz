@@ -37,10 +37,10 @@
 		.filter-dropdown .dropdown-content {
 			display: none;
 			position: absolute;
-			background-color: #e67d229a;
-			color: black; /* Set the text color to black */
+			background-color: black;
+			color: white; /* Set the text color to black */
 			font-weight: bold; /* Make the text bold */
-			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Soft shadow */
+			box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4); /* Soft shadow */
  			border-radius: 10px; /* Rounded corners */
 			padding: 10px; /* Some padding inside the dropdown */
 			z-index: 4; /* Ensure it's above other content */
@@ -83,7 +83,7 @@
 
 		/* Show the dropdown menu when the button is clicked */
 		.filter-dropdown .show {
-			display: block;
+			display: grid; /* Using grid to create two columns */
 			}
 
 		.gallery {
