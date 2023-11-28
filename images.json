@@ -473,7 +473,7 @@
 		"eyeColor": "red",
 		"speaking":true,
 		"smoking":true,
-		"movieRef":true
+		"famous":true
 	},
 	{
 		"tokenId": "89a6ab8d2d728f48d78fb40342002d7324590d654dc793f12fbbfae6f562dc3ai0",
@@ -501,7 +501,7 @@
 		"tokenId": "60d8b8860b0ad7223766fa906ada8d8d29e63bb364555c77ae40f548c5a15d8di0",
 		"eyeColor": "red",
 		"shadow":true,
-		"movieRef":true
+		"famous":true
 	},
 	{
 		"tokenId": "8c6a3038de3aafd48270b8891d211437cd0444a37af821b1fd85d430cc4e90fdi0",
@@ -596,7 +596,7 @@
 		"eyeColor": "blue",
 		"speaking":true,
 		"hat":true,
-		"movieRef":true,
+		"famous":true,
 		"mask":true
 	},
 	{
@@ -640,7 +640,7 @@
 		"tokenId": "c79bf8709121329ba00c322de40f84bb68ec08a2c78d284724b8b36cc1e7270fi0",
 		"eyeColor": "blue",
 		"clown":true,
-		"movieRef":true
+		"famous":true
 	},
 	{
 		"tokenId": "17180bd4f2184aef3825fa8e26de9bbebb4280f2ec6039fcd1c2fb8f851d0583i0",
@@ -945,7 +945,7 @@
 	{
 		"tokenId": "6e78d044d57a7cf549a86e27df33c05056fb296148dc456c5f778aa2ee2ce150i0",
 		"eyeColor": "blue",
-		"movieRef":true
+		"famous":true
 	},
 	{
 		"tokenId": "03e173032430e3a34c7b9a2332e95cd1b74b5336c56dbddf62c67280c1d91ecdi0",
@@ -995,7 +995,7 @@
 	{
 		"tokenId": "bdec7a269700829ea4aca9c03d9d006011ab20cab1aa801a0336adc35c5f1866i0",
 		"eyeColor": "blue",
-		"movieRef":true,
+		"famous":true,
 		"mask":true,
 		"speaking":true
 	},
@@ -1208,7 +1208,7 @@
 	{
 		"tokenId": "7cfebcd965f1fb1f1c4039af4b74a1f78097d8d49e98bf3320b1169d6f0d62dci0",
 		"eyeColor": "green",
-		"movieRef":true
+		"famous":true
 	},
 	{
 		"tokenId": "c9d90c99938e9b2ea7d94111e2c9a51bb1eb9006e171608944ea3684cc065fbdi0",
@@ -1242,7 +1242,7 @@
 	{
 		"tokenId": "a25d60b0104e5f8e2368b685f91374655e0679e2c16b5bd5f0f1f6b297bee44ei0",
 		"eyeColor": "green",
-		"movieRef":true
+		"famous":true
 	},
 	{
 		"tokenId": "21f381809ae9edf34959baf77f296d76c6511dd3c07aec56fd5bb02ef86fbfe4i0",
@@ -1542,7 +1542,7 @@
 		"tokenId": "90a5d7a200f25206fb6461793e944ca7b96ff490ea1f5317c705b2cd08e63076i0",
 		"eyeColor": "green",
 		"demon":true,
-		"movieRef":true
+		"famous":true
 	},
 	{
 		"tokenId": "3c3a076700fc294f7605076cb087b663243f5156782baa0ff15357f362bb61f9i0",
@@ -1553,7 +1553,7 @@
 	{
 		"tokenId": "e31858819b67b66e5f098f6a2f770738f08af51d465247cfd4627da01f002932i0",
 		"eyeColor": "green",
-		"movieRef":true
+		"famous":true
 	},
 	{
 		"tokenId": "63cdbfba33a769f305083767c7f9a3737173a17c3f10871fdb505f0a62e62b8fi0",
@@ -2744,7 +2744,7 @@
 		"tokenId": "2d0c51b436db20eece3d6856fc1f30038d7865f4c77ec73bfc603f1851ea6ac2i0",
 		"eyeColor": "green",
 		"weapon":true,
-		"movieRef":true
+		"famous":true
 	},
 	{
 		"tokenId": "b043b1ca58fb5d176452156a7ddd25897aa730170db8ea3278dfb88b5d75b54ci0",
