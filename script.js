@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		  itemHtml += `<img data-src="${imageUrl}" alt="Ordinal Maxi Biz #${image.tokenId}" class="lazyload">`;
   
 		  // Optional attributes
-		  const optionalAttributes = ['gender', 'hat', 'speaking', 'smoking', 'noFace', 'demon', 'alien', 'ape', 'miner', 'shadow', 'lfg', 'clown', 'hoodie'];
+		  const optionalAttributes = ['gender', 'hat', 'speaking', 'smoking', 'noFace', 'demon', 'alien', 'ape', "weapon", 'miner', 'shadow', 'lfg', 'clown', 'hoodie'];
 		  optionalAttributes.forEach(attr => {
 			if (image[attr]) {
 			  itemHtml += `<div class="${attr}-tag">${image[attr]}</div>`;
