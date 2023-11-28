@@ -31,16 +31,24 @@
 			}
 
 		.count-display {
-			position: relative; /* This makes the absolute positioning of children relative to this container */
+			position: absolute; /* This makes the absolute positioning of children relative to this container */
 			text-align: right; /* Aligns the text to the right */
 			font-size: 1em; /* Sets the size of the text */
 			color: white; /* Sets the text color */
-			top: 0; /* Positions the element at the top of the container */
-			right: 0; /* Positions the element on the right side of the container */
+			top: -30px; /* Adjust this value as needed to move the count-display above the gallery */
+  			right: 0; /* Align to the right edge of .gallery */
 			z-index: 5; /* Ensures the count is above other elements */
-			margin: 0 auto; /* Centers the container */
 			padding-top: 10px; /* Adds space for the count display */
 			}
+
+		/* You might want to add media queries to adjust the position on smaller screens */
+		@media (max-width: 700px) {
+		.count-display {
+			top: -20px; /* You might need a smaller offset on smaller screens */
+			right: 0; /* You could adjust this if the full width is not available */
+			padding: 3px 7px; /* Smaller padding on smaller screens */
+		}
+		}
 
 		.filter-dropdown {
  			position: relative;
