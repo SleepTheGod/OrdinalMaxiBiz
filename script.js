@@ -1,27 +1,40 @@
 document.addEventListener('DOMContentLoaded', function() {
-  fetch('images.json')
-    .then(response => response.json())
-    .then(data => {
-      const gallery = document.querySelector('.gallery');
-      data.forEach(image => {
-        const imageUrl = `https://ord-mirror.magiceden.dev/content/${image.tokenId}`;
-        const itemClass = image.eyeColor; // Assuming this is a class like 'red', 'green', or 'blue'.
-        let itemHtml = `<div class="gallery-item ${itemClass}">`;
-        itemHtml += `<a href="https://magiceden.io/ordinals/item-details/${image.tokenId}" target="_blank">`;
-        itemHtml += `<div class="image-container">`;
-        // Set data-src with the actual image URL and src with a placeholder
-        itemHtml += `<img data-src="${imageUrl}" alt="Ordinal Maxi Biz #${image.tokenId}" class="lazyload">`;
-        if (image.price) {
-          itemHtml += `<div class="price-tag">${image.price}</div>`;
-        }
-        itemHtml += `</div></a></div>`;
-        gallery.innerHTML += itemHtml;
-      });
-      // After adding all images to the gallery, initialize lazy loading
-      initializeLazyLoad();
-    })
-    .catch(error => console.error('Error loading image data:', error));
-});
+	fetch('images.json')
+	  .then(response => response.json())
+	  .then(data => {
+		const gallery = document.querySelector('.gallery');
+		data.forEach(image => {
+		  const imageUrl = `https://ord-mirror.magiceden.dev/content/${image.tokenId}`;
+		  const itemClass = image.eyeColor; // Assuming this is a class like 'red', 'green', or 'blue'.
+		  let itemHtml = `<div class="gallery-item ${itemClass}">`;
+		  itemHtml += `<a href="https://magiceden.io/ordinals/item-details/${image.tokenId}" target="_blank">`;
+		  itemHtml += `<div class="image-container">`;
+  
+		  // Set data-src with the actual image URL and src with a placeholder
+		  itemHtml += `<img data-src="${imageUrl}" alt="Ordinal Maxi Biz #${image.tokenId}" class="lazyload">`;
+  
+		  // Optional attributes
+		  const optionalAttributes = ['gender', 'hat', 'speaking', 'smoking', 'noFace', 'demon', 'alien', 'ape', 'miner', 'shadow', 'lfg', 'clown', 'hoodie'];
+		  optionalAttributes.forEach(attr => {
+			if (image[attr]) {
+			  itemHtml += `<div class="${attr}-tag">${image[attr]}</div>`;
+			}
+		  });
+  
+		  // Price tag
+		  if (image.price) {
+			itemHtml += `<div class="price-tag">₿${image.price}</div>`;
+		  }
+  
+		  itemHtml += `</div></a></div>`;
+		  gallery.innerHTML += itemHtml;
+		});
+		// After adding all images to the gallery, initialize lazy loading
+		initializeLazyLoad();
+	  })
+	  .catch(error => console.error('Error loading image data:', error));
+  });
+  
 
 function initializeLazyLoad() {
   const lazyImages = document.querySelectorAll('img.lazyload');
