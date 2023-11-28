@@ -273,7 +273,7 @@
   {
     "tokenId": "76b029758b38f9ed678c97a95e50bda3ffacb7a55962f9e592ead01187c7f55ai0",
     "eyeColor": "red",
-    "gender": "male",
+    "gender": "female",
     "hat": null,
     "speaking": null,
     "smoking": null,
@@ -417,7 +417,7 @@
   {
     "tokenId": "acb52a93201d643ceb59f0e2c619eccc0595703a6da370190ed614a1bd276f75i0",
     "eyeColor": "red",
-    "gender": "male",
+    "gender": "female",
     "hat": null,
     "speaking": null,
     "smoking": null,
@@ -759,7 +759,7 @@
   {
     "tokenId": "6f9cc40d06a4e9a335bc5d8990b3dac180af4b0959d32cfbd6e734679c77430ci0",
     "eyeColor": "red",
-    "gender": "male",
+    "gender": "female",
     "hat": null,
     "speaking": null,
     "smoking": null,
@@ -795,7 +795,7 @@
   {
     "tokenId": "38b1e18e32bc5facdd236448786bba38c29b260cea523d19b4356f1d6a4e858ci0",
     "eyeColor": "red",
-    "gender": "male",
+    "gender": "female",
     "hat": null,
     "speaking": null,
     "smoking": null,
@@ -1209,7 +1209,7 @@
   {
     "tokenId": "94aaeadfe99f7a066bdbc92579965af27fc91e3e13d3631fe7b6fcd26fb1ff4di0",
     "eyeColor": "red",
-    "gender": "male",
+    "gender": "female",
     "hat": null,
     "speaking": null,
     "smoking": null,
@@ -1227,7 +1227,7 @@
   {
     "tokenId": "0d3764c7420477f7b72f3aee40db42e88255b81043e9dd98591a981096cd0ff0i0",
     "eyeColor": "red",
-    "gender": "male",
+    "gender": "female",
     "hat": null,
     "speaking": null,
     "smoking": null,
@@ -2199,7 +2199,7 @@
   {
     "tokenId": "a828fff7f80f2f8a1e19d3dac04b14dcdadcbd84639a877ceebfa8039db1f132i0",
     "eyeColor": "blue",
-    "gender": "male",
+    "gender": "female",
     "hat": null,
     "speaking": null,
     "smoking": null,
@@ -2793,7 +2793,7 @@
   {
     "tokenId": "e5f03899e8d4fc247dbe853eb91273f031f88efb5d4fe09c436c926ad5fd351bi0",
     "eyeColor": "blue",
-    "gender": "male",
+    "gender": "female",
     "hat": null,
     "speaking": null,
     "smoking": null,
@@ -2865,7 +2865,7 @@
   {
     "tokenId": "882b65c4b65d06a429c9ca031011c2b8e954e0eb29f89b84f2aac0ab1b5ea96ei0",
     "eyeColor": "blue",
-    "gender": "male",
+    "gender": "female",
     "hat": null,
     "speaking": null,
     "smoking": null,
@@ -2955,7 +2955,7 @@
   {
     "tokenId": "691d4064c0d1f3502d61d280dc962e8a5f71b1941cf791f22ecec702cdf0d491i0",
     "eyeColor": "blue",
-    "gender": "male",
+    "gender": "female",
     "hat": null,
     "speaking": null,
     "smoking": null,
@@ -3099,7 +3099,7 @@
   {
     "tokenId": "599fc62f02421d628b2dbff5c6c28cea0fb91e3330d6615f0b2aa5bdd2045be7i0",
     "eyeColor": "blue",
-    "gender": "male",
+    "gender": "female",
     "hat": null,
     "speaking": null,
     "smoking": null,
@@ -3207,7 +3207,7 @@
   {
     "tokenId": "d53b759fcfa2da81348fb4b1cfbe0d1b47487390094a4c39f0a84bf943313edai0",
     "eyeColor": "blue",
-    "gender": "male",
+    "gender": "female",
     "hat": null,
     "speaking": null,
     "smoking": null,
