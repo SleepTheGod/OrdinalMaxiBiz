@@ -13,20 +13,23 @@ document.addEventListener('DOMContentLoaded', function() {
 		  // Set data-src with the actual image URL and src with a placeholder
 		  itemHtml += `<img data-src="${imageUrl}" alt="Ordinal Maxi Biz #${image.tokenId}" class="lazyload">`;
   
-		  // Optional attributes
-		  const optionalAttributes = ['gender', 'hat', 'speaking', 'smoking', 'noFace', 'demon', 'alien', 'ape', "weapon", 'miner', 'shadow', 'lfg', 'clown', 'hoodie'];
+		  // Close the image-container div
+		  itemHtml += `</div>`; // It's important to close this here
+  
+		  // Add a div for optional attributes outside of image-container
+		  const optionalAttributes = ['gender', 'hat', 'speaking', 'smoking', 'noFace', 'demon', 'alien', 'weapon', 'ape', 'miner', 'shadow', 'lfg', 'clown', 'hoodie'];
 		  optionalAttributes.forEach(attr => {
 			if (image[attr]) {
 			  itemHtml += `<div class="${attr}-tag">${image[attr]}</div>`;
 			}
 		  });
   
-		  // Price tag
+		  // Price tag with Bitcoin symbol
 		  if (image.price) {
 			itemHtml += `<div class="price-tag">₿${image.price}</div>`;
 		  }
   
-		  itemHtml += `</div></a></div>`;
+		  itemHtml += `</a></div>`; // Close the gallery-item div
 		  gallery.innerHTML += itemHtml;
 		});
 		// After adding all images to the gallery, initialize lazy loading
@@ -34,6 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	  })
 	  .catch(error => console.error('Error loading image data:', error));
   });
+  
   
 
 function initializeLazyLoad() {
