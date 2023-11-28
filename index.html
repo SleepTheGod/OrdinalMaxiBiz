@@ -37,11 +37,12 @@
 		.filter-dropdown .dropdown-content {
 			display: none;
 			position: absolute;
-			background-color: #e67e22;
+			background-color: #e67d229a;
 			color: black; /* Set the text color to black */
-			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+			font-weight: bold; /* Make the text bold */
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Soft shadow */
  			border-radius: 10px; /* Rounded corners */
-			 padding: 10px; /* Some padding inside the dropdown */
+			padding: 10px; /* Some padding inside the dropdown */
 			z-index: 4; /* Ensure it's above other content */
 			width: max-content; /* Adjust width based on content */
 			grid-template-columns: repeat(2, 1fr); /* Two columns */
@@ -79,7 +80,7 @@
 		.filter-dropdown .dropdown-content input[type="checkbox"] {
 			margin-right: 5px; /* Space between the checkbox and label text */
 			}
-			
+
 		/* Show the dropdown menu when the button is clicked */
 		.filter-dropdown .show {
 			display: block;
