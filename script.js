@@ -101,21 +101,3 @@ function toggleDropdown() {
   
   // Call this function initially to set up the initial state
   filterGallery();  
-
-document.getElementById('price-filter-checkbox').addEventListener('change', function() {
-  var elements = document.getElementsByClassName('gallery-item');
-  var isChecked = this.checked;
-
-  for (var i = 0; i < elements.length; i++) {
-    // Check if the item has a price tag
-    var hasPriceTag = elements[i].getElementsByClassName('price-tag').length > 0;
-
-    if (isChecked && hasPriceTag) {
-      elements[i].style.display = 'block';
-    } else if (isChecked && !hasPriceTag) {
-      elements[i].style.display = 'none';
-    } else {
-      elements[i].style.display = ''; // Or use 'block' to show all
-    }
-  }
-});
