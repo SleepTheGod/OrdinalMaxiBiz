@@ -79,10 +79,14 @@ lazyImages.forEach(img => {
 });
 }
 
-function toggleDropdown() {
+function toggleDropdown(show) {
 	const filterOptions = document.getElementById('filter-options');
-	filterOptions.classList.toggle('show'); // This line toggles the 'show' class on and off
-}
+	if (show) {
+	filterOptions.classList.add('show');
+	} else {
+	filterOptions.classList.remove('show');
+	}
+}  
 
 // Add event listeners to checkboxes
 document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(checkbox => {
