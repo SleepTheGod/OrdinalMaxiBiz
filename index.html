@@ -38,7 +38,7 @@
 		.filter-dropdown .dropdown-content {
 			display: none;
 			position: absolute;
-			background-color: rgba(0, 0, 0, 0.8);
+			background-color: rgba(0, 0, 0, 0.85);
 			color: white; /* Set the text color to black */
 			font-weight: bold; /* Make the text bold */
 			box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Soft shadow */
@@ -161,10 +161,13 @@
 			padding: 10px 0; /* Adds some padding above and below the text */
 			font-size: 1em; /* Sets the size of the text */
 			color: white; /* Sets the text color */
-			position: absolute; /* Positions the element in relation to the nearest positioned ancestor or to the initial containing block */
 			top: 0; /* Positions the element at the top of the container */
 			right: 0; /* Positions the element on the right side of the container */
 			z-index: 5; /* Ensures the count is above other elements */
+			position: relative; /* This makes the absolute positioning of children relative to this container */
+			max-width: 1400px; /* Your existing max-width */
+			margin: 0 auto; /* Centers the container */
+			padding-top: 30px; /* Adds space for the count display */
 			}
 	
 		.price-tag {
