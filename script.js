@@ -11,6 +11,14 @@ document.addEventListener('DOMContentLoaded', function() {
 		  const galleryItem = document.createElement('div');
 		  galleryItem.classList.add('gallery-item', itemClass);
   
+		  // Set optional attributes as data attributes
+		  const optionalAttributes = ['gender', 'hat', 'speaking', 'smoking', 'noFace', 'demon', 'alien', 'weapon', 'ape', 'miner', 'shadow', 'lfg', 'clown', 'hoodie'];
+		  optionalAttributes.forEach(attr => {
+			if (image[attr]) {
+			  galleryItem.dataset[attr] = image[attr];
+			}
+		  });
+  
 		  // Create link element
 		  const link = document.createElement('a');
 		  link.href = `https://magiceden.io/ordinals/item-details/${image.tokenId}`;
@@ -35,17 +43,6 @@ document.addEventListener('DOMContentLoaded', function() {
 		  // Append link to gallery item
 		  galleryItem.appendChild(link);
   
-		  // Optional attributes
-		  const optionalAttributes = ['gender', 'hat', 'speaking', 'smoking', 'noFace', 'demon', 'alien', 'weapon', 'ape', 'miner', 'shadow', 'lfg', 'clown', 'hoodie'];
-		  optionalAttributes.forEach(attr => {
-			if (image[attr]) {
-			  const tagDiv = document.createElement('div');
-			  tagDiv.classList.add(`${attr}-tag`);
-			  tagDiv.textContent = image[attr];
-			  galleryItem.appendChild(tagDiv);
-			}
-		  });
-  
 		  // Price tag with Bitcoin symbol
 		  if (image.price) {
 			const priceTag = document.createElement('div');
@@ -62,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		initializeLazyLoad();
 	  })
 	  .catch(error => console.error('Error loading image data:', error));
-  });
+  });  
 
 function initializeLazyLoad() {
   const lazyImages = document.querySelectorAll('img.lazyload');
