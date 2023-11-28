@@ -996,7 +996,8 @@
 		"tokenId": "bdec7a269700829ea4aca9c03d9d006011ab20cab1aa801a0336adc35c5f1866i0",
 		"eyeColor": "blue",
 		"movieRef":true,
-		"mask":true
+		"mask":true,
+		"speaking":true
 	},
 	{
 		"tokenId": "adfce4e7e467ed9c4fb1971813a8229fc4d47e73d52bc790aa8cd3f33ded3b79i0",
