@@ -81,8 +81,8 @@ lazyImages.forEach(img => {
 
 function toggleDropdown() {
 	const filterOptions = document.getElementById('filter-options');
-	filterOptions.style.display = filterOptions.style.display === 'block' ? 'none' : 'block';
-}
+	filterOptions.classList.toggle('show'); // This line toggles the 'show' class on and off
+}  
 
 // Add event listeners to checkboxes
 document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(checkbox => {
