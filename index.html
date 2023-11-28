@@ -30,6 +30,17 @@
 	    	display: inline-block; /* Allows text-align center in parent to work */
 			}
 
+		.count-display {
+			text-align: right; /* Aligns the text to the right */
+			padding: 10px 0; /* Adds some padding above and below the text */
+			font-size: 1em; /* Sets the size of the text */
+			color: white; /* Sets the text color */
+			position: absolute; /* Positions the element in relation to the nearest positioned ancestor or to the initial containing block */
+			top: 0; /* Positions the element at the top of the container */
+			right: 0; /* Positions the element on the right side of the container */
+			z-index: 5; /* Ensures the count is above other elements */
+			}
+
 		.filter-dropdown {
  			position: relative;
 			display: inline-block;
@@ -202,7 +213,7 @@
 	</div>
 </div>
 
-<div id="count-display">Showing 0 items</div>
+<div id="count-display" class="count-display">0 OMBs</div>
 
 <div class="gallery">
     <!-- Images will be loaded here by JavaScript -->
