@@ -1,7 +1,8 @@
 [
   {
     "tokenId": "f9ccead93698e4124b0a04b46857a9ee49a326340f37187729627ab895119340i0",
-    "eyeColor": "red"
+    "eyeColor": "red",
+    "speaking": true
   },
   {
     "tokenId": "40e359170344787c8070bc0d300f21043a517e12da0f1818b1e2c026b0d8be2bi0",
