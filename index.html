@@ -45,10 +45,13 @@
 			padding: 10px; /* Some padding inside the dropdown */
 			z-index: 4; /* Ensure it's above other content */
 			width: max-content; /* Adjust width based on content */
-			grid-template-columns: repeat(2, 1fr); /* Two columns */
+			}
+		/* Show the dropdown menu when the button is clicked */
+		.filter-dropdown .show {
 			display: grid; /* Using grid to create two columns */
+			grid-template-columns: repeat(2, 1fr); /* Two columns */
 			grid-gap: 10px; /* Space between grid items */
-			}	
+			}			
 
 		.filter-dropdown .dropdown-content label {
 			display: block;
