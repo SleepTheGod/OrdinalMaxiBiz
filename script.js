@@ -56,6 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 		// After adding all images to the gallery, initialize lazy loading
 		initializeLazyLoad();
+		updateCount(); // This will update the count when the page loads
 	})
 	.catch(error => console.error('Error loading image data:', error));
 });  
@@ -77,6 +78,18 @@ const imageObserver = new IntersectionObserver((entries, observer) => {
 lazyImages.forEach(img => {
 	imageObserver.observe(img);
 });
+}
+
+function updateCount() {
+	// Select all the gallery items
+	const galleryItems = document.querySelectorAll('.gallery-item');
+	// Use Array.prototype.filter to count the items that are currently visible
+	const count = Array.from(galleryItems).filter(item => item.style.display !== 'none').length;
+	// Update the display with the new count. You will need an element in your HTML to show the count.
+	const countDisplay = document.getElementById('count-display');
+	if (countDisplay) {
+	countDisplay.textContent = `Showing ${count} items`;
+	}
 }
 
 function toggleDropdown(show) {
@@ -103,6 +116,8 @@ function filterGallery() {
 
 	item.style.display = matchesAllAttributes && matchesEyeColor ? 'block' : 'none';
 	});
+	// Call updateCount after filtering is done
+	updateCount();
 }
 
 // Call this function initially to set up the initial state
