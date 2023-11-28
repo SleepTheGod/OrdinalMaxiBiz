@@ -37,11 +37,10 @@
 		.filter-dropdown .dropdown-content {
 			display: none;
 			position: absolute;
-			background-color: #f9f9f9;
+			background-color: black;
 			min-width: 160px;
-			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 			padding: 12px 16px;
-			z-index: 1;
+			z-index: 2;
 			}
 
 		.filter-dropdown .dropdown-content label {
@@ -143,7 +142,7 @@
 </div>
 
 <div class="filter-dropdown">
-	<button onclick="toggleDropdown()">Filter Options</button>
+	<button onclick="toggleDropdown()">Traits Filter</button>
 	<div id="filter-options" class="dropdown-content">
 	  <label for="gender"><input type="checkbox" id="gender" name="gender"> Female</label>
 	  <label for="hat"><input type="checkbox" id="hat" name="hat"> Hat</label>
