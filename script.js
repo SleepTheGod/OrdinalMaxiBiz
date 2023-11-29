@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		const attributes = ['eyeColor', 'gender', 'hat', 'speaking', 'smoking', 'noFace', 'demon', 'alien', 'weapon', 'ape', 'openScalp', 'miner', 'shadow', 'lfg', 'clown', 'hoodie', 'famous', 'letterhead', 'robot', 'punk', 'undead', 'mask'];
 		attributes.forEach(attr => {
 			if (image[attr]) {
-			galleryItem.dataset[attr] = 'true';
+			galleryItem.dataset[attr] = image[attr];
 			}
 		});
 
