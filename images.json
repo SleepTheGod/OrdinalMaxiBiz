@@ -153,7 +153,8 @@
 	},
 	{
 		"tokenId": "d0d66a9f660b088ae7f5d05a4f6b9bf048ac8356df888ffef70a5db82982fa30i0",
-		"eyeColor": "red"
+		"eyeColor": "red",
+		"robot":true
 	},
 	{
 		"tokenId": "2585c6ee2eb10d8546128ef40671eb026453b5db9b7dc238f874c462bfc960c6i0",
@@ -1132,7 +1133,8 @@
 	},
 	{
 		"tokenId": "e2343613825328ac16fba3104d16d6cfb680a72f21492ad1224ce40728cb72e2i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"openScalp":true
 	},
 	{
 		"tokenId": "f28af484e6b029f37fbdec33425a89adc7d152af14300e571c3064f4b7e04fe7i0",
@@ -1234,7 +1236,8 @@
 	{
 		"tokenId": "c1b958ee95e38e21e82d8e67f9c46dbb7168b25a6ded1daf85ddc52b78f7e9f5i0",
 		"eyeColor": "green",
-		"letterhead":true
+		"letterhead":true,
+		"openScalp":true
 	},
 	{
 		"tokenId": "359b4c5afd5d8cdbb8c52317d9efd438882d04bedf3925e33df4e9ac384c4163i0",
@@ -1295,7 +1298,8 @@
 	{
 		"tokenId": "2f9144069eeb1383a1f0f3b54b8c6f55ca8ab318ce45c3ed068070622e37f368i0",
 		"eyeColor": "green",
-		"noFace":true
+		"noFace":true,
+		"robot":true
 	},
 	{
 		"tokenId": "b986f45bfea641e74a80326532d14bba7d016073981d0b2eec6a17fa0a66f065i0",
@@ -1581,7 +1585,8 @@
 	},
 	{
 		"tokenId": "774729a18d9c1c37662fa12d334d9743aed97eb48ae633fb2e4236fdcd175298i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"openScalp":true
 	},
 	{
 		"tokenId": "6a0e1cce93346a1091112afcffe1f8473c2b8f9a535d2ce3dc116d4ee1eab136i0",
@@ -1647,7 +1652,8 @@
 	},
 	{
 		"tokenId": "e33bbb629a4dcfbbf1a651960d2dcddfd981453d4114b5c9a6c547f246aac0cbi0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"openScalp":true
 	},
 	{
 		"tokenId": "85e69bac9c5ba1831267da3bb4729495be00e47b485d3d93ebab9ddd239fbad1i0",
@@ -2448,7 +2454,8 @@
 	},
 	{
 		"tokenId": "16bf47e9709f43c4d36d94cc89b2e077ccba800c329c4a0bfeeb881de2eb1956i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"robot":true
 	},
 	{
 		"tokenId": "db2c61e283641a78966e0ce832834dd1f8b97e9f132679af4cc7ee40f77c5225i0",
@@ -2529,7 +2536,8 @@
 	},
 	{
 		"tokenId": "6822aff86899846e7e37d64d1af5acb4d1cd9e5733a798818725a6d9e5656646i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"robot":true
 	},
 	{
 		"tokenId": "dec761aaf1dccfbb67748db220c1ff9a52b7d96061bc1a496856e1367adcd66ci0",
@@ -2665,7 +2673,8 @@
 	},
 	{
 		"tokenId": "4e0cba61b56776e9e2f2fc5ea83217a255697c7942f9b299ee245e2c101a996ei0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"openScalp":true
 	},
 	{
 		"tokenId": "3da7b20a7061ce464be5e5948ae0b438348a08986cd330f32472bbc64997af91i0",
@@ -2703,7 +2712,8 @@
 	},
 	{
 		"tokenId": "d4d3edfd82ff9903075c9025d8642cafccbde053386d88659925500e495abd0di0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"robot":true
 	},
 	{
 		"tokenId": "47da7fe5618b0fb2dadf27904b0575d100d3bc2ad2c36366a44cb2e6cc8ca940i0",
@@ -2849,9 +2859,9 @@
 	{
 		"tokenId": "bcc4f7dba77e61b646623f3e5f59c1e630ad54246b351c3ed5bb7c56e74fa26ei0",
 		"eyeColor": "green",
-		"mask":true,
 		"lfg":true,
-		"speaking":true
+		"speaking":true,
+		"robot":true
 	},
 	{
 		"tokenId": "b7d2e7eca3e259814ddc696d5c6565bf988c0b9eff1a942f612b43890efe4279i0",
@@ -3122,7 +3132,8 @@
 	{
 		"tokenId": "9ceb4931cd5b831e6b0ad3706034c5a76aa61328950f8ee0a4e26e86d403be2ei0",
 		"eyeColor": "green",
-		"letterhead":true
+		"letterhead":true,
+		"robot":true
 	},
 	{
 		"tokenId": "ecd14b5c76295e5c3e300ca55f142cb07012cbd0dd2d4a178f82f5c94932523fi0",
@@ -3314,10 +3325,6 @@
 	},
 	{
 		"tokenId": "79da8b4b44a49b9d1c856f78b93a032c17f92b2bf9d9c90ddbc8bf0ca6bd8071i0",
-		"eyeColor": "green"
-	},
-	{
-		"tokenId": "79da8b4b44a49b9d1c856f78b93a032c17f92b2bf9d9c90ddbc8bf0ca6bd8071i0",
 		"eyeColor": "green",
 		"shadow":true,
 		"hat":true
@@ -3462,67 +3469,86 @@
 		"letterhead":true
 	},
 	{
-		"tokenId": "",
+		"tokenId": "063770edea8f344c5ff5c57cdfd4161bf5923ae97b6a7ff392a793972a230258i0",
+		"eyeColor": "green",
+		"letterhead":true
+	},
+	{
+		"tokenId": "ad24e04a62c86108deeda0edabfed8513f739a2506b3833193d66fe5b82bad11i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
+		"tokenId": "4cc3a02bff21e52b3679f2efe1c78b722c914f5ed1a28816a2b5efa0d90828ffi0",
+		"eyeColor": "green",
+		"smoking":true
+	},
+	{
+		"tokenId": "3d9e530cf30a304898e40a70d6da4fc24ac53d948efceec999fa76a9587e3617i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
+		"tokenId": "6f9fb5f728badce3bb6dc6f950aeb9cdb9c93bd30080eb7af75c2ddfafb64a85i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "2e19fa6df777b38488c914336d927f4549faef33dabda0fda0ec5bfa98263564i0",
+		"eyeColor": "green",
+		"smoking":true,
+		"shadow":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "0e0ab0493c8b9cab1fb310baedc7ef898620b2f864c157bfb62d9bef9d14f767i0",
+		"eyeColor": "green",
+		"smoking":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "538036046363bd18223cb071845ec2f72266d6440ee0d0a9ddde319f10947330i0",
+		"eyeColor": "green",
+		"robot":true,
+		"speaking":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "336f97ec551f9ddff5c520105265ccffd578942407cfd9ce6f7edab6039a3fdci0",
+		"eyeColor": "green",
+		"robot":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "201fc487b2f8dc5a2408224fbc2ce8fb93f869f8aafe72d36e5952a8b0644266i0",
+		"eyeColor": "green",
+		"smoking":true,
+		"punk":true,
+		"letterhead":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "d70921d0b1dd71f579ab9a5f93884df92312c22d57f7f5250c80244dbccabb27i0",
+		"eyeColor": "green",
+		"smoking":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "f219dbaa30e130e4e48fd7df3c61709ef2c26d3579b39d6db70473af2ba56e95i0",
+		"eyeColor": "green",
+		"hoodie":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "96c631d275c064d9f974abe432674dfed2694592f74201661e30df3808dd55d8i0",
+		"eyeColor": "green",
+		"hat":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "e9658fa7cccd562e38753d0a5366e377d8a70f9d6b22609c3015242c53b762e8i0",
+		"eyeColor": "green",
+		"hat":true,
+		"gender":"female"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "1d71f8606cd56842c9c19b84415da534adb1ae5ea10aaf0e3e38789a323467d7i0",
+		"eyeColor": "green",
+		"letterhead":true,
+		"speaking":true,
+		"gender":"female"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
-	},
-	{
-		"tokenId": "",
-		"eyeColor": "green"
-	},
-	{
-		"tokenId": "",
+		"tokenId": "5b316258475230016677ad24c6d371b4b214012138d0c148ee1261edf1d9dd84i0",
 		"eyeColor": "green"
 	},
 	{
