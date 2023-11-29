@@ -113,7 +113,7 @@ function filterGallery() {
 
     document.querySelectorAll('.gallery-item').forEach(item => {
         // Check if the item has only the eyeColor attribute if the single attribute filter is active
-        const hasOnlyEyeColor = isSingleAttributeChecked && Object.keys(item.dataset).length === 1 && 'eyeColor' in item.dataset;
+        const hasOnlyEyeColor = isSingleAttributeChecked && Object.keys(item.dataset).length === 2 && 'eyeColor' in item.dataset;
 
         // Check other attribute conditions
         const matchesAllAttributes = checkedAttributes.every(attr => item.dataset[attr] !== undefined);
