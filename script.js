@@ -107,18 +107,34 @@ document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(che
 });
 
 function filterGallery() {
-	const checkedAttributes = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"]:not([name="eyeColor"]):checked')).map(checkbox => checkbox.name);
-	const checkedEyeColors = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"][name="eyeColor"]:checked')).map(checkbox => checkbox.value);
+    const checkedAttributes = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"]:not([name="eyeColor"], [name="single-attribute"])')).map(checkbox => checkbox.name);
+    const checkedEyeColors = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"][name="eyeColor"]:checked')).map(checkbox => checkbox.value);
+    const isSingleAttributeChecked = document.getElementById('single-attribute').checked;
 
-	document.querySelectorAll('.gallery-item').forEach(item => {
-	const matchesAllAttributes = checkedAttributes.every(attr => item.dataset[attr] !== undefined);
-	const matchesEyeColor = checkedEyeColors.length === 0 || checkedEyeColors.includes(item.dataset.eyeColor);
+    document.querySelectorAll('.gallery-item').forEach(item => {
+        // Check if the item has only the eyeColor attribute if the single attribute filter is active
+        const hasOnlyEyeColor = isSingleAttributeChecked && Object.keys(item.dataset).length === 1 && 'eyeColor' in item.dataset;
 
-	item.style.display = matchesAllAttributes && matchesEyeColor ? 'block' : 'none';
-	});
-	// Call updateCount after filtering is done
-	updateCount();
+        // Check other attribute conditions
+        const matchesAllAttributes = checkedAttributes.every(attr => item.dataset[attr] !== undefined);
+        const matchesEyeColor = checkedEyeColors.length === 0 || checkedEyeColors.includes(item.dataset.eyeColor);
+
+        // Determine if the item should be shown
+        let shouldDisplay = matchesAllAttributes && matchesEyeColor;
+        if (isSingleAttributeChecked) {
+            shouldDisplay = hasOnlyEyeColor; // If single attribute is checked, override shouldDisplay
+        }
+
+        // Apply the final display property based on the shouldDisplay boolean
+        item.style.display = shouldDisplay ? 'block' : 'none';
+    });
+
+    // Call updateCount after filtering is done
+    updateCount();
 }
 
-// Call this function initially to set up the initial state
-filterGallery();  
+// Add event listener for the 'Single Attribute Only' checkbox
+document.getElementById('single-attribute').addEventListener('change', filterGallery);
+
+// Call filterGallery initially to apply any default filters
+document.addEventListener('DOMContentLoaded', filterGallery); 
