@@ -109,25 +109,16 @@ document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(che
 function filterGallery() {
 	const checkedAttributes = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"]:not([name="eyeColor"]):checked')).map(checkbox => checkbox.name);
 	const checkedEyeColors = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"][name="eyeColor"]:checked')).map(checkbox => checkbox.value);
-	const singleAttributeCheckbox = document.getElementById('single-attribute');
-	const isSingleAttributeFilterOn = singleAttributeCheckbox && singleAttributeCheckbox.checked;
 
 	document.querySelectorAll('.gallery-item').forEach(item => {
 	const matchesAllAttributes = checkedAttributes.every(attr => item.dataset[attr] !== undefined);
 	const matchesEyeColor = checkedEyeColors.length === 0 || checkedEyeColors.includes(item.dataset.eyeColor);
-	// Check if the item has exactly one attribute if the single attribute filter is active
-	const attributeCount = Object.values(item.dataset).filter(value => value).length;
-	const matchesSingleAttribute = !isSingleAttributeFilterOn || (isSingleAttributeFilterOn && attributeCount === 1);
 
-	item.style.display = matchesAllAttributes && matchesEyeColor && matchesSingleAttribute ? 'block' : 'none';
+	item.style.display = matchesAllAttributes && matchesEyeColor ? 'block' : 'none';
 	});
-	
 	// Call updateCount after filtering is done
 	updateCount();
 }
 
-// Make sure to add the event listener for the new checkbox
-document.getElementById('single-attribute').addEventListener('change', filterGallery);
-
-// Initialize the filter gallery when the page loads
-document.addEventListener('DOMContentLoaded', filterGallery);
+// Call this function initially to set up the initial state
+filterGallery();  
