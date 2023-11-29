@@ -112,9 +112,6 @@ function filterGallery() {
 	const isSingleAttributeChecked = document.getElementById('single-attribute').checked;
 
 	document.querySelectorAll('.gallery-item').forEach(item => {
-		// Correctly define attributeCount inside the forEach loop
-        const attributeCount = Object.values(item.dataset).filter(Boolean).length;
-        
 		// Check if the item has only the eyeColor attribute if the single attribute filter is active
 		const hasOnlyEyeColor = Object.keys(item.dataset).length === (item.dataset.eyeColor ? 1 : 0) + 1; // +1 for the tokenId
 
@@ -131,7 +128,6 @@ function filterGallery() {
 	});
 
 	console.log('Single Attribute Checked:', isSingleAttributeChecked);
-	console.log('Attribute Count:', attributeCount);
 	console.log('Display:', shouldDisplay);
 
 	// Update the count display
