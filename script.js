@@ -108,6 +108,11 @@ function toggleDropdown(show) {
 	}
 }  
 
+// Add event listeners to checkboxes
+document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(checkbox => {
+	checkbox.addEventListener('change', filterGallery);
+});
+
 function filterGallery() {
 	const checkedAttributes = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"]:not([name="eyeColor"]):checked')).map(checkbox => checkbox.name);
 	const checkedEyeColors = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"][name="eyeColor"]:checked')).map(checkbox => checkbox.value);
@@ -127,11 +132,6 @@ function filterGallery() {
 	// Call updateCount after filtering is done
 	updateCount();
 }
-
-// Add event listeners to checkboxes
-document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(checkbox => {
-	checkbox.addEventListener('change', filterGallery);
-});
 
 // Call this function initially to set up the initial state
 filterGallery();  
