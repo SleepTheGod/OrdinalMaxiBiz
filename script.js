@@ -127,6 +127,10 @@ function filterGallery() {
 		item.style.display = shouldDisplay ? 'block' : 'none';
 	});
 
+	console.log('Single Attribute Checked:', isSingleAttributeChecked);
+	console.log('Attribute Count:', attributeCount);
+	console.log('Display:', shouldDisplay);
+	
 	// Update the count display
 	updateCount();
 }
