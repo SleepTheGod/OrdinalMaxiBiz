@@ -123,9 +123,8 @@ function filterGallery() {
 	const matchesEyeColor = checkedEyeColors.length === 0 || checkedEyeColors.includes(item.dataset.eyeColor);
 
 	// "No Trait" check: If checked, only display items with exactly two attributes
-	const attributeCount = Object.keys(item).length;
+	const attributeCount = Object.keys(item.dataset).length;
 	console.log(`Item ID ${item.dataset.tokenId} has ${attributeCount} attributes`);
-
 	const matchesNoTrait = !isNoTraitChecked || (isNoTraitChecked && attributeCount === 2);
 
 	item.style.display = (matchesAllAttributes && matchesEyeColor && matchesNoTrait) ? 'block' : 'none';
