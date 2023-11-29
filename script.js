@@ -59,9 +59,6 @@ document.addEventListener('DOMContentLoaded', function() {
 		updateCount(); // This will update the count when the page loads
 	})
 	.catch(error => console.error('Error loading image data:', error));
-
-	// After images have been added to the gallery, count attributes and update display
-	countAttributesAndUpdateDisplay();
 });  
 
 function initializeLazyLoad() {
@@ -127,24 +124,22 @@ function filterGallery() {
 filterGallery();  
 
 // Function to count attributes for an image and update the HTML
-function countAttributesAndUpdateDisplay() {
+function addAttributeCounts() {
 	document.querySelectorAll('.gallery-item').forEach(item => {
-	// Calculate the number of attributes
-	// Assuming that 'eyeColor' is a required attribute and should not be counted
-	const attributeCount = Object.keys(item.dataset).length - (item.dataset.eyeColor ? 1 : 0);
-
-	// Create a new div element to show the attribute count
-	let countDiv = item.querySelector('.attribute-count');
-	if (!countDiv) {
-		countDiv = document.createElement('div');
-		countDiv.classList.add('attribute-count');
-		item.appendChild(countDiv); // Append the count div to the gallery item
-	}
-
-	// Update the text of the count div with the number of attributes
-	countDiv.textContent = `Attributes: ${attributeCount}`;
-	});
-}
-
-countAttributesAndUpdateDisplay();
+	  // Calculate the total number of attributes
+	  const attributeCount = Object.keys(item.dataset).length;
   
+	  // Create the count display element or select it if it already exists
+	  let countDisplay = item.querySelector('.attribute-count');
+	  if (!countDisplay) {
+		countDisplay = document.createElement('div');
+		countDisplay.classList.add('attribute-count');
+		item.appendChild(countDisplay); // Append the count div to the gallery item
+	  }
+  
+	  // Update the text of the count div with the number of attributes
+	  countDisplay.textContent = `Attributes: ${attributeCount}`;
+	});
+  }  
+
+addAttributeCounts();
