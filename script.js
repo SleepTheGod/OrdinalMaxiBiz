@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		const attributes = ['eyeColor', 'gender', 'hat', 'speaking', 'smoking', 'noFace', 'demon', 'alien', 'weapon', 'ape', 'openScalp', 'miner', 'shadow', 'lfg', 'clown', 'hoodie', 'famous', 'letterhead', 'robot', 'punk', 'undead', 'mask'];
 		attributes.forEach(attr => {
 			if (image[attr]) {
-			galleryItem.dataset[attr] = image[attr];
+			galleryItem.dataset[attr] = 'true';
 			}
 		});
 
@@ -107,23 +107,24 @@ document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(che
 });
 
 function filterGallery() {
-	const checkedAttributes = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"]:not([name="eyeColor"]):checked')).map(checkbox => checkbox.name);
+	const checkedAttributes = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"]:not([name="eyeColor"], [name="single-attribute"])')).map(checkbox => checkbox.name);
 	const checkedEyeColors = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"][name="eyeColor"]:checked')).map(checkbox => checkbox.value);
 	const isSingleAttributeChecked = document.getElementById('single-attribute').checked;
 
 	document.querySelectorAll('.gallery-item').forEach(item => {
 		// Check if the item has only the eyeColor attribute if the single attribute filter is active
-		const hasOnlyEyeColor = Object.keys(item.dataset).length === 1 && item.dataset.eyeColor !== undefined;
+		const hasOnlyEyeColor = Object.keys(item.dataset).length === (item.dataset.eyeColor ? 1 : 0) + 1; // +1 for the tokenId
 
 		// Determine if the item should be shown based on the single attribute filter
 		const matchesSingleAttribute = !isSingleAttributeChecked || (isSingleAttributeChecked && hasOnlyEyeColor);
 
 		// Check other attribute conditions
-		const matchesAllAttributes = checkedAttributes.every(attr => item.dataset[attr] !== undefined);
+		const matchesAllAttributes = checkedAttributes.every(attr => item.dataset[attr] === 'true');
 		const matchesEyeColor = checkedEyeColors.length === 0 || checkedEyeColors.includes(item.dataset.eyeColor);
 
 		// Final display logic
-		item.style.display = matchesAllAttributes && matchesEyeColor && matchesSingleAttribute ? 'block' : 'none';
+		const shouldDisplay = matchesAllAttributes && matchesEyeColor && matchesSingleAttribute;
+		item.style.display = shouldDisplay ? 'block' : 'none';
 	});
 
 	// Update the count display
