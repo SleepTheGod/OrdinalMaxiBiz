@@ -59,6 +59,9 @@ document.addEventListener('DOMContentLoaded', function() {
 		updateCount(); // This will update the count when the page loads
 	})
 	.catch(error => console.error('Error loading image data:', error));
+
+	// After images have been added to the gallery, count attributes and update display
+	countAttributesAndUpdateDisplay();
 });  
 
 function initializeLazyLoad() {
@@ -142,11 +145,4 @@ function countAttributesAndUpdateDisplay() {
 	countDiv.textContent = `Attributes: ${attributeCount}`;
 	});
 }
-
-document.addEventListener('DOMContentLoaded', function() {
-	// ... your existing code ...
-
-	// After images have been added to the gallery, count attributes and update display
-	countAttributesAndUpdateDisplay();
-});
   
