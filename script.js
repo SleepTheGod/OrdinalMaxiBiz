@@ -141,11 +141,3 @@ function filterGallery() {
     // Update the count display
     updateCount();
 }
-
-// Add event listeners to checkboxes
-document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(checkbox => {
-    checkbox.addEventListener('change', filterGallery);
-});
-
-// Initialize the filter gallery when the page loads
-document.addEventListener('DOMContentLoaded', filterGallery);
