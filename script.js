@@ -107,41 +107,44 @@ document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(che
 });
 
 function filterGallery() {
-	const checkedAttributes = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"]:not([name="eyeColor"], [name="single-attribute"])')).map(checkbox => checkbox.name);
-	const checkedEyeColors = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"][name="eyeColor"]:checked')).map(checkbox => checkbox.value);
-	const isSingleAttributeChecked = document.getElementById('single-attribute').checked;
+    // Get checked attributes from other filters
+    const checkedAttributes = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"]:not([name="eyeColor"], [name="single-attribute"])'))
+        .map(checkbox => checkbox.name);
+    const checkedEyeColors = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"][name="eyeColor"]:checked'))
+        .map(checkbox => checkbox.value);
+    const isSingleAttributeChecked = document.getElementById('single-attribute').checked;
 
-	document.querySelectorAll('.gallery-item').forEach(item => {
-		// Check if the item has only the eyeColor attribute if the single attribute filter is active
-		const hasOnlyEyeColor = Object.keys(item.dataset).length === 1 && 'eyeColor' in item.dataset;
+    // Loop over each gallery item
+    document.querySelectorAll('.gallery-item').forEach(item => {
+        let shouldDisplay = true; // Start with a default of showing the item
 
-		// Determine if the item should be shown based on the single attribute filter
-		const matchesSingleAttribute = !isSingleAttributeChecked || (isSingleAttributeChecked && hasOnlyEyeColor);
+        // Check for eye color attribute if eye color filters are used
+        if (checkedEyeColors.length > 0) {
+            shouldDisplay = shouldDisplay && checkedEyeColors.includes(item.dataset.eyeColor);
+        }
 
-		// Check other attribute conditions
-		const matchesAllAttributes = checkedAttributes.every(attr => item.dataset[attr] === 'true');
-		const matchesEyeColor = checkedEyeColors.length === 0 || checkedEyeColors.includes(item.dataset.eyeColor);
+        // Check for other attributes
+        shouldDisplay = shouldDisplay && checkedAttributes.every(attr => item.dataset[attr] === 'true');
 
-		// Final display logic
-		const shouldDisplay = matchesAllAttributes && matchesEyeColor && matchesSingleAttribute;
-		item.style.display = shouldDisplay ? 'block' : 'none';
+        // If the "Single Attribute Only" is checked
+        if (isSingleAttributeChecked) {
+            const attributesOnItem = Object.keys(item.dataset).filter(key => item.dataset[key] === 'true');
+            // Adjust the condition to check if the item has exactly one attribute, which must be 'eyeColor'
+            shouldDisplay = shouldDisplay && attributesOnItem.length === 1 && attributesOnItem.includes('eyeColor');
+        }
 
-		// Logs for debugging
-        console.log('Item Token ID:', item.dataset.tokenId);
-        console.log('Single Attribute Checked:', isSingleAttributeChecked);
-        console.log('Has Only Eye Color:', hasOnlyEyeColor);
-        console.log('Matches All Attributes:', matchesAllAttributes);
-        console.log('Matches Eye Color:', matchesEyeColor);
-        console.log('Should Display:', shouldDisplay);
-	});
+        // Apply the final display property based on the shouldDisplay boolean
+        item.style.display = shouldDisplay ? 'block' : 'none';
+    });
 
-	// Update the count display
-	updateCount();
+    // Update the count display
+    updateCount();
 }
 
-// Ensure the event listener is added after the DOM content is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('single-attribute').addEventListener('change', filterGallery);
-    // Initialize the gallery filter when the page loads
-    filterGallery();
+// Add event listeners to all checkboxes within the dropdown for filtering
+document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(checkbox => {
+    checkbox.addEventListener('change', filterGallery);
 });
+
+// Call filterGallery on page load to apply any default filter settings
+document.addEventListener('DOMContentLoaded', filterGallery);
