@@ -107,28 +107,22 @@ document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(che
 });
 
 function filterGallery() {
-	// Get checked attributes from other filters
 	const checkedAttributes = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"]:not([name="eyeColor"]):checked')).map(checkbox => checkbox.name);
 	const checkedEyeColors = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"][name="eyeColor"]:checked')).map(checkbox => checkbox.value);
-	const isSingleAttributeChecked = document.getElementById('single-attribute').checked;
+	const singleAttributeCheckbox = document.getElementById('single-attribute');
+	const isSingleAttributeFilterOn = singleAttributeCheckbox && singleAttributeCheckbox.checked;
 
 	document.querySelectorAll('.gallery-item').forEach(item => {
-		// Check if the item has exactly one attribute if the single attribute filter is active
-		const attributeCount = Object.values(item.dataset).filter(Boolean).length;
-		const hasSingleAttribute = attributeCount === 1;
+	const matchesAllAttributes = checkedAttributes.every(attr => item.dataset[attr] !== undefined);
+	const matchesEyeColor = checkedEyeColors.length === 0 || checkedEyeColors.includes(item.dataset.eyeColor);
+	// Check if the item has exactly one attribute if the single attribute filter is active
+	const attributeCount = Object.values(item.dataset).filter(value => value).length;
+	const matchesSingleAttribute = !isSingleAttributeFilterOn || (isSingleAttributeFilterOn && attributeCount === 1);
 
-		// Determine if the item should be shown based on the single attribute filter
-		const matchesSingleAttribute = !isSingleAttributeChecked || (isSingleAttributeChecked && hasSingleAttribute);
-
-		// Check other attribute conditions
-		const matchesAllAttributes = checkedAttributes.every(attr => item.dataset[attr] !== undefined);
-		const matchesEyeColor = checkedEyeColors.length === 0 || checkedEyeColors.includes(item.dataset.eyeColor);
-
-		// Final display logic
-		item.style.display = matchesAllAttributes && matchesEyeColor && matchesSingleAttribute ? 'block' : 'none';
+	item.style.display = matchesAllAttributes && matchesEyeColor && matchesSingleAttribute ? 'block' : 'none';
 	});
-
-	// Update the count display
+	
+	// Call updateCount after filtering is done
 	updateCount();
 }
 
