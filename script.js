@@ -124,6 +124,8 @@ function filterGallery() {
 
 	// "No Trait" check: If checked, only display items with exactly two attributes
 	const attributeCount = Object.keys(item).length;
+	console.log(`Item ID ${item.dataset.tokenId} has ${attributeCount} attributes`);
+
 	const matchesNoTrait = !isNoTraitChecked || (isNoTraitChecked && attributeCount === 2);
 
 	item.style.display = (matchesAllAttributes && matchesEyeColor && matchesNoTrait) ? 'block' : 'none';
