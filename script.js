@@ -114,30 +114,24 @@ document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(che
 });
 
 function filterGallery() {
-    const checkedAttributes = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"]:not([name="eyeColor"], [name="no-trait"])')).map(checkbox => checkbox.name);
-    const checkedEyeColors = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"][name="eyeColor"]:checked')).map(checkbox => checkbox.value);
+	const checkedAttributes = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"]:not([name="eyeColor"]):checked')).map(checkbox => checkbox.name);
+	const checkedEyeColors = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"][name="eyeColor"]:checked')).map(checkbox => checkbox.value);
     const isNoTraitChecked = document.getElementById('no-trait').checked;
 
-    document.querySelectorAll('.gallery-item').forEach(item => {
-        let shouldDisplay = true;
+	document.querySelectorAll('.gallery-item').forEach(item => {
+	const matchesAllAttributes = checkedAttributes.every(attr => item.dataset[attr] !== undefined);
+	const matchesEyeColor = checkedEyeColors.length === 0 || checkedEyeColors.includes(item.dataset.eyeColor);
 
-        // Apply eye color filters
-        if (checkedEyeColors.length > 0) {
-            shouldDisplay = shouldDisplay && checkedEyeColors.includes(item.dataset.eyeColor);
-        }
+	// "No Trait" check: If checked, only display items with exactly two attributes
+	const attributeCount = Object.keys(item.dataset).length;
+	const matchesNoTrait = !isNoTraitChecked || (isNoTraitChecked && attributeCount === 2);
 
-        // Apply other attribute filters
-        shouldDisplay = shouldDisplay && checkedAttributes.every(attr => item.dataset[attr] !== undefined);
+	item.style.display = (matchesAllAttributes && matchesEyeColor && matchesNoTrait) ? 'block' : 'none';
 
-        // Check for the "No Trait" condition
-        if (isNoTraitChecked) {
-            const attributeCount = Object.keys(item.dataset).length;
-            shouldDisplay = shouldDisplay && (attributeCount === 2);
-        }
-
-        item.style.display = shouldDisplay ? 'block' : 'none';
-    });
-
-    // Update the count display
-    updateCount();
+	});
+	// Call updateCount after filtering is done
+	updateCount();
 }
+
+// Call this function initially to set up the initial state
+filterGallery();  
