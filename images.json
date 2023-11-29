@@ -879,7 +879,8 @@
 	{
 		"tokenId": "872ed50ee85c35f4f4711b8389a8a8ae7991ecb55a3bf16972cc5c1e3fff95b2i0",
 		"eyeColor": "blue",
-		"shadow":true
+		"shadow":true,
+		"demon":true
 	},
 	{
 		"tokenId": "c2c22cbc8a51bf8f8b816155828b845e76e65c9f6d05accfcdd24fa3fe063662i0",
