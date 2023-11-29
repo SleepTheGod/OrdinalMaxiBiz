@@ -114,18 +114,38 @@ document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(che
 });
 
 function filterGallery() {
-	const checkedAttributes = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"]:not([name="eyeColor"]):checked')).map(checkbox => checkbox.name);
-	const checkedEyeColors = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"][name="eyeColor"]:checked')).map(checkbox => checkbox.value);
+    const checkedAttributes = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"]:not([name="eyeColor"], [name="no-trait"])')).map(checkbox => checkbox.name);
+    const checkedEyeColors = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"][name="eyeColor"]:checked')).map(checkbox => checkbox.value);
+    const isNoTraitChecked = document.getElementById('no-trait').checked;
 
-	document.querySelectorAll('.gallery-item').forEach(item => {
-	const matchesAllAttributes = checkedAttributes.every(attr => item.dataset[attr] !== undefined);
-	const matchesEyeColor = checkedEyeColors.length === 0 || checkedEyeColors.includes(item.dataset.eyeColor);
+    document.querySelectorAll('.gallery-item').forEach(item => {
+        let shouldDisplay = true;
 
-	item.style.display = matchesAllAttributes && matchesEyeColor ? 'block' : 'none';
-	});
-	// Call updateCount after filtering is done
-	updateCount();
+        // Apply eye color filters
+        if (checkedEyeColors.length > 0) {
+            shouldDisplay = shouldDisplay && checkedEyeColors.includes(item.dataset.eyeColor);
+        }
+
+        // Apply other attribute filters
+        shouldDisplay = shouldDisplay && checkedAttributes.every(attr => item.dataset[attr] !== undefined);
+
+        // Check for the "No Trait" condition
+        if (isNoTraitChecked) {
+            const attributeCount = Object.keys(item.dataset).length;
+            shouldDisplay = shouldDisplay && (attributeCount === 2);
+        }
+
+        item.style.display = shouldDisplay ? 'block' : 'none';
+    });
+
+    // Update the count display
+    updateCount();
 }
 
-// Call this function initially to set up the initial state
-filterGallery();  
+// Add event listeners to checkboxes
+document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(checkbox => {
+    checkbox.addEventListener('change', filterGallery);
+});
+
+// Initialize the filter gallery when the page loads
+document.addEventListener('DOMContentLoaded', filterGallery);
