@@ -113,7 +113,7 @@ function filterGallery() {
 
 	document.querySelectorAll('.gallery-item').forEach(item => {
 		// Check if the item has only the eyeColor attribute if the single attribute filter is active
-		const hasOnlyEyeColor = Object.keys(item.dataset).length === (item.dataset.eyeColor ? 1 : 0) + 1; // +1 for the tokenId
+		const hasOnlyEyeColor = Object.keys(item.dataset).length === 1 && 'eyeColor' in item.dataset;
 
 		// Determine if the item should be shown based on the single attribute filter
 		const matchesSingleAttribute = !isSingleAttributeChecked || (isSingleAttributeChecked && hasOnlyEyeColor);
@@ -125,13 +125,23 @@ function filterGallery() {
 		// Final display logic
 		const shouldDisplay = matchesAllAttributes && matchesEyeColor && matchesSingleAttribute;
 		item.style.display = shouldDisplay ? 'block' : 'none';
-	});
 
-	console.log('Single Attribute Checked:', isSingleAttributeChecked);
-	console.log('Display:', shouldDisplay);
+		// Logs for debugging
+        console.log('Item Token ID:', item.dataset.tokenId);
+        console.log('Single Attribute Checked:', isSingleAttributeChecked);
+        console.log('Has Only Eye Color:', hasOnlyEyeColor);
+        console.log('Matches All Attributes:', matchesAllAttributes);
+        console.log('Matches Eye Color:', matchesEyeColor);
+        console.log('Should Display:', shouldDisplay);
+	});
 
 	// Update the count display
 	updateCount();
 }
 
-document.getElementById('single-attribute').addEventListener('change', filterGallery);
+// Ensure the event listener is added after the DOM content is loaded
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('single-attribute').addEventListener('change', filterGallery);
+    // Initialize the gallery filter when the page loads
+    filterGallery();
+});
