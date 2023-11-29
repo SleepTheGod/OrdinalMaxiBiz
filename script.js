@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		const attributeCount = Object.keys(image).length; // Count all keys in the image object
 		const attributeCountDisplay = document.createElement('div');
 		attributeCountDisplay.classList.add('attribute-count');
-		attributeCountDisplay.textContent = `Attributes: ${attributeCount}`;
+		attributeCountDisplay.textContent = `${attributeCount}`;
 		galleryItem.appendChild(attributeCountDisplay); // Append the count display to the gallery item
 
 		// Append gallery item to gallery
