@@ -145,4 +145,6 @@ function countAttributesAndUpdateDisplay() {
 	countDiv.textContent = `Attributes: ${attributeCount}`;
 	});
 }
+
+countAttributesAndUpdateDisplay();
   
