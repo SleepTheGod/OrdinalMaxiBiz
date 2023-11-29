@@ -50,6 +50,13 @@ document.addEventListener('DOMContentLoaded', function() {
 			galleryItem.appendChild(priceTag);
 		}
 
+		// Calculate the total number of attributes and create a display element
+		const attributeCount = Object.keys(image).length; // Count all keys in the image object
+		const attributeCountDisplay = document.createElement('div');
+		attributeCountDisplay.classList.add('attribute-count');
+		attributeCountDisplay.textContent = `Attributes: ${attributeCount}`;
+		galleryItem.appendChild(attributeCountDisplay); // Append the count display to the gallery item
+
 		// Append gallery item to gallery
 		gallery.appendChild(galleryItem);
 		});
@@ -122,24 +129,3 @@ function filterGallery() {
 
 // Call this function initially to set up the initial state
 filterGallery();  
-
-// Function to count attributes for an image and update the HTML
-function addAttributeCounts() {
-	document.querySelectorAll('.gallery-item').forEach(item => {
-	  // Calculate the total number of attributes
-	  const attributeCount = Object.keys(item.dataset).length;
-  
-	  // Create the count display element or select it if it already exists
-	  let countDisplay = item.querySelector('.attribute-count');
-	  if (!countDisplay) {
-		countDisplay = document.createElement('div');
-		countDisplay.classList.add('attribute-count');
-		item.appendChild(countDisplay); // Append the count div to the gallery item
-	  }
-  
-	  // Update the text of the count div with the number of attributes
-	  countDisplay.textContent = `Attributes: ${attributeCount}`;
-	});
-  }  
-
-addAttributeCounts();
