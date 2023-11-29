@@ -177,6 +177,18 @@
 			font-weight: bold;
 			z-index: 3; /* Ensure this is above other elements */
 			}
+
+		.attribute-count {
+			position: absolute;
+			top: 5px; /* Adjust the position as needed */
+			left: 5px; /* Adjust the position as needed */
+			background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+			color: white; /* Text color */
+			padding: 2px 5px; /* Padding around the text */
+			border-radius: 5px; /* Rounded corners for the count display */
+			z-index: 2; /* Ensure it's above the image */
+			font-size: 0.8em; /* Smaller font size */
+			}
 	</style>
 </head>
 <body>
@@ -215,7 +227,7 @@
 		<label for="lfg"><input type="checkbox" id="lfg" name="lfg"> LFG</label>
 		<label for="clown"><input type="checkbox" id="clown" name="clown"> Clown</label>
 		<label for="famous"><input type="checkbox" id="famous" name="famous"> Famous</label>
-		<label for="single-attribute"><input type="checkbox" id="single-attribute" name="single-attribute"> No Special Traits</label>
+		<label for="no-trait"><input type="checkbox" id="no-trait" name="no-trait"> No Special Traits</label>
 		<!-- Add other checkboxes for each attribute -->
 	</div>
 </div>
