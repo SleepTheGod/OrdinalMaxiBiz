@@ -73,7 +73,8 @@
 	{
 		"tokenId": "ac62f5fd7a26ece3d18dfceecfc96095f59ce228a6cf925294645cd213ee248ei0",
 		"eyeColor": "red",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "e3b3b46bb57b04a1a326d87c6bd928e847a9560df48e73c4ab90a25cae796a99i0",
@@ -809,8 +810,8 @@
 	},
 	{
 		"tokenId": "daafa2677e6b36a082b2a85d9e8c433bd63127d46d3c909973510b64cdc9d9fdi0",
-		"eyeColor": "blue"
-
+		"eyeColor": "blue",
+		"sick":true
 	},
 	{
 		"tokenId": "010649d12956d460c2915bf735cc6983f5eec703434e3f0907e47c52c2af9c6ei0",
@@ -1320,7 +1321,8 @@
 		"tokenId": "f038f42b90c3d84c4d9ddae0e70fc0f04770cc9bfd6bee460a109c2133b0f178i0",
 		"eyeColor": "green",
 		"letterhead":true,
-		"hands":true
+		"hands":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "8d6391a7c9e0fed733069c5e1c8a22f7aa02e144106fc3634e85c28d35ef6228i0",
@@ -1331,7 +1333,8 @@
 		"tokenId": "2f9144069eeb1383a1f0f3b54b8c6f55ca8ab318ce45c3ed068070622e37f368i0",
 		"eyeColor": "green",
 		"noFace":true,
-		"robot":true
+		"robot":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "b986f45bfea641e74a80326532d14bba7d016073981d0b2eec6a17fa0a66f065i0",
@@ -1360,7 +1363,8 @@
 		"tokenId": "f74c0a874203a72631b644cc7a8e324bc1fe194090086757821aeb8fea0529fdi0",
 		"eyeColor": "green",
 		"smoking":true,
-		"hoodie":true
+		"hoodie":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "b353d4d8f0a9953b70eb13c1d44a1fdb24e36e87b6f80b6459c35825163ec908i0",
@@ -1376,7 +1380,8 @@
 	{
 		"tokenId": "3f2ef8e538e4cfd2760938421c7b044f60fa46c5ec6cf4f739b2ea3b27dfcf21i0",
 		"eyeColor": "green",
-		"hands":true
+		"hands":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "18053e2b99c5aa307d088da23e2b1ec08c25ba4189b7ae2b239d5a86f3029a2ai0",
@@ -1388,7 +1393,8 @@
 		"tokenId": "b58da38bca082c1863ff5f20d8df05d6449f6dda68eaca3343daab4037745b32i0",
 		"eyeColor": "green",
 		"smoking":true,
-		"punk":true
+		"punk":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "087c1eeddc5aa642d1795dd46db2b7b96870e68aee9a868776722f1780fb7893i0",
@@ -1412,7 +1418,8 @@
 	{
 		"tokenId": "13aa270046b30c194760edb642032f128b18f710d685a6613767ceec917326dfi0",
 		"eyeColor": "green",
-		"punk":true
+		"punk":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "e2aac465dd7ce7866b86b074899b9dc609b49b19c78951b2ad0c7cc4dc80b10bi0",
@@ -1430,7 +1437,8 @@
 		"tokenId": "356dc0cdafd2c474c663b6eeffe16825d67a17399941dd43f808243bf25ca48fi0",
 		"eyeColor": "green",
 		"punk":true,
-		"mask":true
+		"mask":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "1d80c2ef93ae4b9395f581d2fecf3ae7ada684c7b0d335a3ee9d235986e664e7i0",
@@ -1470,7 +1478,8 @@
 		"tokenId": "e4ea0ab9b713966e91f088c8824711c2245493d9e3ad279cb7cd4928e7e53caci0",
 		"eyeColor": "green",
 		"hoodie":true,
-		"undead":true
+		"undead":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "beb324a11d36fc27ca09055912e00333690c3603240bcd054a38d25ff0545b5ai0",
@@ -1512,13 +1521,15 @@
 		"tokenId": "cf7cc4cc70cc89f95007bbc91586cfa50a717fd9a99d20eadd5c37e331944dc3i0",
 		"eyeColor": "green",
 		"demon":true,
-		"hoodie":true
+		"hoodie":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "046e95f4f2805ceeb534838c42edbdd6dfa66588b3851844229c0247323cd759i0",
 		"eyeColor": "green",
 		"hoodie":true,
-		"weapon":true
+		"weapon":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "295b8fa29678f8fd43d652d7bd510103e3cc2f1fac39aceabbc66f06358a00a0i0",
@@ -1705,7 +1716,8 @@
 	{
 		"tokenId": "f996bec7d4bff2cbe980b2175e2cc11d76bacb7d088b58aa2b7a82dbecad8f02i0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "199cd37fec34289b1db1cff138af9611a5c70e55ea0bbd6bc901e643e30acb1ci0",
@@ -1725,7 +1737,9 @@
 	},
 	{
 		"tokenId": "f81c9b2215d2a10facba7d7e569493a578b8c0f8c742a0dcc71dfb65cf29aeffi0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true,
+		"letterhead":true
 	},
 	{
 		"tokenId": "a038512f3320e1495d5e57315eb34f576de063db691226e31325005be59f2f54i0",
@@ -1753,7 +1767,8 @@
 	{
 		"tokenId": "e4d380a4e413845630a814af6e96127f5eacc7da8e13511a725156aa0ad8a858i0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "1e9d180cffd13f9c8b03f6165672a73827fa578660916d8cc8326acc3df026c2i0",
@@ -1782,7 +1797,8 @@
 	},
 	{
 		"tokenId": "d1a7a8128b59fa54f0e5008eeee28807fce6a8a0f14854fa64bbd9117d8dc0cci0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "672fb159cd9bf0a0ac9174d241170c77b1fceed5ac566ff6389f75a893a151e3i0",
@@ -1814,7 +1830,8 @@
 	{
 		"tokenId": "fc1c12cd6e49793f614b68b8b0630c2b8f3ac0a23f5b1d97ca7527e6249f422di0",
 		"eyeColor": "green",
-		"hat":true
+		"hat":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "d553a75b42b67154c2238357cc1e3228ab32066535855399324f702a3be4cb66i0",
@@ -1995,7 +2012,8 @@
 	{
 		"tokenId": "709f6c5fa5a94cfda7e1fbf45f0acac533404cd0868ef25dcc34f39b5aeb27bei0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "879a5845f77c3c1650191f82a613396d831e3a6ee7e20a23aee20fc4fbe0c485i0",
@@ -2036,7 +2054,8 @@
 	{
 		"tokenId": "a94b61899dd21ca361c1b0452f025273491dd756fa8a1024fea5d635a5f50cd3i0",
 		"eyeColor": "green",
-		"ape":true
+		"ape":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "ced373e9cee8a3d317fbfe5c530f3a7d1e0c744b6786db468729a7c70410ecedi0",
@@ -2101,7 +2120,8 @@
 		"tokenId": "11dbdb9ccf80d74d62258b37b002b9536fe7152f7a475a65dfc3b3d6ddaf2d8ci0",
 		"eyeColor": "green",
 		"lfg":true,
-		"speaking":true
+		"speaking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "165c549b0d31f2d6c24a74877e5d0f85f60fcfeadba0bed899a1cda2979f5278i0",
@@ -2142,7 +2162,8 @@
 	{
 		"tokenId": "236907f4e898fa5b98ad9c278148e531b4a34c88b5ce5449a077b6e9b3936f0fi0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "61717f240d7e9055e2d78eb7004c44d027fadac3de52a49b1bf92f0af213a956i0",
@@ -2178,7 +2199,8 @@
 	{
 		"tokenId": "c00af96f19187b5ddd396efc0d6517c6151074a7771461e9d04187765b3e7943i0",
 		"eyeColor": "green",
-		"hat":true
+		"hat":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "87bf13632875607e6fab0d44b985c354180c74837e9291e62dc75c809e09aa43i0",
@@ -2202,7 +2224,8 @@
 		"eyeColor": "green",
 		"hat":true,
 		"smoking":true,
-		"hands":true
+		"hands":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "c28ade0a4b474cce4bb861059967e56d1bea87ddc428d315f504ef2e68c91c39i0",
@@ -2267,7 +2290,8 @@
 	{
 		"tokenId": "5129353a3b8f3a9e7a15b9e62ab9fcdb1eeea451b2f2f65a4eece29f64ca00dei0",
 		"eyeColor": "green",
-		"letterhead":true
+		"letterhead":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "8cf343fb322b140c53e139db2438379e08044b16d52126edd30d0e12f31dc0dei0",
@@ -2322,7 +2346,8 @@
 	{
 		"tokenId": "cadd6593f80335c7053aaf394085660dfc3b513a96a385b677ce6b7738c49810i0",
 		"eyeColor": "green",
-		"hoodie":true
+		"hoodie":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "dbdb44c1af0927502e77ac55240653ec8ab55dbc5ef598e51c0b2b616ca1d448i0",
@@ -2332,7 +2357,8 @@
 	{
 		"tokenId": "c1cbebbf6ae63c0ad33a6d9a0d634e9bea34e90ec1c1ede6d467493e2aebb8b8i0",
 		"eyeColor": "green",
-		"hands":true
+		"hands":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "7784edc471fe4b4dc83644f397d49a28c498fbd552ce39a8aafd05f5f3fb7212i0",
@@ -2505,7 +2531,8 @@
 	},
 	{
 		"tokenId": "03d6136fc1c2952d05e64503dd2c095c62b0beff1b4b84fcaae092aef6d06afai0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "8a1cc7ff5c5c9b913a28db2d7c7d377463e772f326fd720fe489a832e404c261i0",
@@ -2525,7 +2552,8 @@
 	},
 	{
 		"tokenId": "db2c61e283641a78966e0ce832834dd1f8b97e9f132679af4cc7ee40f77c5225i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "1fb0b80f372caea258f2124121f0a1b2dbf33207f6056c652d2571226fe63f71i0",
@@ -2673,7 +2701,8 @@
 	},
 	{
 		"tokenId": "f137e51e82d2f0bc4284494304e007fa7384f8a9d70ae471a8b7c786c66ca30ai0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "4ab31f9926654277e38b1bdd5f50bc2b85c78b8fea1c827b41960f325452e83di0",
@@ -2710,7 +2739,8 @@
 		"tokenId": "cdd4f9c1c07bfe3c972f6a935792a8c9eff7fd5783f43912a7f0e8bc2a12b517i0",
 		"eyeColor": "green",
 		"smoking":true,
-		"hat":true
+		"hat":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "e1f4d8df9ca3fbbe1b7f5bc09e39377b096c93a255cb850b92ee2702bed4b090i0",
@@ -2735,7 +2765,9 @@
 	},
 	{
 		"tokenId": "6b6f95a6e106d59468f8fe6464cdbe63b5adbcb6cedfc188cde6dab2c1407252i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true,
+		"letterhead":true
 	},
 	{
 		"tokenId": "09dae044e4b1151d7cc51c017c328c85c0fd9316549405f6619efd5ea907d740i0",
@@ -2843,7 +2875,8 @@
 	},
 	{
 		"tokenId": "7990b92fabb09102f4a8dcc4aeb5b89825996d66c8e60a230b2040b05a35356ai0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "2d0c51b436db20eece3d6856fc1f30038d7865f4c77ec73bfc603f1851ea6ac2i0",
@@ -2892,7 +2925,8 @@
 		"tokenId": "ce44c0f0707f4875e54b914cda2de81d55c1ddd5414790b74975541e7b5e1f02i0",
 		"eyeColor": "green",
 		"smoking":true,
-		"gender":"female"
+		"gender":"female",
+		"earphone":true
 	},
 	{
 		"tokenId": "8811f8008bd2c3bf650cae24ea7d775405623359120e7d5b84f680134e4db70ci0",
@@ -2942,11 +2976,13 @@
 	{
 		"tokenId": "b7d2e7eca3e259814ddc696d5c6565bf988c0b9eff1a942f612b43890efe4279i0",
 		"eyeColor": "green",
-		"hands":true
+		"hands":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "c81e18e826fda6d33e6a94d9ad3d3b411f7973970ad2e4ecbac6c271dbbd11e4i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "dc9b7e16d3008811bc2a5381de20df916ac63b654152fec4e2b459d8a38fd67ai0",
@@ -2981,22 +3017,26 @@
 		"tokenId": "06220d5b1889ac401d332446431897c06514d5b5261b7af5775f7aa8e9440635i0",
 		"eyeColor": "green",
 		"smoking":true,
-		"hands":true
+		"hands":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "002ab128badd71208460470ba2e9fb69d7b6d4c1e33933449eb1b4ffe21711f5i0",
 		"eyeColor": "green",
 		"smoking":true,
-		"hat":true
+		"hat":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "efd55b054567d9c004ab0a5a4626a6f2f44f1dd87c864d4346ae63be6c0e5f89i0",
 		"eyeColor": "green",
-		"ghost":true
+		"ghost":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "a3a7bc328d244480af3cb9f2fb559cfcdfc0d1be4ca6198b7818bf591224de0bi0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "1cbc70a1927279cc1bb4494be930e80b87197c3481a36c3fdcff0ca745bcf096i0",
@@ -3018,12 +3058,14 @@
 	{
 		"tokenId": "8bb3b9137f5ded4296731d3318066d4dffa10ad07693d0727b26073dfa316d05i0",
 		"eyeColor": "green",
-		"letterhead":true
+		"letterhead":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "b9757f848db21dd8a790e50ba40dd1b81d0c64294aae021252b6bcb6b6139640i0",
 		"eyeColor": "green",
-		"emoji":true
+		"emoji":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "79da9991c9afeb640f928723085ed905ab31aaf6023c8fbd286139e5e178bb62i0",
@@ -3039,7 +3081,8 @@
 	{
 		"tokenId": "8448ac8d1bf0938b4a59fd9575cceeb32861b0e07d45badda66ea0eb98aa7a39i0",
 		"eyeColor": "green",
-		"sick":true
+		"sick":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "c9a3d7e1824b737a46ed3906ce6785ea549f3b818a1cad097c86b56ccfcd8eebi0",
@@ -3199,11 +3242,13 @@
 		"tokenId": "6dab21af095d4998f14247a5a55b76af2fd82704be359b6a5bec6e4217d57a02i0",
 		"eyeColor": "green",
 		"smoking":true,
-		"hat":true
+		"hat":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "8ccbbabc3259f0218f0c6e06648ff6f9bb94909caf20d316c463959b1ddd6f07i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "43fc3fe0c288605feb07c6e7da8657b36343ae9fad01a9ef5978a278c86ae627i0",
@@ -3313,7 +3358,8 @@
 	},
 	{
 		"tokenId": "a55b25f673bc243a4f1633311f530e4f53444e8d6b8fb4e9f2b22763ac82fbf4i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "a2c0b6a0bb9dad758d510b93c17159f8e3b4dedd68ffbae127e5f3173c9ac2fci0",
@@ -3335,7 +3381,8 @@
 	{
 		"tokenId": "1d8ba0761c83cd56e87245655f0f352e4d35ef62eced4c4f13f50828e0cb1e37i0",
 		"eyeColor": "green",
-		"gender":"female"
+		"gender":"female",
+		"emoji":true
 	},
 	{
 		"tokenId": "cc9da1d5b683abc0353a8abd444af9afe68970377c16057b4ce638a65f48231ai0",
@@ -3367,7 +3414,8 @@
 	},
 	{
 		"tokenId": "045695af0bdcd34df4ab6e152893d3e825c37070b2e23fdea68af69859396517i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "7e837bbd202824d3463196229040d48118ab44adf1889550f05f413fc32a535bi0",
@@ -3466,11 +3514,13 @@
 	{
 		"tokenId": "829736e8adfa295c83201f075cb0f255f9e37d594171e1689ed7e3094e2bdb0ci0",
 		"eyeColor": "green",
-		"hoodie":true
+		"hoodie":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "fa4d45cfa6589c7f909e2816a261afd9c2879c395d385bc3a22c11c9326ba10di0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "ddd4d94884466b296528d95bd0c5cded3752a6762d67848d0da0582e29ce0b85i0",
@@ -3496,7 +3546,8 @@
 		"tokenId": "7d69f14dbf54ce8448b062104aa9611ac5cbd900c5920e3a7b52fe8c8360d7d8i0",
 		"eyeColor": "green",
 		"hat":true,
-		"mask":true
+		"mask":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "e5edb395f3363f3745b23290ba2689e3d42e59018432590e9ad9f289fcbe12bbi0",
@@ -3512,7 +3563,8 @@
 	{
 		"tokenId": "f1e2d851ca12d276bd300a83ea76ef2852df3870a59cd0a1b610ad37bf5267d3i0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "71ae33f6148ffcf26c6be6d59da3e0bacae48f215d19f11ef6012f0d1f35c780i0",
@@ -3525,7 +3577,9 @@
 	},
 	{
 		"tokenId": "59b16837bedfa4bff75e9f0bdeb93fe2a020b26cf317e9000309d61649b3e481i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true,
+		"undead":true
 	},
 	{
 		"tokenId": "63ea72429280f3269b14c6d9e062820d0bb4b32aec630521e05076a85712f321i0",
@@ -3548,7 +3602,8 @@
 	{
 		"tokenId": "39524f53176672eaea3119a898ca03d9dcceb688d00d706e59d9abd10e84a895i0",
 		"eyeColor": "green",
-		"hat":true
+		"hat":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "ba6efc1a694eb1dc67e587b86208494326097302bdb98642b732c17ea7ce0b0bi0",
@@ -3572,7 +3627,8 @@
 	},
 	{
 		"tokenId": "3d9e530cf30a304898e40a70d6da4fc24ac53d948efceec999fa76a9587e3617i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "6f9fb5f728badce3bb6dc6f950aeb9cdb9c93bd30080eb7af75c2ddfafb64a85i0",
@@ -3582,7 +3638,8 @@
 		"tokenId": "2e19fa6df777b38488c914336d927f4549faef33dabda0fda0ec5bfa98263564i0",
 		"eyeColor": "green",
 		"smoking":true,
-		"shadow":true
+		"shadow":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "0e0ab0493c8b9cab1fb310baedc7ef898620b2f864c157bfb62d9bef9d14f767i0",
@@ -3611,7 +3668,8 @@
 	{
 		"tokenId": "d70921d0b1dd71f579ab9a5f93884df92312c22d57f7f5250c80244dbccabb27i0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "f219dbaa30e130e4e48fd7df3c61709ef2c26d3579b39d6db70473af2ba56e95i0",
@@ -3638,7 +3696,8 @@
 	},
 	{
 		"tokenId": "5b316258475230016677ad24c6d371b4b214012138d0c148ee1261edf1d9dd84i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "fd6809ecb929a67bd119004c52322ef721a39bca06a9b08a74ff213ce5658e4ai0",
@@ -3658,7 +3717,8 @@
 	},
 	{
 		"tokenId": "6051362ab59a8f6741c148baf975b089f8a240d0a935599cf6ff9799e301c5c6i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "e482e9087acd15a482770e68cfd34fe8bbb22f0303a46e50dbec9fd39c9032c8i0",
@@ -3694,7 +3754,8 @@
 	{
 		"tokenId": "abe39d255d353b7108ef0139f31046545881b068b116c2179590af036dc9226ei0",
 		"eyeColor": "green",
-		"shadow":true
+		"shadow":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "7794dc8ef790ab631e62a515f0bd2cb7f994bda1213c87ab3f1b0c056d8bb9c0i0",
@@ -3711,7 +3772,8 @@
 	{
 		"tokenId": "9e809b47c009f249afcfe6201b3e50a53d7987bc0f52fc63317705adbc6ccf0fi0",
 		"eyeColor": "green",
-		"punk":true
+		"punk":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "6e349f9267d2ab1793128a5f8adc8b3412b00ebae4887ae071a06d25328e1c21i0",
@@ -3738,7 +3800,8 @@
 	{
 		"tokenId": "ef86cc411c4d22bbe9d13f4996f95970ec1cb707fc2a8837485c636da9569663i0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "c42f3b4ebb98cb45cdeb35e16d9e64a558c8acf0811078924cf9ad577e3dda67i0",
@@ -3767,7 +3830,8 @@
 	},
 	{
 		"tokenId": "2031df04a855637659a245cfad09ea8b2aaef5898c97115d3cfa7dc65353d689i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "1d63e6643173056a59c88b87651087a4e2b0647270dc032c9420a8b59330c28ci0",
@@ -3776,7 +3840,8 @@
 	},
 	{
 		"tokenId": "7081ab4b030a68d757c15007c255bfe7068701d6936a0147af10c2064aeb848ei0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "f03b2a4461b88934188d6a5ebfa55ae7acacae7aab3114990d444e549e049c99i0",
@@ -3791,17 +3856,20 @@
 	},
 	{
 		"tokenId": "f809c5da6aab27a4f0a2c4d5264b2d64370ea248c0277355834ab8f2b168c4bai0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "35a809e64b1486fd305726f2eb37c443bc87778e66d4ba5754fddea0876a3ac1i0",
 		"eyeColor": "green",
-		"music":true
+		"music":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "2e4dff837ec05ca1035cf5a2693c1df45072c33f5af4b79f58c4789b3e29acc8i0",
 		"eyeColor": "green",
-		"hat":true
+		"hat":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "b3d86ccb56254c0cfcb89fb5e1da2eab7bb53bd5ebbbdaae9fd0f21a0a641cd7i0",
@@ -3813,7 +3881,8 @@
 		"tokenId": "89d2a99ab9b04e08ffae80444acd5a902a82477162e65807f56e610a850c08e3i0",
 		"eyeColor": "green",
 		"miner":true,
-		"hands":true
+		"hands":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "05ec3ef522ab63d8539e7efc1ff688f567e6fb1d80c8f7993dfcff09e02ff5e5i0",
@@ -3830,7 +3899,8 @@
 	{
 		"tokenId": "ba06858d60931bb812d07115f90fda85c0d39ac743b71c72890df8e28cbe43eei0",
 		"eyeColor": "green",
-		"miner":true
+		"miner":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "557d8e0f0cc2f86983a24bdcf346be06e568f5b8dad92f106347046ef6dceb5fi0",
@@ -3849,11 +3919,13 @@
 		"tokenId": "c69d09192bf4733560bc1434997afa0318b16af658a69152680a7fe40a72c2fai0",
 		"eyeColor": "green",
 		"mask":true,
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "d07ec8cbea6fc1dc57f6d06c3e2d24a991edea5abad7edfd0ad4dd56f3e371eei0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "e583ba055949cd05bb145249b20dd5076cb81d46e0bb84158a17305fcc77aa05i0",
@@ -3880,7 +3952,8 @@
 	},
 	{
 		"tokenId": "0c046c0e963048f57e29ce605de5cf783627312ca8a295b70e2af09f5a41fdf3i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "9ac419ca6801cb5467aaf1f1d787d4e6baa7443ddfa215d6e89bb274191d9d82i0",
@@ -3906,7 +3979,8 @@
 	},
 	{
 		"tokenId": "d273a201ae651553ce6b94865ff8c282c86ffe56b3a337e10b887e956b2bd28ei0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "8d5e2c0a01c438d7ebfef4491672ab59e07f8a5e5735fc123215e7a3f92cf950i0",
@@ -3935,7 +4009,8 @@
 	},
 	{
 		"tokenId": "2280d64ac49db15ec1a7b722cbe4785aca5d429fe473abd243a749c8f7997c4ci0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "b75488c6a79e5489244e162c0e5963ea74c4a892e77c33ca18a08fc9f97807e4i0",
@@ -3946,18 +4021,21 @@
 	{
 		"tokenId": "7e42b3b0c433bc9cdc9578296e4ba8cee91f44b4e937f4f61b4d35ea51730039i0",
 		"eyeColor": "green",
-		"hands":true
+		"hands":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "7b1be77f8749a49163977a7fdaa334826b771b5e3c0199541e63ee0382e4d8f8i0",
 		"eyeColor": "green",
 		"smoking":true,
-		"mask":true
+		"mask":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "b1ab50aaa23a57fd454898281bab6d87ffafefcd945cc5842794db040ae78cfbi0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "f0d850d3250e2ebe65b82405002317f9ab903a93df0055cdb36837d512922eeei0",
@@ -4039,7 +4117,8 @@
 	{
 		"tokenId": "f299683a63d43b6c295739c0b391236adb822e48743efcee06291af6da5a3235i0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "0a669e24c2dc8ccca29ec3182c75698c8b5b175a4bf9822174314e4be86cbb4ci0",
@@ -4093,7 +4172,9 @@
 	{
 		"tokenId": "3f2a9768b1e552256e03cbe8099e111158e84c99bd09e5fa0af7ea268a029a32i0",
 		"eyeColor": "green",
-		"hands":true
+		"hands":true,
+		"earphone":true,
+		"miner":true
 	},
 	{
 		"tokenId": "db91f9cbe16e14798fb0d20d2f2caceeff08bab6010bcdac2ebf1312f93f2049i0",
@@ -4227,7 +4308,8 @@
 	{
 		"tokenId": "cddda347e52ce5c846f19406aae182f763ebac9761f74783248d9bd40bec310ei0",
 		"eyeColor": "green",
-		"miner":true
+		"miner":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "efc41197679cf0e0328c9068e6da92ed65e6c305907c42b8ed8f265fbf2db910i0",
@@ -4274,7 +4356,8 @@
 	},
 	{
 		"tokenId": "bab41da1f3a9913dbe13cc5d1548f7bb844c0bd9035c03a469a7a331c4f4ae66i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "4d3a13d235db7ace77543658328052e576b349b55e314dd967533fdafd7dcf68i0",
@@ -4321,12 +4404,14 @@
 	{
 		"tokenId": "29498fc4f692345bc4908e45c17617d4bf57b50e4b76dd3b8f85f4fdf99d5183i0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "57e0078e8e54c0c1b225bdb452a139290a16a4e3da4bd8f2280048992c2f2187i0",
 		"eyeColor": "green",
-		"demon":true
+		"demon":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "2be807c97712f6a15666429829a6aabe6048616ed392bdbbab3df54eef4cb691i0",
@@ -4338,12 +4423,14 @@
 	},
 	{
 		"tokenId": "b02a5e8dbba5adf72232e000fb09d168cc259328f0233c7c7cb23a681f69c495i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "c83424f191caa6ad56630984c4da8b8dc52906f37ee1e8b19694845417b07899i0",
 		"eyeColor": "green",
-		"speaking":true
+		"speaking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "81a8db22ef7388c317a025155e86240947ac18e405b82112e5349c92725aa6a0i0",
@@ -4381,7 +4468,9 @@
 	{
 		"tokenId": "a9075088cbc6440f8b8e1f88040417896ae6486f787972cbed67a76471dfbba9i0",
 		"eyeColor": "green",
-		"hoodie":true
+		"hoodie":true,
+		"earphone":true,
+		"emoji":true
 	},
 	{
 		"tokenId": "d51277794f4b53bd5f8f43bbd3bcf37ba9a3e788ebc3d45ecf1c3bb4ad9e0faai0",
@@ -4422,7 +4511,8 @@
 	{
 		"tokenId": "f3c5bf619cddd8dc6496c1593f91290bbf0a5fef9c12123103685c00447313d1i0",
 		"eyeColor": "green",
-		"hands":true
+		"hands":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "553c8fd97abd06cbbcc3c77d319d3359111c4cc401934f355b938cc2708300d7i0",
@@ -4463,11 +4553,13 @@
 	},
 	{
 		"tokenId": "57054ef6ac0807e826fe84823ad6f15e58479b133a9805e59f23a983e7d8f5eci0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "8c840de008db0f4ca9650d2f8aedaf273c629d8bd685e49e9017c2128f3078f1i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "95f77c6f696519f3f992d421f2f4596fb5147b73e6c86896307e1ac747d40ef3i0",
@@ -4516,7 +4608,8 @@
 	{
 		"tokenId": "20426de0e9f98faa3f205ce4174a3f07fc6d882ec8e7c030e55a193fa8007ac4i0",
 		"eyeColor": "green",
-		"music":true
+		"music":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "9f07967e0ed0fee4d789902313a3afde0912b6a7b1498738309ad405fbe458fbi0",
@@ -4538,7 +4631,9 @@
 	{
 		"tokenId": "ff12078143ddb84ec715286183c6ca37ff480d84c64a6195301e1dcf5fd62ac5i0",
 		"eyeColor": "green",
-		"speaking":true
+		"speaking":true,
+		"earphone":true,
+		"lfg":true
 	},
 	{
 		"tokenId": "4cc2dc7727c449bbf9f7c79f0d27a8da9e710b27424811a510dc84c911e68252i0",
@@ -4586,7 +4681,8 @@
 		"eyeColor": "green",
 		"smoking":true,
 		"hat":true,
-		"famous":true
+		"famous":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "6fb5a4505c73e9c567a53dd7f5652ddd59beb38b729e21cbb9cd1b494098d0d6i0",
@@ -4617,7 +4713,8 @@
 		"tokenId": "46d3aa3a0084dc7f126205730257322e05d4b813468ece9523808aa618ed81f9i0",
 		"eyeColor": "green",
 		"sick":true,
-		"hands":true
+		"hands":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "196ab279550ac3a07c623dd820a0ad698cfac60eed61d9a91fccb3d74a87c7f0i0",
@@ -4625,7 +4722,8 @@
 	},
 	{
 		"tokenId": "6055b7ca497fdaa282303d4e4cc342f3c54ae4d8859b5a9d2fcc09c55b942b53i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "9eca44cb575c8e028ef25bf552277741b56f926525b332baec66923786e921a0i0",
@@ -4761,7 +4859,8 @@
 	},
 	{
 		"tokenId": "060c8e1bc35a1544a74b5c3e33b3695598e95f97fe8cc3f8b8628d95e7068852i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "a8e313d96012fcde3d7d6ff607aab75a2812666c8c3d8816f812fc6e3bc94641i0",
@@ -4819,7 +4918,8 @@
 	{
 		"tokenId": "3f9dd6096e29e58288f91125c55dd1c009169386ea926021a3fbbedc75b4e20di0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "4421cc3b267e995725a1e75e6f9700383a61a4630b909a083c1e5a523933fd8fi0",
@@ -4829,7 +4929,8 @@
 	{
 		"tokenId": "c51041cdc5efa1e74a8a64d5c15ea89e0c870b4c27b3cdfc00e7afcc40619cc8i0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "3d9d9ef4ae28bd7cb763230500323f6c33d5012c588d8baf0e77891e6252c2bdi0",
@@ -4851,7 +4952,8 @@
 	{
 		"tokenId": "918cdc0d71b38546b1a12f079da6576fecbd898e2fd0b0643460fb177fff27dci0",
 		"eyeColor": "green",
-		"miner":true
+		"miner":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "9addcb5adb5bdd9d0f73b267267817d88f884bc3a96e42eccac184a6025473dai0",
@@ -4902,13 +5004,15 @@
 	{
 		"tokenId": "413537d9bfba545840e5e302dd9948930d5729102067775593fa6ac27e0e84dai0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "ba5d78e07798dc2eb76f32f498b68beb0b544e5c80b8a3274a1a49e207685ff1i0",
 		"eyeColor": "green",
 		"smoking":true,
-		"clown":true
+		"clown":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "8682f45cd4fdb205f155905913c1ee26f2879081de8e30e7d5b4b2dffcc7fffci0",
@@ -4940,7 +5044,8 @@
 	},
 	{
 		"tokenId": "ef1ad5934cacbb361f2383f5c5cbd8435d8a2b6cce9765539d409796327eaad5i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "c24f127121b63276a458d9589b8f0634c4de9097a326c32af9e5771c157a9017i0",
@@ -4970,7 +5075,8 @@
 	{
 		"tokenId": "f25951640903752a348ee4cf85f5d7c0954e906ed312e74e05651b2944793b62i0",
 		"eyeColor": "green",
-		"undead":true
+		"undead":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "2a47770d565f104e8b052d34e21402b84aedca4d85871abd6f6248c6ed15485bi0",
@@ -5042,7 +5148,8 @@
 	{
 		"tokenId": "54adb2bfa130039c2b311c880aaf5c9a268347b89641beb8386e52ad94518a82i0",
 		"eyeColor": "green",
-		"hands":true
+		"hands":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "b287d53140c2feea9afa58e4e9db146d196e6a2fdd2b4d508290578187400740i0",
@@ -5070,7 +5177,8 @@
 	{
 		"tokenId": "9d0fb483bdeb8f3e5e2e1da8e6262179ecf045c934a508f4b1c8c5edafebcf8ei0",
 		"eyeColor": "green",
-		"hat":true
+		"hat":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "ec7256fc90e7deb2ef3a50decd0369fabba6f8b38770afcd09d8612055ec1921i0",
@@ -5095,12 +5203,14 @@
 	},
 	{
 		"tokenId": "9be931283a7413b93eb2da8673c4fd9f01684244a94ddad305267cdeeff3dc86i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "2e55e4e8bc714dacc71791926150735388d3974904ada8ca497483d4e925f8fei0",
 		"eyeColor": "green",
-		"hat":true
+		"hat":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "a4418ce55534b4c8577aac70e05ea81638c5a6d73c7452bbe946739a5ab6478ei0",
@@ -5110,16 +5220,19 @@
 	{
 		"tokenId": "ab4af4f2590d227311f6a4e00f4138ba372e8d25155762a1e539525ddbe79b77i0",
 		"eyeColor": "green",
-		"hoodie":true
+		"hoodie":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "a60c8055e0edd6011efec487cdd561d6fe921abed87536f93552a037adfd9f0ei0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "bfe5d8c87019930b5b9026b448cd5bfe978d6e6f09e722f311cd46838c2ac7b6i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "37367889b7b67015f23cb24f0a7977b63ba6189252117bdbfbc29f8e17a415e0i0",
@@ -5142,7 +5255,8 @@
 	},
 	{
 		"tokenId": "58579c70ba1d46a841049497df171b0c53f606c7cbf1bc6c5f5e76e17155de19i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "79176b273ea59a60c7f43148cd3636c9b82ec46b829b17c60a5adcfde8b812d9i0",
@@ -5323,7 +5437,8 @@
 	{
 		"tokenId": "3984789c71bd67d4fca4dca073869e3c3868763a988a75e4114d5746b6dfd185i0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "cfec5f50109f88271794b186eabc609f5a8ef4e864943595aedc0f639b63c273i0",
@@ -5388,7 +5503,8 @@
 	},
 	{
 		"tokenId": "84e60263578078cd8af5798d64e541cdcdcfdde00050f19abe9c5489cb741758i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "e1e41ed353fea5c4cb2d03e1b7ac39ba615a63cc920df4a5e3b21d12e30f00cei0",
@@ -5430,7 +5546,8 @@
 	{
 		"tokenId": "7a35a203acffeb43f807e017cfb07acc2401a269e00e99da9f2802842ec949a3i0",
 		"eyeColor": "green",
-		"hands":true
+		"hands":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "6b8a5b114bc1c18f5e5885f8149a265a5bc12870a31b1591e1f0fd11a180ad52i0",
@@ -5443,7 +5560,8 @@
 	{
 		"tokenId": "80a2601be91cd84349d6cd1a41dd2d6f6d376cfe8a551e744498235672a1f73ci0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "ce51ee189c983beb14adcc9d5bb8c3dee1fd3593ade635daff8d52b945533995i0",
@@ -5560,7 +5678,8 @@
 	{
 		"tokenId": "84dee3a0c884a1fab2e825391abc48c75f31291b368ebb3bfa77b1f23726b812i0",
 		"eyeColor": "green",
-		"gender":"female"
+		"gender":"female",
+		"earphone":true
 	},
 	{
 		"tokenId": "078f61a5b2bdec75e97a36b7efca6a3c361e216c0db98ad53d77d9df75f4e721i0",
@@ -5621,7 +5740,8 @@
 	},
 	{
 		"tokenId": "639ce29986fb7afa8b914ddd4300ad6337308355f0e85c62d02f2761b20db263i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "d83e1a974fc558ac4643869a4b4df5e78c7911ad4c0f9ad503fa985fb83b5e68i0",
@@ -5694,7 +5814,8 @@
 		"tokenId": "5959bc62238c9b5e929b01256d4b1d52f384e332c59b3aa11a48f808d323fcdfi0",
 		"eyeColor": "green",
 		"robot":true,
-		"sick":true
+		"sick":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "f1c49ed589836b00a122e61b206a32a2aa55b4855ac39407a59ffd291465c8e6i0",
@@ -5709,12 +5830,14 @@
 	{
 		"tokenId": "a8d00ff0795a59645dc82a293e32be412d22adcc42b163075b183511b95fd8edi0",
 		"eyeColor": "green",
-		"hands":true
+		"hands":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "584e8b24fdd6bc6db8fdd797a533052ae212a6ad518cefcb7f010a84e993f2f0i0",
 		"eyeColor": "green",
-		"mask":true
+		"mask":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "d4002e457f1399d5c4098f5bef5f2bdfed9c942e560ec742b0f85dca3d03cdf3i0",
@@ -5733,7 +5856,8 @@
 	{
 		"tokenId": "37b9191db00a7ca9f9f63a78a137178519ca10e4df09546581e9c2ca686b5c76i0",
 		"eyeColor": "green",
-		"undead":true
+		"undead":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "ea22d61ed3d5c2740732b733a176146afdc8ba5d8806379e42ca1f35b3feb0eei0",
@@ -5773,7 +5897,8 @@
 		"tokenId": "db8a082410742c3e9b7b6fd52c64b188073d64356d78982560459a05097fdc2di0",
 		"eyeColor": "green",
 		"hoodie":true,
-		"hat":true
+		"hat":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "8124f5298239535ca166f2099451bd7cf916d25aaf836c811329188641359149i0",
@@ -5857,7 +5982,8 @@
 	{
 		"tokenId": "b43b6f0c94aac344e1057162f1decb32e596987787f3ea1f1d75bd03b3c334a9i0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "555d565ae8b1e7a6acb9ef322c82e015a521fdf97ba1d8e7a8204cf4e7d04a0ei0",
@@ -5948,7 +6074,8 @@
 	{
 		"tokenId": "9b52cb90c03d072e0febcc7276bd98ce09668a17bbc42606a261db384cfdb461i0",
 		"eyeColor": "green",
-		"hat":true
+		"hat":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "b25369986dd17b466da4d2ac739c10fcdb7c1a3b7c3e4d1f8ebd385968dadffdi0",
@@ -6057,7 +6184,8 @@
 	},
 	{
 		"tokenId": "270b7892735c7abf5a93593ec26d04be4ab82e7be2797cd4491995f21758f547i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "75afa6f4947d0db0650522244b819f60bbc73f3f98a220097ceaacf7b8fd04dbi0",
@@ -6108,7 +6236,8 @@
 	{
 		"tokenId": "392eaae0474e5e929ef138254c34b9f4d805e3fcce37722f1d375bc993e5145ei0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "a514397a24e50d58137fa40812f84c1c89560083407e5bd0c73b080589edc8b6i0",
@@ -6239,7 +6368,8 @@
 	},
 	{
 		"tokenId": "9e8600ee4e207a159f6b4bcc554f1dd5ab666f1064d3061cd030f0663ab48780i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "aa3a83b8177069648fa4c1ebda9e2c4d3f65c8d605bc5dd46be92a55e761cdc1i0",
@@ -6253,11 +6383,13 @@
 	{
 		"tokenId": "0c4b2b151608fea8dcb1438780b018e3c0da1fcf60b8b128d8c95851dc0d1dd3i0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "35487fba46c5635db3b04221736ef97d03a02352c0283174310ebfb27759afe1i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "437f755b48a81d50c93b65eebbda5b8f571e929a92de6d648e8219e6b70415eci0",
@@ -6306,11 +6438,13 @@
 		"tokenId": "c80f6c1e977fc7057d6f6bb67be236a388de2807859c66a22bf29b58674f111ai0",
 		"eyeColor": "green",
 		"smoking":true,
-		"gender":"female"
+		"gender":"female",
+		"earphone":true
 	},
 	{
 		"tokenId": "84bfb1eaa826fa72b9883edcd0a449bfce043393552ef3754f6e06b589d575d1i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "e486ee2238d58d7f6cd04ab0d8bb97ff668950f84815e4806708a9c83581b339i0",
@@ -6350,7 +6484,8 @@
 		"tokenId": "e310bf46f6535b2dbd8380f0ca0af69e1e8a27188c538d50e3065d714994123ei0",
 		"eyeColor": "green",
 		"speaking":true,
-		"lfg":true
+		"lfg":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "d2523a17f9a9b1f2336122223f789f59273506edea8dde3a70ea3846df6cb5a7i0",
@@ -6441,7 +6576,8 @@
 	{
 		"tokenId": "93b856d67392cf526fa559be3c737009797949e55ca3eaacf4eb278a9a10a474i0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "e0587c958372608fa3d4c0e6ab22b6e72e4752ea98d1fc9511b969aa5afb933ci0",
@@ -6456,7 +6592,8 @@
 	},
 	{
 		"tokenId": "9758a892a1d051970e216a2c50643042198ea7616711349f48103848941037b9i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "4880772b14ff0a652b420c4860c75762f3fde0f7ef38a587ecd2d87272c60513i0",
@@ -6522,7 +6659,8 @@
 	},
 	{
 		"tokenId": "6d50216aa5c56e7e3cceb53cf406e9821fae2277c1e9949c7bda61991bfe6acai0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "0f3e8fd976391459c587a849e0a279a8a95c796307f30c342677075236d0b694i0",
@@ -6571,7 +6709,8 @@
 	{
 		"tokenId": "6a286191b383d6c3ae85ebca127f07b44e287291dbe1d162549d6b114364e309i0",
 		"eyeColor": "green",
-		"alien":true
+		"alien":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "5ea170d0a1eaddc60591090e29931f081d46e77f6478fdc38cb30fac5e59b412i0",
@@ -6875,11 +7014,6 @@
 	},
 	{
 		"tokenId": "d4610494ab7e5a928043d7dc2657365b3425ed658eeccc28797ea40147239f3di0",
-		"eyeColor": "green",
-		"smoking":true
-	},
-	{
-		"tokenId": "fbfc4a4ea8fc87fa1ec78a2d88a4ca10e024b2a1b56bca871b93636152fa282bi0",
 		"eyeColor": "green",
 		"smoking":true
 	},
@@ -7512,7 +7646,8 @@
 		"eyeColor": "green",
 		"smoking":true,
 		"hat":true,
-		"gender":"female"
+		"gender":"female",
+		"earphone":true
 	},
 	{
 		"tokenId": "fdd9d4cbd1675066dbd407d7904f39eefd505de5ada8f9671c767354747cf528i0",
@@ -7522,7 +7657,8 @@
 	},
 	{
 		"tokenId": "bb7d1e6597010d02d4ff6f87c6997820460faeeec6c1c08608c296bd764e492ai0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "b85461e7877c7bb62cb632487b2f4a03219a5105ac7590024671b08fe8a04232i0",
@@ -7568,7 +7704,8 @@
 	},
 	{
 		"tokenId": "85e4f830e0649a9743ccbaaa108266018d2a2e06b385b01ebf8b7a811fe22b65i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "a49619d9c9042f1d716c7344ec27985b211a0cf2eb114a9cd071090bb69e7367i0",
@@ -7602,7 +7739,8 @@
 	{
 		"tokenId": "f2a2f27d0846583987b13767efe5f3843826ed8120d0130ec421f84fd713849ci0",
 		"eyeColor": "green",
-		"mask":true
+		"mask":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "07bac1faa138a80016942096fae0a116584a2079516616f87588e50f9ba208a1i0",
@@ -7701,7 +7839,8 @@
 		"tokenId": "8748067473c5ef6ca70807261c759551fe0babc4b38b5d3d9aae0e6e79c4bce2i0",
 		"eyeColor": "green",
 		"smoking":true,
-		"gender":"female"
+		"gender":"female",
+		"earphone":true
 	},
 	{
 		"tokenId": "a08912cb509d8019ba274e58ba1bd9ee1b3f639b6cc1bd75fba30e78be4aafdbi0",
@@ -7718,7 +7857,8 @@
 	{
 		"tokenId": "45c85a47d6559e561a0fa0d70ea83aa67fa880bf8168dd6f313e85b3534b9ff4i0",
 		"eyeColor": "green",
-		"hat":true
+		"hat":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "653676ae3b9ead176d3de4685fa229dfeb2db232d8ee469857cb9f7a69dc4fa2i0",
@@ -7762,7 +7902,8 @@
 		"eyeColor": "green",
 		"famous":true,
 		"hands":true,
-		"music":true
+		"music":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "d2a7d033fc9aa2dc393e0bced2aab6dda8061c3d1a31905a012c54c93431fd12i0",
@@ -7842,7 +7983,8 @@
 	{
 		"tokenId": "484c3befc489cf731e3591f724531c7787653a5400bdbf951bdf3a3becc9aac5i0",
 		"eyeColor": "green",
-		"hat":true
+		"hat":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "4562faa13f8299e4aae3e52d58b79b16ef0a17fd0a58a010ad71e0ed1b2e9686i0",
@@ -7887,7 +8029,8 @@
 		"tokenId": "e54d22eac33c54115a30d3494444bfa14abcd4bc6ef292865fb71adc6da64eb0i0",
 		"eyeColor": "green",
 		"letterhead":true,
-		"demon":true
+		"demon":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "c42222a65f8c36aa706baab8f32a3287001cdd235fbf2537c3ead9a095dff847i0",
@@ -7897,7 +8040,8 @@
 	{
 		"tokenId": "de254452cc52e1b4c5767e27de9e22309d0f3f4c348c7653ba74875455847d4di0",
 		"eyeColor": "green",
-		"gender":"female"
+		"gender":"female",
+		"earphone":true
 	},
 	{
 		"tokenId": "f2943c2a41d4a6771d9ac692fcbb8371de999a8abf28234bf156599788a2e4e6i0",
@@ -8016,13 +8160,15 @@
 		"tokenId": "a4ba4b1d09554b0e40eb7654297bc976227943f616d8ad621da2bfa9647decc6i0",
 		"eyeColor": "green",
 		"demon":true,
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "524c3c8d1e99bb516eb342a8c98441be88424a7d0bc974bc8af1f965e31646bei0",
 		"eyeColor": "green",
 		"hat":true,
-		"hands":true
+		"hands":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "015819ec9bdc5ee88310164759b21cda82b8b000e964391ff5d8ef51349ba0eai0",
@@ -8037,7 +8183,8 @@
 	{
 		"tokenId": "18ffa4ea679bab550ba91f7144871d976a55102a537b34b25042f018e7d06df4i0",
 		"eyeColor": "green",
-		"hoodie":true
+		"hoodie":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "59b438b87d39f6b4817d8296465bf4c819c113af18baec9d26cbc62ac81fd83di0",
@@ -8055,11 +8202,13 @@
 	},
 	{
 		"tokenId": "fb06647aabe96be2d96b0b118b7393653ae3a10eb2444c39c588de617f39fe2di0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "e914536884c66caa7802149142f7c74ba145fb966307ffd50ddc8510b097a268i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "963ad1d4b3df91ca94618ee548c152c5f55262a9533ecfc7c1b97d94d6c105aei0",
@@ -8087,17 +8236,20 @@
 	{
 		"tokenId": "2ff06192df021797c96475d6f7722cce91e7038169c70a6118225bc1bfa59c1fi0",
 		"eyeColor": "green",
-		"hands":true
+		"hands":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "1350138618fc531bd8e05be99d0d6ef9c8ef61ad7157f11addb2fdaeffa1e622i0",
 		"eyeColor": "green",
-		"hat":true
+		"hat":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "6d594d36829fefc0ec285da94a1714baf2b9a2ac05b37c0e5f6b468f958e9731i0",
 		"eyeColor": "green",
-		"hands":true
+		"hands":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "0159d1813a396d6513cef7342ea65e86d19ed1d8369818c9e43d43060136e3bfi0",
@@ -8119,7 +8271,8 @@
 		"tokenId": "594647813889f10f67e971c5e89e2b52ad2925747e640d7ba1dad13ffe4de87ai0",
 		"eyeColor": "green",
 		"smoking":true,
-		"punk":true
+		"punk":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "a552c2bd36f348790a1e3ea031e98a9218690e028cff9934c4932ade192656f2i0",
@@ -8137,7 +8290,8 @@
 		"tokenId": "b05e38735d8638be05d0054938558a388c82823f5979f48ac77a705b71af98dfi0",
 		"eyeColor": "green",
 		"hoodie":true,
-		"lines":true
+		"lines":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "b08df0f0f644c7bf512a5ffdf3b526d118025fa43742062b2245dbf19fca0e28i0",
@@ -8153,7 +8307,8 @@
 	{
 		"tokenId": "29a4d4e41df86629f37b941a08371c9dcd54e2c2814915650c8425898040381bi0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "ce365afd794a9a27ca56b70c5c0205be46b30b6e19ddf15140764bcfb19a00fei0",
@@ -8170,7 +8325,8 @@
 		"tokenId": "99f2dfe0cec6911750feb188637f7192863eda43d8d6b88b6be1eac1b15e70b9i0",
 		"eyeColor": "green",
 		"hat":true,
-		"hands":true
+		"hands":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "7878b26b005e43eb7b1a4a6f9073005f5b4d2881c6ece6532fc36125c54432bei0",
@@ -8190,7 +8346,8 @@
 	{
 		"tokenId": "49b99f97c4fc5cb3f9f31b820ff44fa56fe8f26057a82419338e972a38383de6i0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "c1f4d12e0f6eb661ea8b724910e57fcdf2b05bebf906375df3624d9a4ad3eea4i0",
@@ -8237,17 +8394,20 @@
 	{
 		"tokenId": "12aa2c188c7fb9059fbed74f25939814b3435f83922c3c3b535dd4a284905640i0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "525c0cd432f287064bec63680d95d11b3c8a28b3d747aac8818892564bf4255ai0",
 		"eyeColor": "green",
 		"smoking":true,
-		"hat":true
+		"hat":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "690a4071d8ec725c8c2038cf0965e920852dd15beeb0d227bdef4182d485796di0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "01970c217771b41d56f6e623eb2e7c314e56e51ec339e71a07e900cbdb1c9073i0",
@@ -8314,13 +8474,15 @@
 	{
 		"tokenId": "478c62571dd5941c8fe385a87a73c58909da910549887f8a19c52065da0759f5i0",
 		"eyeColor": "green",
-		"gender":"female"
+		"gender":"female",
+		"earphone":true
 	},
 	{
 		"tokenId": "9c37c43d214dea8b2d528aecf69ed77b5e78919d0c9be9e51b2592b3d19a89f9i0",
 		"eyeColor": "green",
 		"smoking":true,
-		"gender":"female"
+		"gender":"female",
+		"earphone":true
 	},
 	{
 		"tokenId": "825608c40ab1298410d9ff738ab5da9e1b29fe3f8c21be8db2f77b640c26430ci0",
@@ -8365,7 +8527,8 @@
 	},
 	{
 		"tokenId": "a47fb2de403ec6c640c38598ed8f88b6a966454908e1c0606c035d77b1a0ff66i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "2ceec17c1ce2d1f5b5ee5520e2ffd7bee4c03cb871d9202ee8a19f10554fadddi0",
@@ -8408,7 +8571,8 @@
 	{
 		"tokenId": "e0428e14f184b382d58add3864a89a55f93f6a7102c338b12a81e1b5da0cad98i0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "7904639996f83cb98cbead7ef44ea8f28c4f0397d2a43f8e2b46fa76bc9952f2i0",
@@ -8432,7 +8596,8 @@
 	{
 		"tokenId": "5325b6111bb79078a485ff9c1c15ce05606cae71d600aed1eb801f875acd205fi0",
 		"eyeColor": "green",
-		"mask":true
+		"mask":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "d1241aac147f8ae64764278ff21d2b6444425ee7160dc58f285052a890ce20fdi0",
@@ -8466,7 +8631,8 @@
 	},
 	{
 		"tokenId": "fe5c12d1fdc159b529a8bb4b58e6d26e2da2439c91b420edf20bb108865375b1i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "a05a2a15f693c4d1025aa86a0fa4a7a297acc83aaa7b7462f8eee5a42ba2199ei0",
@@ -8524,12 +8690,14 @@
 	{
 		"tokenId": "cbfde8c3153206919ab2a5318f01f3a9261f9bd46550835ddc374e8268e7fb3ci0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "6264e0f616ce399c3d8558472d7793744ed3b7c7e46be8ddcccf3f1fcd781240i0",
 		"eyeColor": "green",
-		"hat":true
+		"hat":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "c4e693ec46c373abd1c63c425dc658d3127ceaa06f8e4998140ee79c404c9786i0",
@@ -8541,7 +8709,8 @@
 		"eyeColor": "green",
 		"smoking":true,
 		"hat":true,
-		"hands":true
+		"hands":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "1f1da9815a63041d20acbeccb28a3b2f665458b07adcc07444615c12f4d3e247i0",
@@ -8703,7 +8872,8 @@
 	},
 	{
 		"tokenId": "8519bd3214df861631ba091f27933fb791ef5e37023d8849f1100da11a17bea3i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "237c5fe4780093f180db62de3ed58b3e06c60d9bba772e749a16c4ddce17ead1i0",
@@ -8753,7 +8923,8 @@
 	{
 		"tokenId": "7dd9f5c573eaf95e0028fea16bd3c8d6f691d761e0a9a13cc6f11f50c3373baei0",
 		"eyeColor": "green",
-		"demon":true
+		"demon":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "d82712abe0f626d03f07b7d95f42ebc5f943eed904c511b9fafd9a77e8b4219ei0",
@@ -8889,13 +9060,15 @@
 		"tokenId": "ebb5173a1a0b645183df74e8582abb5c4f46a9bb4a685cb9ecdeabe17a3d17d2i0",
 		"eyeColor": "green",
 		"hat":true,
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "95ee249202f8a4fabe31e3ba2a90d448007958229c4d85716f97f955183c254ci0",
 		"eyeColor": "green",
 		"hat":true,
-		"weapon":true
+		"weapon":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "d0e9ddc30ef2dceacb2abaf38b3a7fc47e871aa48cf585b72c05e43a9b789d95i0",
@@ -8916,7 +9089,8 @@
 	{
 		"tokenId": "35098fc2f0dff8fe2884eeca5dfcd83ab2511173a7104e42f40d654cc9e5caf4i0",
 		"eyeColor": "green",
-		"hands":true
+		"hands":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "8fd45f1f2d1a122f5c8eceb3d73855cf2f0b00a66b773c11f8e849f0a1a0ec0di0",
@@ -8931,7 +9105,8 @@
 	{
 		"tokenId": "3c065e7874b953a752dbc913eca3d4ca7588e8fc85155cbdc9b6fff7aac7bd5di0",
 		"eyeColor": "green",
-		"gender":"female"
+		"gender":"female",
+		"earphone":true
 	},
 	{
 		"tokenId": "1944947f34588d17a73e7691abacff0ea630552365f2cd644529465821ff118ci0",
@@ -9171,7 +9346,8 @@
 	{
 		"tokenId": "c954c4937bac24a47704fb958a5a606001b2f95ec5cd04969abca75a42f84b9ai0",
 		"eyeColor": "green",
-		"hands":true
+		"hands":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "10ccad06e691d9d1a0b6e601a90417cfc8c609b6f9e5db3635fbcb6653655cd8i0",
@@ -9203,7 +9379,8 @@
 	{
 		"tokenId": "307a86f3b149161cb2f09086ede27a5d02a1ece06aa2df709fdc8d9a06857a02i0",
 		"eyeColor": "green",
-		"punk":true
+		"punk":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "68a9206436814c3841af66cb8aa99e23f4579cbb8a89993a979a1d3e3a14aecai0",
@@ -9273,7 +9450,8 @@
 		"tokenId": "b16bd7d41900facdcd2225848b2ce7b382b740966635cf7ec44aae6c382b3dc4i0",
 		"eyeColor": "green",
 		"smoking":true,
-		"hat":true
+		"hat":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "e5bba2512c201752d547c9f98d2f981e9270d4d0b32bbae662cb40c41ac651a7i0",
@@ -9372,7 +9550,8 @@
 	{
 		"tokenId": "7f6af8812024b6b0847f0460e6e46c51b07dddaa1bd1f4c6b53604427040e11fi0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"earphone":true
 	},
 	{
 		"tokenId": "51a56aa32a7bec4dfdd3a772429ea860dcb61081c465da98d463d5a17d3d40ddi0",
