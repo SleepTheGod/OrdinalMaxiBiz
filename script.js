@@ -50,13 +50,6 @@ document.addEventListener('DOMContentLoaded', function() {
 			galleryItem.appendChild(priceTag);
 		}
 
-		// Calculate the total number of attributes and create a display element
-		const attributeCount = Object.keys(image).length; // Count all keys in the image object
-		const attributeCountDisplay = document.createElement('div');
-		attributeCountDisplay.classList.add('attribute-count');
-		attributeCountDisplay.textContent = `${attributeCount}`;
-		galleryItem.appendChild(attributeCountDisplay); // Append the count display to the gallery item
-
 		// Append gallery item to gallery
 		gallery.appendChild(galleryItem);
 		});
