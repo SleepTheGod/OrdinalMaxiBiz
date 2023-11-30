@@ -114,25 +114,34 @@ document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(che
 });
 
 function filterGallery() {
-	const checkedAttributes = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"]:not([name="eyeColor"]):checked')).map(checkbox => checkbox.name);
-	const checkedEyeColors = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"][name="eyeColor"]:checked')).map(checkbox => checkbox.value);
+    const checkedAttributes = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"]:not([name="eyeColor"], [name="no-trait"])')).map(checkbox => checkbox.name);
+    const checkedEyeColors = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"][name="eyeColor"]:checked')).map(checkbox => checkbox.value);
     const isNoTraitChecked = document.getElementById('no-trait').checked;
 
-	document.querySelectorAll('.gallery-item').forEach(item => {
-	const matchesAllAttributes = checkedAttributes.every(attr => item.dataset[attr] !== undefined);
-	const matchesEyeColor = checkedEyeColors.length === 0 || checkedEyeColors.includes(item.dataset.eyeColor);
+    document.querySelectorAll('.gallery-item').forEach(item => {
+        const matchesEyeColor = checkedEyeColors.length === 0 || checkedEyeColors.includes(item.dataset.eyeColor);
 
-	// "No Trait" check: If checked, only display items with exactly two attributes
-	const attributeCount = Object.keys(item.dataset).length;
-	console.log(`Item ID ${item.dataset.tokenId} has ${attributeCount} attributes`);
-	const matchesNoTrait = !isNoTraitChecked || (isNoTraitChecked && attributeCount === 1);
+        let shouldDisplay = matchesEyeColor; // Eye color must always match
 
-	item.style.display = (matchesAllAttributes && matchesEyeColor && matchesNoTrait) ? 'block' : 'none';
+        if (isNoTraitChecked) {
+            // If "No Trait" is checked, ignore other attributes and check only for items with exactly two attributes (tokenId and eyeColor)
+            const attributeCount = Object.keys(item.dataset).length;
+            shouldDisplay = shouldDisplay && (attributeCount === 2);
+        } else {
+            // If "No Trait" is not checked, then check for all other selected attributes
+            const matchesAllAttributes = checkedAttributes.every(attr => item.dataset[attr] !== undefined);
+            shouldDisplay = shouldDisplay && matchesAllAttributes;
+        }
 
-	});
-	// Call updateCount after filtering is done
-	updateCount();
+        item.style.display = shouldDisplay ? 'block' : 'none';
+    });
+
+    // Call updateCount after filtering is done
+    updateCount();
 }
 
-// Call this function initially to set up the initial state
-filterGallery();  
+// Make sure to add the event listener for the "No Trait" checkbox
+document.getElementById('no-trait').addEventListener('change', filterGallery);
+
+// Initialize the filter gallery when the page loads
+document.addEventListener('DOMContentLoaded', filterGallery);
