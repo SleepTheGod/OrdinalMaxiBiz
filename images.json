@@ -7137,292 +7137,357 @@
 		"openScalp":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "611e4d4cb6cf498421fb9a319e3d8c05ba15ae9aa0ad5c2aab021b981d22c7eci0",
+		"eyeColor": "green",
+		"shadow":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "b9bfc60a33cc82629ff83c7846a01ecd66dfdd5b1e56bfb8bdcae33390ae6b68i0",
+		"eyeColor": "green",
+		"punk":true,
+		"letterhead":true
 	},
 	{
-		"tokenId": "",
+		"tokenId": "7db475515bcac0680a0d08912f4ccba70ba18f8dad01ebd64ac3b19c9b7afb3fi0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "66375651b5dd161e9f2e6aaecd35bd6fa9a9757b6f527bead4818fd383ffc55ei0",
+		"eyeColor": "green",
+		"smoking":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "5b7c8918d992b56a7c27ac5d81897496796467d4e68727d28d2feb2595e2a616i0",
+		"eyeColor": "green",
+		"letterhead":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "5d85225603d519a4646f05ed9bd0cfe0dd214063a1aa083e24f039c35a5bf64di0",
+		"eyeColor": "green",
+		"hat":true,
+		"gender":"female"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "ca2790361e5786580afd908a3391686a51d40a98f6eaacbf90515887fc740698i0",
+		"eyeColor": "green",
+		"letterhead":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "b54f5e7050c6798c2de980432ca848e4a4fe0317035508fc22f1b8b77cd2662di0",
+		"eyeColor": "green",
+		"noFace":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "773b0c92916d5c0206a85ae0ce281bed10782a8ac02bd595a21ac5b8f3855838i0",
+		"eyeColor": "green",
+		"speaking":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "0f7a7b7ccc435f8200c51da1fec4cc3fbea1fe4040c45383cd381e594c5b5484i0",
+		"eyeColor": "green",
+		"robot":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "ca585e42e5929a6e385bb3b755c8561a2b5001dbfb0771a887ab89c4ab0f33b3i0",
+		"eyeColor": "green",
+		"shadow":true,
+		"demon":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "11bcedb417401bae9e76d5816fadabb565d98ec2035c68c695ad7f656ddfecd8i0",
+		"eyeColor": "green",
+		"smoking":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "5de99cc5686012a11c985af8c8cc6f05ba711d3e6bb85b08ac41934997a50fd0i0",
+		"eyeColor": "green",
+		"smoking":true,
+		"hat":true
 	},
 	{
-		"tokenId": "",
+		"tokenId": "b5e358a4dd23f23442c8a107b442e655e5b9c7320d5c1ef35d3fe7a08100c7d4i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "fcbdd4d0356e2c4a1c67a894243884f5eac752d811673b5f6672d6a9528a613fi0",
+		"eyeColor": "green",
+		"undead":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "e31dc66d600ea1e3dac8e6c81e18de71ede1d5530e2b3de3eea129f6e1be5a16i0",
+		"eyeColor": "green",
+		"letterhead":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "5d8fca17337e24ffecccedf8809fc48792b739d84b5c3410252b96ef2901412bi0",
+		"eyeColor": "green",
+		"noFace":true
 	},
 	{
-		"tokenId": "",
+		"tokenId": "d2aa35c2237e2be441431f3842070bfb79fa8749f369d861864a3a3383984d99i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "b539647d9180d474a45db8d4ec183867743d69a53e2f02fd61cd3d2b32218bc6i0",
+		"eyeColor": "green",
+		"smoking":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "f090127da9aa6e7c13acb45f85f384df785a39c041a3f8f650792ba1d0e8921bi0",
+		"eyeColor": "green",
+		"smoking":true,
+		"hat":true,
+		"letterhead":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "e13bd3edb3a0f8afbfb9738c540548c271e003b65aa9a297e670640d3d3ddd7ci0",
+		"eyeColor": "green",
+		"hat":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "16d858941509514f42da58ec887eb62f68d3523dfbfdbf5367348175e1994370i0",
+		"eyeColor": "green",
+		"mask":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "d90ba87c8e6defaa9e17d70650f4a03e9a995952ba20fe50e5103607f226e6b8i0",
+		"eyeColor": "green",
+		"gender":"female"
 	},
 	{
-		"tokenId": "",
+		"tokenId": "b7e770bc78732e58f5055de2b59222e8a1190544a1d67b2aefb3624e4e2318e8i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "2f3a0bf49f581e784d978c697b4ed29c5f9720257c10a2a9336478e6dd71002ei0",
+		"eyeColor": "green",
+		"smoking":true,
+		"punk":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "2084d3bb6ca7158fb83991fd4d7f9f5e9c0ac443ba77597e2baac9b82b3736d6i0",
+		"eyeColor": "green",
+		"letterhead":true
 	},
 	{
-		"tokenId": "",
+		"tokenId": "7354a7fe91b8e74b7f4a27052d78fb8aa6b7f51eb6baf3fe4722c7f242f8a50di0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
+		"tokenId": "db13513c3f2db000f183fb5952e160850733de24fdaf3f29367d9caacbec4d2fi0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "155f9c3ac6f806a5e49dcbc8e794735438464d5991e3435773845b94b2c94e58i0",
+		"eyeColor": "green",
+		"punk":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "cdf0efd549afcdaba8fc7576817ef01fe4f0ea7f7c6a999cf29ff3af1faef959i0",
+		"eyeColor": "green",
+		"smoking":true,
+		"punk":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "f2c4f9adee6f63e7f78c8486efab59732db593cd337b7a0c6c35567eb83470a7i0",
+		"eyeColor": "green",
+		"demon":true
 	},
 	{
-		"tokenId": "",
+		"tokenId": "0de1944f616421e8dc0033bc20c26a49263502b9d753832aa5802bfb59f9ff4ai0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
+		"tokenId": "e40db6ede18da72e2c682d661331d4ad213b30fb5970c6622cf82159215385e1i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
+		"tokenId": "68f4ba365e851d208819758d3172d2b80216040ef2f0fd106bcda35c7d773433i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "77bb44ecb67a455d3714f026bc80cb7b0d29d45225ef717d2e6d2cfdfd0baa90i0",
+		"eyeColor": "green",
+		"demon":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "49ef66a52e75230fb6b318b27e20782cf5c8bc7e4879fc2fbfe0c3baaad16477i0",
+		"eyeColor": "green",
+		"speaking":true
 	},
 	{
-		"tokenId": "",
+		"tokenId": "466aadc103f59d5ee7197615df94d66411cbaf3b45f67c464f407dafc64f155ai0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "6bfcddf499e298b3c0763d9623cce9e7eae30c9fcb6bf251a3098b1724371d00i0",
+		"eyeColor": "green",
+		"hat":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "3b952e10f04b58e4bb242a4e349e979a072f0ebfdaa8d5e73afdc68dac55130ci0",
+		"eyeColor": "green",
+		"smoking":true
 	},
 	{
-		"tokenId": "",
+		"tokenId": "31c27468a4f5dc728719389b4700c65e39935856f0765a89a6339527d0cc200ci0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "a66ceabc9d3e274638d9ee9ba1b4efa2b3a80b5169070612d0d612758ced2f16i0",
+		"eyeColor": "green",
+		"hat":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "606c39db55532e59cfdd6332dce72b30e97cf6af381b193781ad608a12f65e22i0",
+		"eyeColor": "green",
+		"smoking":true,
+		"hat":true,
+		"gender":"female"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "fdd9d4cbd1675066dbd407d7904f39eefd505de5ada8f9671c767354747cf528i0",
+		"eyeColor": "green",
+		"smoking":true
 	},
 	{
-		"tokenId": "",
+		"tokenId": "bb7d1e6597010d02d4ff6f87c6997820460faeeec6c1c08608c296bd764e492ai0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
+		"tokenId": "b85461e7877c7bb62cb632487b2f4a03219a5105ac7590024671b08fe8a04232i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "c3c4035ea066f0eff7d36a8b37f448f64f3bf3a614bd555ca032dad0461a1d33i0",
+		"eyeColor": "green",
+		"clown":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "676ba12f7e24f031f767bb5dcf3ce50ceef39df7be12f4a753a631d7e7386635i0",
+		"eyeColor": "green",
+		"letterhead":true,
+		"punk":true
 	},
 	{
-		"tokenId": "",
+		"tokenId": "de2c5764876cb98f708037147c87c038a5253b18d002255cc61c76932ff87838i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
+		"tokenId": "63fb20a97a4be1ec94f942e4c47d08f8b25bf01a2718a9ba9e2160c1f8873839i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "e98d0ed07db065904c2ae0f770985791a0f1aa047647a6c946eb2255863a8559i0",
+		"eyeColor": "green",
+		"openScalp":true
 	},
 	{
-		"tokenId": "",
+		"tokenId": "843c569da75b87431c13974e054fe6ecd61de6e13f0a799e8203720f9c794460i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
+		"tokenId": "1678b27eb76415ca957ef9038d4f277167eb2680d96adb8086c92e2947076562i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "89cff95449fe044e550a1e407477b8b2b5e7c42f61eba57a378d1989ededee63i0",
+		"eyeColor": "green",
+		"smoking":true,
+		"hat":true
 	},
 	{
-		"tokenId": "",
+		"tokenId": "85e4f830e0649a9743ccbaaa108266018d2a2e06b385b01ebf8b7a811fe22b65i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "a49619d9c9042f1d716c7344ec27985b211a0cf2eb114a9cd071090bb69e7367i0",
+		"eyeColor": "green",
+		"punk":true,
+		"letterhead":true
 	},
 	{
-		"tokenId": "",
+		"tokenId": "6ba40be122a8841a7b025473c812bfb4b2ea02aee1592cc5a3c59fedbc494c79i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "482132a4650a4f59a9a30db579e15c64f9068d8a17ebf25dfe00f363b1349379i0",
+		"eyeColor": "green",
+		"hat":true
 	},
 	{
-		"tokenId": "",
+		"tokenId": "9aa9ae0409a5ddbcd5a21680733e7173849196fd54adb52d878250f7d419c77ei0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
+		"tokenId": "a481e3d8cb9f6241097e35bfa555e2fdd29909653b667c6c37af90787f797187i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "0b4f2c7de360c23979d05dc26cd2bfcee204e7a90dee842684e8605d0c800a96i0",
+		"eyeColor": "green",
+		"gender":"female",
+		"hat":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "f2a2f27d0846583987b13767efe5f3843826ed8120d0130ec421f84fd713849ci0",
+		"eyeColor": "green",
+		"mask":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "07bac1faa138a80016942096fae0a116584a2079516616f87588e50f9ba208a1i0",
+		"eyeColor": "green",
+		"smoking":true
 	},
 	{
-		"tokenId": "",
+		"tokenId": "f5440f5c0044610936893edaaee085087ee5fe3e065547255831738582671baei0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
+		"tokenId": "decb05f113f6ec78ba16e9051ad3fdfc0268c1dc3ee43e0d228e8c455c88e3aei0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "9373835e6e50f46e14a03d47c83b17111c816410690ad98b6e72177917275bb6i0",
+		"eyeColor": "green",
+		"letterhead":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "1b56fd54e2d354aaa9ed5b8df5ebefe7ceb32f1961446d15f7c99b3ef927f6c7i0",
+		"eyeColor": "green",
+		"hat":true,
+		"gender":"female"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "d7ac588fcea9d2c56e197ffff11523db0202e6119663e0a8b67533332c947acbi0",
+		"eyeColor": "green",
+		"smoking":true,
+		"gender":"female"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "722c1f473e7cd2579086c39b20660ef81569ecf235dc0ae6290ca4ae79ed80e7i0",
+		"eyeColor": "green",
+		"gender":"female"
 	},
 	{
-		"tokenId": "",
+		"tokenId": "34b2e0d04db23f818d394ab398f0e0060fbf3c47198fe3b939bdada9d63716f5i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "92ddb7cd223ec82e39e28dbd39cd96e68539f5fd9f6310f53430208b630e68f5i0",
+		"eyeColor": "green",
+		"hat":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "c7bffb95d6dc8106415f6fd35c4f698c55cbbddb7484d54993a8237eb2e35dfbi0",
+		"eyeColor": "green",
+		"smoking":true,
+		"hat":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "bd3d61e853acc7a6679b7c38b669a48614f96cc1fdb8404be24da5278d7ecb93i0",
+		"eyeColor": "green",
+		"noFace":true
 	},
 	{
 		"tokenId": "",
