@@ -119,14 +119,18 @@ function filterGallery() {
     const isNoTraitChecked = document.getElementById('no-trait').checked;
 
     document.querySelectorAll('.gallery-item').forEach(item => {
-        const matchesEyeColor = checkedEyeColors.length === 0 || checkedEyeColors.includes(item.dataset.eyeColor);
+        let shouldDisplay = true; // Start with assuming we should display the item
 
-        let shouldDisplay = matchesEyeColor; // Eye color must always match
+        // If no eye color is specifically checked, we show all eye colors
+        // If some eye colors are checked, we only show those
+        if (checkedEyeColors.length > 0) {
+            shouldDisplay = checkedEyeColors.includes(item.dataset.eyeColor);
+        }
 
         if (isNoTraitChecked) {
-            // If "No Trait" is checked, ignore other attributes and check only for items with exactly two attributes (tokenId and eyeColor)
+            // If "No Trait" is checked, only display items with exactly one attribute (eyeColor)
             const attributeCount = Object.keys(item.dataset).length;
-            shouldDisplay = shouldDisplay && (attributeCount === 2);
+            shouldDisplay = shouldDisplay && (attributeCount === 1);
         } else {
             // If "No Trait" is not checked, then check for all other selected attributes
             const matchesAllAttributes = checkedAttributes.every(attr => item.dataset[attr] !== undefined);
@@ -140,7 +144,7 @@ function filterGallery() {
     updateCount();
 }
 
-// Make sure to add the event listener for the "No Trait" checkbox
+// Add event listener for the "No Trait" checkbox
 document.getElementById('no-trait').addEventListener('change', filterGallery);
 
 // Initialize the filter gallery when the page loads
