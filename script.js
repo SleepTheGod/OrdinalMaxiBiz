@@ -53,10 +53,10 @@ document.addEventListener('DOMContentLoaded', function() {
 		// Append gallery item to gallery
 		gallery.appendChild(galleryItem);
 		});
-
-		// After adding all images to the gallery, initialize lazy loading
-		initializeLazyLoad();
+		
+		initializeLazyLoad(); // After adding all images to the gallery, initialize lazy loading
 		updateCount(); // This will update the count when the page loads
+		paginateGallery(); // After the gallery items have been created, initialize pagination
 	})
 	.catch(error => console.error('Error loading image data:', error));
 });  
@@ -132,9 +132,9 @@ function filterGallery() {
 		item.style.display = shouldDisplay ? 'block' : 'none';
 	});
 
-	// Call updateCount after filtering is done to update the display count
-	updateCount();
-	paginateGallery();
+    currentPage = 1; // Reset to the first page on filter change
+	updateCount(); // Call updateCount after filtering is done to update the display count
+	paginateGallery(); // Reapply pagination based on the new filtered set of items
 }
 
 // Event listeners
@@ -144,8 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		checkbox.addEventListener('change', filterGallery);
 	});
 
-	// Initial call to filterGallery to apply the default state
-	filterGallery();
+	filterGallery(); // Initial call to filterGallery to apply the default state
 });
 
 const itemsPerPage = 200; // Number of images per page
