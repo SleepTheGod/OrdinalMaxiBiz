@@ -6877,7 +6877,8 @@
 	{
 		"tokenId": "463decb09abe71ec2c2b8fca78d2f5543619dc4f913a8dd075649394eb658b74i0",
 		"eyeColor": "green",
-		"letterhead":true
+		"letterhead":true,
+		"shadow":true
 	},
 	{
 		"tokenId": "25aefb4883ee8ef5396c90ec271b8a55f5290c8b25c2b32b85a2f63022421ba6i0",
@@ -7011,100 +7012,129 @@
 		"alien":true
 	},
 	{
-		"tokenId": "",
+		"tokenId": "d03de1149f930b4b5b2f116fb85a2f71340b1ad984bcdab7ccfa821a0b0f3c2bi0",
+		"eyeColor": "green",
+		"speaking":true,
+		"lfg":true
+	},
+	{
+		"tokenId": "25dadbd769cb668a30175ae712f91ccc75265e25febe9763dff49f695065162fi0",
+		"eyeColor": "green",
+		"smoking":true,
+		"hat":true
+	},
+	{
+		"tokenId": "1dfaa895408419c3fa0d9661fe5ff0bd192ae10182c1a1868fd88a287a188a56i0",
+		"eyeColor": "green",
+		"shadow":true,
+		"letterhead":true
+	},
+	{
+		"tokenId": "48fdd8025605afae6c4c5ac4052278551c4adbc06c33c1fb2e50ff345ecb2759i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
+		"tokenId": "6e89b79c46a519d53b0a184d4489dec8f9b1058acc85fa69b1118677dd99195bi0",
+		"eyeColor": "green",
+		"openScalp":true,
+		"speaking":true
+	},
+	{
+		"tokenId": "71f9daf1237ffb104a3a7d0dfcacd341193d74a6338771ef968494be17833d7ci0",
+		"eyeColor": "green",
+		"hat":true
+	},
+	{
+		"tokenId": "5edeff2b8c285796560c555964e9fa91c63f2bebf2b0394f68328740b0f01282i0",
+		"eyeColor": "green",
+		"undead":true
+	},
+	{
+		"tokenId": "cf62b10e14c1828addbb433dfd61da8b3d81ec124a3efc5b9ea919bf97790c93i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
+		"tokenId": "2be6c28b5207f7f65ded0f8496f067f3323fdf9ea6ae3e3653dfd728328dc098i0",
+		"eyeColor": "green",
+		"hat":true
+	},
+	{
+		"tokenId": "a2258eb03c5f50b112dbfd8e64928767701eada70bc76f23ba361cf4ec77b2b9i0",
+		"eyeColor": "green",
+		"letterhead":true
+	},
+	{
+		"tokenId": "356ba88e5a82de997bdca22bc067204aace18af2a8f801b10eac3ed7ade48fc6i0",
+		"eyeColor": "green",
+		"letterhead":true
+	},
+	{
+		"tokenId": "3d746128cfeaa9d3a362d0c32e995176ea19f53a46e442882b68453369cf6ec9i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
+		"tokenId": "030d4fa4c39ec22cffde13d5abd657a3d34805015d9131f9b7bc7f29a6ec1ad2i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
+		"tokenId": "3053b5aaf736d9a3293e3e7a7982521394fac1e446e12d1b99956765128e4ef2i0",
 		"eyeColor": "green"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "1083afedd8e0387d33e87c4a4d19661962e8860992383dc9691fb982ffbc92f4i0",
+		"eyeColor": "green",
+		"smoking":true,
+		"animal":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "695162e19230ff831a29ea559fcc02c58d93d620e25fd5ff2fcee313149c2effi0",
+		"eyeColor": "green",
+		"smoking":true,
+		"gender":"female"
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "8c38c844efde4a141073658d292bde8127f215d3f1cb95cadf2ffda3d35ab36ei0",
+		"eyeColor": "green",
+		"oneEye":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "f1bc81e6e58c71437be6bbc7f16b766e3df0c8dd56a3136aab1f8e0311159527i0",
+		"eyeColor": "green",
+		"smoking":true,
+		"shadow":true,
+		"animal":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "c6cb8687106b390ed11ff7da6f6a512e290cf36970c4fc98f4534e09696afa11i0",
+		"eyeColor": "green",
+		"shadow":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "c1cfe50924251d544d4998538cf690d9ebe32c04dead1bcbd17c74a6999db969i0",
+		"eyeColor": "green",
+		"smoking":true,
+		"punk":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "969f7d636c34c79d501af90f3062f5e324aa6e0eaf009ddfad6e961b391e3a38i0",
+		"eyeColor": "green",
+		"letterhead":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "aedcd845a190a55980817cd25085abcdebcc8092c891cd0afe2784cf241abe63i0",
+		"eyeColor": "green",
+		"hat":true,
+		"weapon":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "d509113478121e6e6c91e8603095d1ffed7ccefa1ff2b49c05868b3fdced2dcfi0",
+		"eyeColor": "green",
+		"alien":true
 	},
 	{
-		"tokenId": "",
-		"eyeColor": "green"
-	},
-	{
-		"tokenId": "",
-		"eyeColor": "green"
-	},
-	{
-		"tokenId": "",
-		"eyeColor": "green"
-	},
-	{
-		"tokenId": "",
-		"eyeColor": "green"
-	},
-	{
-		"tokenId": "",
-		"eyeColor": "green"
-	},
-	{
-		"tokenId": "",
-		"eyeColor": "green"
-	},
-	{
-		"tokenId": "",
-		"eyeColor": "green"
-	},
-	{
-		"tokenId": "",
-		"eyeColor": "green"
-	},
-	{
-		"tokenId": "",
-		"eyeColor": "green"
-	},
-	{
-		"tokenId": "",
-		"eyeColor": "green"
+		"tokenId": "3ee4056db7bec850f283192c4028200d57a4cc8aaef3280472d7e8f88e9d8805i0",
+		"eyeColor": "green",
+		"openScalp":true
 	},
 	{
 		"tokenId": "",
