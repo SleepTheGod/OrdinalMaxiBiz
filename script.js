@@ -119,28 +119,23 @@ function filterGallery() {
     const isNoTraitChecked = document.getElementById('no-trait').checked;
 
     document.querySelectorAll('.gallery-item').forEach(item => {
-        let shouldDisplay = true; // Start with assuming we should display the item
-
-        // If no eye color is specifically checked, we show all eye colors
-        // If some eye colors are checked, we only show those
-        if (checkedEyeColors.length > 0) {
-            shouldDisplay = checkedEyeColors.includes(item.dataset.eyeColor);
-        }
+        let matchesEyeColor = checkedEyeColors.length === 0 || checkedEyeColors.includes(item.dataset.eyeColor);
+        let matchesAllAttributes = checkedAttributes.every(attr => item.dataset[attr] !== undefined);
+        let shouldDisplay = true;
 
         if (isNoTraitChecked) {
-            // If "No Trait" is checked, only display items with exactly one attribute (eyeColor)
+            // If "No Trait" is checked, display only items with exactly one attribute
             const attributeCount = Object.keys(item.dataset).length;
-            shouldDisplay = shouldDisplay && (attributeCount === 1);
+            shouldDisplay = attributeCount === 1 && matchesEyeColor;
         } else {
-            // If "No Trait" is not checked, then check for all other selected attributes
-            const matchesAllAttributes = checkedAttributes.every(attr => item.dataset[attr] !== undefined);
-            shouldDisplay = shouldDisplay && matchesAllAttributes;
+            // If "No Trait" is not checked, apply all other selected attributes
+            shouldDisplay = matchesAllAttributes && matchesEyeColor;
         }
 
         item.style.display = shouldDisplay ? 'block' : 'none';
     });
 
-    // Call updateCount after filtering is done
+    // Update the count display
     updateCount();
 }
 
