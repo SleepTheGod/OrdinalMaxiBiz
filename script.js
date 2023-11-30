@@ -145,4 +145,8 @@ function filterGallery() {
     updateCount();
 }
 
-// Event listener setup should remain the same
+// Add event listener for the "No Trait" checkbox
+document.getElementById('no-trait').addEventListener('change', filterGallery);
+
+// Initialize the filter gallery when the page loads
+document.addEventListener('DOMContentLoaded', filterGallery);
