@@ -141,7 +141,7 @@ function filterGallery() {
         item.style.display = (matchesEyeColor && (matchesAllAttributes || matchesNoTrait)) ? 'block' : 'none';
     });
 
-    // Update the displayed item count
+    // Update the displayed item count.
     updateCount();
 }
 
