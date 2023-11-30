@@ -63,7 +63,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function initializeLazyLoad() {
 const lazyImages = document.querySelectorAll('img.lazyload');
-
 const imageObserver = new IntersectionObserver((entries, observer) => {
 	entries.forEach(entry => {
 	if (entry.isIntersecting) {
@@ -135,6 +134,7 @@ function filterGallery() {
 
 	// Call updateCount after filtering is done to update the display count
 	updateCount();
+	paginateGallery();
 }
 
 // Event listeners
@@ -147,3 +147,33 @@ document.addEventListener('DOMContentLoaded', () => {
 	// Initial call to filterGallery to apply the default state
 	filterGallery();
 });
+
+const itemsPerPage = 200; // Number of images per page
+let currentPage = 1; // Current page number
+let totalItems = 0; // Total number of images
+
+function paginateGallery() {
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    totalItems = galleryItems.length;
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+
+    galleryItems.forEach((item, index) => {
+        if (index >= startIndex && index < endIndex) {
+            item.style.display = ''; // Show items for the current page
+        } else {
+            item.style.display = 'none'; // Hide other items
+        }
+    });
+
+    document.getElementById('currentPage').textContent = currentPage;
+}
+
+function changePage(increment) {
+    const maxPage = Math.ceil(totalItems / itemsPerPage);
+    currentPage = Math.min(Math.max(1, currentPage + increment), maxPage);
+    paginateGallery();
+}
+
+document.getElementById('prevPage').addEventListener('click', () => changePage(-1));
+document.getElementById('nextPage').addEventListener('click', () => changePage(1));

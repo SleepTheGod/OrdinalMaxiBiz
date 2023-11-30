@@ -5,7 +5,8 @@
 		"speaking":true,
 		"smoking":true,
 		"punk":true,
-		"letterhead":true
+		"letterhead":true,
+		"sick":true
 	},
 	{
 		"tokenId": "40e359170344787c8070bc0d300f21043a517e12da0f1818b1e2c026b0d8be2bi0",
@@ -528,7 +529,8 @@
 		"speaking":true,
 		"smoking":true,
 		"punk":true,
-		"letterhead":true
+		"letterhead":true,
+		"sick":true
 	},
 	{
 		"tokenId": "97ff90bd5d369e3078f3cf03301b04122ebd7a51bf1e32c23e6271faf4eca576i0",
@@ -1076,7 +1078,8 @@
 	},
 	{
 		"tokenId": "217d28ddb6e082c301eab3c0fe93fa2782371e33099a77023c13b7a4b3b20607i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"sick":true
 	},
 	{
 		"tokenId": "50bbc8305091624fbce05f37e5a825d4a50681469bb0e631457f12ccca7ab732i0",
