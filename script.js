@@ -108,10 +108,10 @@ document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(che
 
 function filterGallery() {
 	const checkedAttributes = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"]:not([name="eyeColor"], [name="no-trait"])'))
-								.filter(checkbox => checkbox.checked)
-								.map(checkbox => checkbox.name);
+		.filter(checkbox => checkbox.checked)
+		.map(checkbox => checkbox.name);
 	const checkedEyeColors = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"][name="eyeColor"]:checked'))
-								.map(checkbox => checkbox.value);
+		.map(checkbox => checkbox.value);
 	const isNoTraitChecked = document.getElementById('no-trait').checked;
 
 	document.querySelectorAll('.gallery-item').forEach(item => {
