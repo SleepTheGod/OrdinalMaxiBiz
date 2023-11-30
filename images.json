@@ -9405,7 +9405,8 @@
 	{
 		"tokenId": "91616b4c237a0b11ae2c54ecc399c42a0994b494255a3d66d6630c63d827f4fei0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"sick":true
 	},
 	{
 		"tokenId": "e9e1594f8b4f271231daec42c2b31b0e8f2d01d784dae5a4a43121a7b7dbe42fi0",
@@ -9618,7 +9619,8 @@
 	},
 	{
 		"tokenId": "420ddd9056466f9e74f2f7c574587501440d2d96f552f158c67b4e10422e4c2ai0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"emoji":true
 	},
 	{
 		"tokenId": "3f5fef19bf8d91d662781ef6b92eaedd1e6653eeb7bbf06af66737e702ace82ai0",
@@ -9660,7 +9662,8 @@
 	},
 	{
 		"tokenId": "8f9c8719006266702405aceef2e0000aae706f4714ab16c94f45c8b78dcfef8ai0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"emoji":true
 	},
 	{
 		"tokenId": "331c01488f738eaeef0ae583e12583875d394cab0a99b59dc0a0abf1d6cc0b98i0",
@@ -9711,7 +9714,8 @@
 	},
 	{
 		"tokenId": "8e4dfe9be81a11861be347bcde8dbcd973a963ee640731174e21522a04033be0i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"lines":true
 	},
 	{
 		"tokenId": "0036b24a2c0ba2d663733793cd090fb8e915d6e3f8c2a408fce4d1c0ab1351e5i0",
@@ -9741,7 +9745,8 @@
 		"tokenId": "f1aa1f59375f0d273a36b0c1235003588563fc65065d60f332e3f50cc879204bi0",
 		"eyeColor": "green",
 		"speaking":true,
-		"lfg":true
+		"lfg":true,
+		"emoji":true
 	},
 	{
 		"tokenId": "1d0d37805c7878b6f4c5fff3c4b6d0e7047ad243e499cfe273b0a22a05dd91dci0",
@@ -9782,7 +9787,8 @@
 	},
 	{
 		"tokenId": "b58979f685c4fa75154181401502ad91009775754f7a4f814675e42854459eb1i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"lines":true
 	},
 	{
 		"tokenId": "1e0308de48281140e7c48af6a2af8ab1f0c68f28dd0402b4cd6d6db49a568198i0",
@@ -9891,7 +9897,8 @@
 	},
 	{
 		"tokenId": "d7881b3ae589d9c39834e760f02f51905da1d8f1b5cbe4fce0ca1faefc4831cbi0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"lines":true
 	},
 	{
 		"tokenId": "387ceee4f58526efce76284f15cdece7fbe79a89e7ca5a1b28018e70f574a728i0",
@@ -9917,7 +9924,8 @@
 	{
 		"tokenId": "b5942eac12ca6c0867bb741086dadd5700c698039375732d271e741d22cb2953i0",
 		"eyeColor": "green",
-		"hat":true
+		"hat":true,
+		"lines":true
 	},
 	{
 		"tokenId": "2807e86df6215e20cc1cdce00ca7e0f37d5ad95822cada715d2d5b1c128b0dcai0",
@@ -9951,7 +9959,8 @@
 	{
 		"tokenId": "5da3898e2225d4b93b9b66337bf4b9091f798bdf3dd2e8f4e667fe6a31d2e1b1i0",
 		"eyeColor": "green",
-		"shadow":true
+		"shadow":true,
+		"lines":true
 	},
 	{
 		"tokenId": "68f28f1557c489fa6352bcc7d13cb39b59b22c9bad81b2ca1b8230d7b038572bi0",
@@ -9971,7 +9980,8 @@
 	{
 		"tokenId": "4a8ce15c72965455ba679b077403adebc05629b8a608efb1f8eeec878cc920a2i0",
 		"eyeColor": "green",
-		"shadow":true
+		"shadow":true,
+		"lines":true
 	},
 	{
 		"tokenId": "8e0ef5be3ff0bb5a7057f3acd868c1820190956381b7cab79e46dee0b518c60ai0",
@@ -10001,7 +10011,8 @@
 	},
 	{
 		"tokenId": "c76774dbbd85e669d8fbb4445903d45b46d5d39d9c0ab80f40903a1f6bb4b650i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"lines":true
 	},
 	{
 		"tokenId": "a5e03b1ef41d79a4ace5de2182e6de6f9458224a02c6817afa8297c0221cb6e8i0",
@@ -10104,7 +10115,8 @@
 	},
 	{
 		"tokenId": "f349e3196c61dbb2710872f9de509eadac2f6d043b7b42b222a8bfe027cc1d44i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"lines":true
 	},
 	{
 		"tokenId": "1a0945ee41c9fbaf87cb2e9ab4f86ac613ec1eefa5bd74f8d0726b2f74200c49i0",
@@ -10179,11 +10191,13 @@
 	{
 		"tokenId": "189459114d8f452727ad5e634bde27e96a78c77f735e0c779c5c44254d893eadi0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"lines":true
 	},
 	{
 		"tokenId": "a06d543397100d8d9de21c13a10f345134ba83ca3b8bf1745fd27c3152c2c1b5i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"emoji":true
 	},
 	{
 		"tokenId": "8d6b97a86e433d95bb52da7a1189d394ccc4958d276c70b6ae426e8a42b89fbfi0",
@@ -10257,7 +10271,8 @@
 	{
 		"tokenId": "a8985ac7c4da37e776af02623f83736cf9d76e6bca0c5da79dc1f774f021b18ci0",
 		"eyeColor": "green",
-		"shadow":true
+		"shadow":true,
+		"lines":true
 	},
 	{
 		"tokenId": "afd9cae45e426fdc02e182a685a47e64a384faf57f75dea4bbd2e2fbc6636f7fi0",
@@ -10276,7 +10291,8 @@
 	},
 	{
 		"tokenId": "ce664d8dd9066b7142480a706ff7184b61f2121b431e235a794145f82e137a06i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"emoji":true
 	},
 	{
 		"tokenId": "28095e4e3b9835484b593ebb80d509705e333ca61890502b79c96be07a60ef98i0",
@@ -10296,7 +10312,8 @@
 	},
 	{
 		"tokenId": "b273ec096ee0271840d062e1ce9d566df7482e9b2379e4c774ba1925b36d6fe1i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"emoji":true
 	},
 	{
 		"tokenId": "94ec50b2f82b31bd2f1730e598d124cca7faeb419ba49ff01b5f977cc3f13c4ci0",
@@ -10316,7 +10333,8 @@
 	},
 	{
 		"tokenId": "9a5264d7bd59aa6f19024222d030fe07f3005038b3a3052e1827a03472068749i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"emoji":true
 	},
 	{
 		"tokenId": "184cd2146d6f2b53dc9fc39b9df8100b2e3985b9f73e6102246747d75175ef71i0",
@@ -10389,7 +10407,8 @@
 	{
 		"tokenId": "a8c3bc20cbab98842463bd6c7bc796770fcd9ea13ee004cf736e57b1d1b1bf28i0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"emoji":true
 	},
 	{
 		"tokenId": "130a675246897d2609670db41174ad4b7c7563986cd0fb7fe8c254a63710c91fi0",
