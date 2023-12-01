@@ -4256,7 +4256,8 @@
 	{
 		"tokenId": "c39e6095346f4f001a957f9279319d9c7d255ae0c9ace8cb912309a7e307ccd8i0",
 		"eyeColor": "green",
-		"sick":true
+		"sick":true,
+		"weapon":true
 	},
 	{
 		"tokenId": "3f2a9768b1e552256e03cbe8099e111158e84c99bd09e5fa0af7ea268a029a32i0",
@@ -9295,7 +9296,8 @@
 	},
 	{
 		"tokenId": "123927526d692c3c601aef178f72f17d6be344c8322a46b13e377b2f7a194af4i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"punk":true
 	},
 	{
 		"tokenId": "517aa43c0799337d91aa782d95a3dca9cbd810a66b0621d14f84e3c4a8c15b09i0",
