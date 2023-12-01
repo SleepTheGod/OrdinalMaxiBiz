@@ -451,7 +451,6 @@
 	{
 		"tokenId": "43291844769b164abc3758e2e0d30347be58a77fc21527d2414d6e7812e66174i0",
 		"eyeColor": "red",
-		"mask":true,
 		"glasses":true
 	},
 	{
@@ -674,7 +673,6 @@
 		"eyeColor": "blue",
 		"speaking":true,
 		"shadow":true,
-		"mask":true,
 		"animal":true
 	},
 	{
@@ -4240,8 +4238,7 @@
 		"eyeColor": "green",
 		"hands":true,
 		"earphone":true,
-		"miner":true,
-		"glasses":true
+		"miner":true
 	},
 	{
 		"tokenId": "db91f9cbe16e14798fb0d20d2f2caceeff08bab6010bcdac2ebf1312f93f2049i0",
@@ -4510,7 +4507,7 @@
 	{
 		"tokenId": "1b42addc25e470b3436a4d5b62718cdc9100d708aec9240aa8ec62cb6c6795a1i0",
 		"eyeColor": "green",
-		"glasses":true
+		"mask":true
 	},
 	{
 		"tokenId": "4c53ab21320b174f234469d5a74ba38af664ac5b79e5be5ac332dbc135eaafa3i0",
