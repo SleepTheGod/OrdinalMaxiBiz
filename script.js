@@ -90,14 +90,50 @@ function updateCount() {
 	}
 }
 
-function toggleDropdown(show) {
-	const filterOptions = document.getElementById('filter-options');
-	if (show) {
-	filterOptions.classList.add('show');
-	} else {
-	filterOptions.classList.remove('show');
-	}
-}  
+document.addEventListener('DOMContentLoaded', function() {
+    const filterButton = document.getElementById('filter-button');
+    const filterOptions = document.getElementById('filter-options');
+    const dropdownContainer = document.querySelector('.filter-dropdown'); // Container for both the button and the dropdown
+    
+    // Function to show dropdown
+    function showDropdown() {
+        filterOptions.classList.add('show');
+    }
+
+    // Function to hide dropdown
+    function hideDropdown() {
+        filterOptions.classList.remove('show');
+    }
+
+    // Function to toggle dropdown for small screens
+    function toggleDropdown(event) {
+        if (window.matchMedia("(max-width: 700px)").matches) {
+            event.stopPropagation(); // Prevents the click from immediately closing the dropdown
+            filterOptions.classList.toggle('show');
+        }
+    }
+
+    // Function to close dropdown when clicking outside
+    function closeDropdown(event) {
+        if (!dropdownContainer.contains(event.target)) {
+            filterOptions.classList.remove('show');
+        }
+    }
+
+    // Apply the appropriate event handlers based on screen size
+    if (window.matchMedia("(max-width: 700px)").matches) {
+        filterButton.addEventListener('click', toggleDropdown); // For small screens
+        document.addEventListener('click', closeDropdown); // Close dropdown when clicking outside
+    } else {
+        dropdownContainer.addEventListener('mouseover', showDropdown); // For non-small screens
+        dropdownContainer.addEventListener('mouseout', hideDropdown); // Hide dropdown when mouse leaves the dropdown area
+    }
+
+    // Prevent clicks within the dropdown from closing it
+    filterOptions.addEventListener('click', function(event) {
+        event.stopPropagation();
+    });
+});
 
 // Add event listeners to checkboxes
 document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(checkbox => {
