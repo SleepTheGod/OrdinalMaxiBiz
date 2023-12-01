@@ -2128,7 +2128,6 @@
 	{
 		"tokenId": "bc307a0be8ce23014656ba9410b285f018cb7dbb66a18d3521200b1064a87f21i0",
 		"eyeColor": "green",
-		"shadow":true,
 		"ghost":true
 	},
 	{
@@ -3060,7 +3059,6 @@
 	{
 		"tokenId": "bdcdf0368db047122f60c0a81c4aa3566daa7ed1b85ea03fd65f1f85a1a930eai0",
 		"eyeColor": "green",
-		"shadow":true,
 		"lines":true
 	},
 	{
@@ -8139,7 +8137,7 @@
 	{
 		"tokenId": "4562faa13f8299e4aae3e52d58b79b16ef0a17fd0a58a010ad71e0ed1b2e9686i0",
 		"eyeColor": "green",
-		"shadow":true
+		"lines":true
 	},
 	{
 		"tokenId": "cd731b638d0f94c041d612acfb58e32aa39674d09a7d23a661eae69da84ddbb9i0",
@@ -9695,7 +9693,8 @@
 	{
 		"tokenId": "4d9bf3da1c0b0fdeb68b468055ff5bb4e47de858c4fc5d3b47c77822dae3e742i0",
 		"eyeColor": "green",
-		"shadow":true
+		"lines":true,
+		"faceCover":true
 	},
 	{
 		"tokenId": "7d73ed54391e93da0702831b79efc1411f8ca8d38f44931813363beca3e2962ai0",
@@ -10997,7 +10996,8 @@
 	{
 		"tokenId": "270d89a769e25f077ab5aa36ee43e3f071f2ec95bd8dd0b329f9a3098c0863dai0",
 		"eyeColor": "green",
-		"shadow":true
+		"sick":true,
+		"demon":true
 	},
 	{
 		"tokenId": "4d4658668dd8c676b5bc1b3297fe377c362b5d0ef4e2707be94fb29e68949217i0",
