@@ -1674,7 +1674,8 @@
 	},
 	{
 		"tokenId": "3c6fba5ae06c951b8a0f17ff81d80eae80b588ed3f76dfc8bb80034f4d4fdd10i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"speaking":true
 	},
 	{
 		"tokenId": "774729a18d9c1c37662fa12d334d9743aed97eb48ae633fb2e4236fdcd175298i0",
