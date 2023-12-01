@@ -3412,7 +3412,8 @@
 	},
 	{
 		"tokenId": "077d6a6993a7fdea32f5b48cc0986174493c2314a097ccb61787aeae4adf22eei0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"freeRoss":true
 	},
 	{
 		"tokenId": "a55b25f673bc243a4f1633311f530e4f53444e8d6b8fb4e9f2b22763ac82fbf4i0",
