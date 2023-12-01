@@ -1727,7 +1727,7 @@
 		"tokenId": "199cd37fec34289b1db1cff138af9611a5c70e55ea0bbd6bc901e643e30acb1ci0",
 		"eyeColor": "green",
 		"undead":true,
-		"miner":true
+		"weapon":true
 	},
 	{
 		"tokenId": "c0802e995877a5ad9f2dee45d48cc5c524a2bcebce07881046e2a60ca111f459i0",
@@ -1850,7 +1850,7 @@
 		"tokenId": "660bd5e52e6d03e13e83f7152caffb73521dd974d7596d670722dab6365030bbi0",
 		"eyeColor": "green",
 		"shadow":true,
-		"miner":true
+		"weapon":true
 	},
 	{
 		"tokenId": "cad2c959a1dddc8a3fb74a303495dab6ff3ecbc0bff563ff08ec9c5e0c6b66dci0",
@@ -2071,7 +2071,7 @@
 		"tokenId": "cb9e4f93c1ca1d4c1248ba287f0057a4e733bbf4e75652eecc9bf50e2ab4e308i0",
 		"eyeColor": "green",
 		"shadow":true,
-		"miner":true
+		"weapon":true
 	},
 	{
 		"tokenId": "838f7d36c76542085f53b822801c416a34e4627ec76e5763a774a6cdce342f26i0",
@@ -10797,7 +10797,7 @@
 	{
 		"tokenId": "dd0dbf2150bae5001fe16890c9d369751195803eb03b2f9ef63be5ea69483d99i0",
 		"eyeColor": "green",
-		"miner":true
+		"weapon":true
 	},
 	{
 		"tokenId": "d458e255663b4f82184c3b28d5fc7a9f029e666ef571dfa59ab0b1b3f4cd9dd4i0",
