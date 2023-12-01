@@ -8208,7 +8208,8 @@
 	{
 		"tokenId": "cc6fe6479b05c856e00d7a22baf38922eaca2e2bd467f81de1287585dbcdbf2ei0",
 		"eyeColor": "green",
-		"smoking":true
+		"smoking":true,
+		"weapon":true
 	},
 	{
 		"tokenId": "aede57768d6dd39003470c9ab2a9917c3d6a0730c4dc9ba6cadd84058d909974i0",
