@@ -6438,7 +6438,8 @@
 	},
 	{
 		"tokenId": "61529268fc9d73baaaa26721e448bc8fe19e27b99272bcc17110f1596867720ai0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"earphone":true
 	},
 	{
 		"tokenId": "c80f6c1e977fc7057d6f6bb67be236a388de2807859c66a22bf29b58674f111ai0",
