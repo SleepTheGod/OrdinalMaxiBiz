@@ -8806,7 +8806,7 @@
 	{
 		"tokenId": "f423d09b4143097bf061cc6d2d24fd311cb6420516b12d8d1287fed1b3bdb145i0",
 		"eyeColor": "green",
-		"threePlusEye":true
+		"sick":true
 	},
 	{
 		"tokenId": "6956b9d98ff4b49837ad49cf90c95552782acd11972a0f822f8de1111c9452e0i0",
@@ -9296,7 +9296,7 @@
 	{
 		"tokenId": "802331ef162612a81568858a3c49eb462d8ea39698db4598efb1b827e1929513i0",
 		"eyeColor": "green",
-		"threePlusEye":true
+		"sick":true
 	},
 	{
 		"tokenId": "8879bf56013149a7e28401851459664b662591f3941ed8fb7f25eef4a1ea5f60i0",
@@ -9644,7 +9644,7 @@
 	{
 		"tokenId": "a13fb6a370e7fd0ad3934184371faaa25e3ceffee1462d324cbf98070d4c8608i0",
 		"eyeColor": "green",
-		"threePlusEye":true
+		"sick":true
 	},
 	{
 		"tokenId": "80f59276b7304fbd2875cc4b3fc2eca1edf5557e332d447f0307798c76bbb811i0",
