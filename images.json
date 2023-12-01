@@ -6793,7 +6793,8 @@
 	{
 		"tokenId": "0f3e8fd976391459c587a849e0a279a8a95c796307f30c342677075236d0b694i0",
 		"eyeColor": "green",
-		"hat":true
+		"hat":true,
+		"famous":true
 	},
 	{
 		"tokenId": "ee2d1e7408da072295c35c0f46cdd8d0d72816a9312871d6e93425b95546f9f4i0",
