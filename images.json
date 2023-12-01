@@ -408,7 +408,7 @@
 		"eyeColor": "red",
 		"speaking":true,
 		"faceCover":true,
-		"gasfaceCover":true
+		"gasMask":true
 	},
 	{
 		"tokenId": "8126bc607a4302d94b9bca3d701016986dd0b0d9e385367c0ed43c52aefcfe12i0",
@@ -841,7 +841,7 @@
 		"tokenId": "e484c48e4571ddd915ce22dfc037a76c1f42ffcef2fad7c8ee816ed87873fd0ci0",
 		"eyeColor": "blue",
 		"faceCover":true,
-		"gasfaceCover":true
+		"gasMask":true
 	},
 	{
 		"tokenId": "4c31868ffb9d2da4068acfdd838e00a34f8223bdedcc31b0e74483e434d6e0dai0",
@@ -1199,7 +1199,7 @@
 		"eyeColor": "green",
 		"weapon":true,
 		"faceCover":true,
-		"gasfaceCover":true
+		"gasMask":true
 	},
 	{
 		"tokenId": "765b9fd7806e3115dde06d90d0f7a5abdd9b475bc52edb4278fa2fe5a6814dcfi0",
@@ -1235,7 +1235,7 @@
 		"eyeColor": "green",
 		"hoodie":true,
 		"faceCover":true,
-		"gasfaceCover":true
+		"gasMask":true
 	},
 	{
 		"tokenId": "89bb81d8eaa62b82d0328a2c9b13567ff60b4e92dffd5ae2c106eccba802a4d2i0",
@@ -1323,7 +1323,7 @@
 		"tokenId": "f64579c9699e2fe9c2c5abbf30bad29f1a5770bca85c886d70dd9b920d8b29f1i0",
 		"eyeColor": "green",
 		"faceCover":true,
-		"gasfaceCover":true,
+		"gasMask":true,
 		"glasses":true
 	},
 	{
@@ -1331,7 +1331,7 @@
 		"eyeColor": "green",
 		"punk":true,
 		"faceCover":true,
-		"gasfaceCover":true,
+		"gasMask":true,
 		"glasses":true
 	},
 	{
@@ -1381,7 +1381,7 @@
 		"hoodie":true,
 		"hat":true,
 		"faceCover":true,
-		"gasfaceCover":true,
+		"gasMask":true,
 		"glasses":true
 	},
 	{
@@ -1875,7 +1875,7 @@
 		"tokenId": "d553a75b42b67154c2238357cc1e3228ab32066535855399324f702a3be4cb66i0",
 		"eyeColor": "green",
 		"faceCover":true,
-		"gasfaceCover":true
+		"gasMask":true
 	},
 	{
 		"tokenId": "75d5b4c764e3b99e46fc4968998adba9fb38b1bd81ad1cbe68e48b11a32c78a2i0",
@@ -2067,7 +2067,7 @@
 		"tokenId": "5b6002a2ca5e161051a1e15eb6c78a7ad859916cd0fb10ddb4fc3c9974547e76i0",
 		"eyeColor": "green",
 		"faceCover":true,
-		"gasfaceCover":true
+		"gasMask":true
 	},
 	{
 		"tokenId": "ffc505e7fe05b8d4c162e0b6c274a665b13c62683136fe6f9351e4de4498b17ei0",
@@ -2095,7 +2095,7 @@
 		"tokenId": "8eb38bc1dad8ed94f4ea84dc2f3f203685776011f851e1362cbfe7a46c0da9b1i0",
 		"eyeColor": "green",
 		"faceCover":true,
-		"gasfaceCover":true
+		"gasMask":true
 	},
 	{
 		"tokenId": "a94b61899dd21ca361c1b0452f025273491dd756fa8a1024fea5d635a5f50cd3i0",
@@ -4099,7 +4099,7 @@
 		"smoking":true,
 		"faceCover":true,
 		"earphone":true,
-		"gasfaceCover":true
+		"gasMask":true
 	},
 	{
 		"tokenId": "b1ab50aaa23a57fd454898281bab6d87ffafefcd945cc5842794db040ae78cfbi0",
@@ -4672,7 +4672,7 @@
 		"hoodie":true,
 		"weapon":true,
 		"faceCover":true,
-		"gasfaceCover":true,
+		"gasMask":true,
 		"glasses":true
 	},
 	{
@@ -5671,7 +5671,7 @@
 		"tokenId": "ca68bd34218bd22ac19a1a7fc758276539fcaf7e30c0b9e645442146dcf020bai0",
 		"eyeColor": "green",
 		"faceCover":true,
-		"gasfaceCover":true
+		"gasMask":true
 	},
 	{
 		"tokenId": "ef09d7b376beb8c95263ba6f536c9d9f9dcf202e25e740c85e5d4b3e9963fdf6i0",
