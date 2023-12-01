@@ -423,7 +423,8 @@
 		"tokenId": "af9a4e2550841fb5c38c648fe2b0e102f7d94918303a8b0c2317e8f905a9a306i0",
 		"eyeColor": "red",
 		"smoking":true,
-		"hoodie":true
+		"hoodie":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "92407966c13aca5c694dc90976719dc691db648ef48a93c6f2eaa6acf35665e4i0",
@@ -927,7 +928,8 @@
 		"tokenId": "1c8594b6ee351674ffc04a4ba28cb5a6500690ce4fe6d66549e920b0b4b14412i0",
 		"eyeColor": "blue",
 		"ape":true,
-		"hoodie":true
+		"hoodie":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "c9c9fc0a8a47fac574278d227a9035f501b622f12de062ce08292c288d6f6dcci0",
@@ -1001,12 +1003,12 @@
 	{
 		"tokenId": "e4411af044abd5adfa64e530b821d4c94dcfc8acd0f2dddfed49bd4c7605d92ei0",
 		"eyeColor": "blue"
-
 	},
 	{
 		"tokenId": "e77820702fedbc693d914192c39f5c650383f5584fab0223810ac9478d6bb20di0",
 		"eyeColor": "blue",
-		"hoodie":true
+		"hoodie":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "3bfc63f112e88d1101cec8f4a51046d72a8766433e6febce341d80f5ee20ab92i0",
@@ -1096,7 +1098,8 @@
 	{
 		"tokenId": "50bbc8305091624fbce05f37e5a825d4a50681469bb0e631457f12ccca7ab732i0",
 		"eyeColor": "green",
-		"hoodie":true
+		"hoodie":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "ee0339ebcdd431e44de368def2e49e075b09465da5fc002370dbaf4f486e2138i0",
@@ -1198,7 +1201,8 @@
 		"tokenId": "b5104848f408bbec9e4562e40d2f23a0e6da4a27d90b71a0af20955125d29e49i0",
 		"eyeColor": "green",
 		"hoodie":true,
-		"smoking":true
+		"smoking":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "5409ceae7489aa257b117dee6f360d92dcc3a6e88e54ae59a5c3876bbbe99f80i0",
@@ -1908,7 +1912,8 @@
 	{
 		"tokenId": "0c847085b957960d76c67aa41a691471e65f29cab481f7297023ce65c6481dc8i0",
 		"eyeColor": "green",
-		"hoodie":true
+		"hoodie":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "71d6faf6987f03da63972f50b5afd5593753968c837bb3ad986d63644e47d8bbi0",
@@ -10430,7 +10435,8 @@
 		"tokenId": "1d6f52b74ba746ef55fba5af54f33ef8222d7f9ccc85b1a37407481274292604i0",
 		"eyeColor": "green",
 		"mask":true,
-		"hoodie":true
+		"hoodie":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "8bc9f610f9261c8d392adc273a152b5c448c187cb94f1729f4e454611f3bf208i0",
@@ -10440,12 +10446,14 @@
 	{
 		"tokenId": "e2038ec11d3319826dea02a32005706a49e120d7be11898672bab80a6b646928i0",
 		"eyeColor": "green",
-		"hoodie":true
+		"hoodie":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "0be7611beccee766e9a4e8ef84f9c601a51bda4b9427ad86ed4c34b53d3c0e31i0",
 		"eyeColor": "green",
-		"hoodie":true
+		"hoodie":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "f349e3196c61dbb2710872f9de509eadac2f6d043b7b42b222a8bfe027cc1d44i0",
@@ -10455,13 +10463,15 @@
 	{
 		"tokenId": "1a0945ee41c9fbaf87cb2e9ab4f86ac613ec1eefa5bd74f8d0726b2f74200c49i0",
 		"eyeColor": "green",
-		"hoodie":true
+		"hoodie":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "145c2e0d36090a5f161897c781866609065eef5893d97244d53c6cca083ac74fi0",
 		"eyeColor": "green",
 		"hoodie":true,
-		"mask":true
+		"mask":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "911cb053bae1c571be50337f42f2e35d1a065c0b743b95ba73d1763af229ee56i0",
@@ -10494,7 +10504,8 @@
 		"tokenId": "28c424081dff237cd9584e9a2509417e74cacd795e2fd501c5c2e500d9824295i0",
 		"eyeColor": "green",
 		"hoodie":true,
-		"clown":true
+		"clown":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "7b0727df9c22a2ed97d9667a6d2a8ddc31b540d1455c2d1e533c148718dfdaa2i0",
@@ -10515,7 +10526,8 @@
 	{
 		"tokenId": "57b026988dbfa452264a65b6c867f4701ac723779bbfcd845500fa9d8f99c0a6i0",
 		"eyeColor": "green",
-		"hoodie":true
+		"hoodie":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "7a065c556d5789a3985667291d6df67c04e3c83fbea62aedc0c4e79749f09ca9i0",
@@ -10551,7 +10563,8 @@
 	{
 		"tokenId": "e19b8b4211194ac011f3d689bf8f67d44c21f30c6f1cb9f3e74af931469ffeddi0",
 		"eyeColor": "green",
-		"hoodie":true
+		"hoodie":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "48842021e01a1bf3b642a7f66ba876e8d0461df1041fc3de028b6d132f1bb7dfi0",
@@ -10596,7 +10609,8 @@
 	{
 		"tokenId": "b1092d4387c4697c9fce99750c6c3012476165e184170cc27a6ed920278d1827i0",
 		"eyeColor": "green",
-		"hoodie":true
+		"hoodie":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "c6f321dffcc5fa39a82488c803daf699784b2b76190e567aa9b210c8f942870ci0",
@@ -10754,7 +10768,8 @@
 		"tokenId": "b1e05cc72bc634bcf7202558377b92877621531ccc360004d03d7b33b2926a45i0",
 		"eyeColor": "green",
 		"hoodie":true,
-		"mask":true
+		"mask":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "213c2c1142af2ecea7e92ccea18b1fcc98cb8497ac085df34cbf021c500d0227i0",
@@ -10809,12 +10824,14 @@
 	{
 		"tokenId": "4d4658668dd8c676b5bc1b3297fe377c362b5d0ef4e2707be94fb29e68949217i0",
 		"eyeColor": "green",
-		"hoodie":true
+		"hoodie":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "6f7ce5623c937830c42e10eed2432601c20aa5c12991d87c998eaaeddfa7bb6ei0",
 		"eyeColor": "green",
-		"hoodie":true
+		"hoodie":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "0e2c542e2d9a9375beadbe7e01b88a95e96872f245cd9417dd8081be5ea76f31i0",
@@ -10825,7 +10842,8 @@
 		"tokenId": "318c9aafcefed1c4b53596bcc417cc64112ff8fd5a85a0773ef4dfa130674076i0",
 		"eyeColor": "green",
 		"mask":true,
-		"hoodie":true
+		"hoodie":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "391fbc0f7c4c73f0be64afd9f6968389dd23f3c7e9f7eefc3ddef7e364077287i0",
@@ -10835,13 +10853,15 @@
 		"tokenId": "370320da2b5bf5c02bdfef11d83d6b5340333322d1b13a18fba091cf0d0982cfi0",
 		"eyeColor": "green",
 		"hoodie":true,
-		"mask":true
+		"mask":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "90e7eb5d048d2da3d0bfc0dfa8c3fc0a7c6d9e25c59c26720c1b89208f84c195i0",
 		"eyeColor": "green",
 		"hoodie":true,
-		"shadow":true
+		"shadow":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "f4f893fa5415042c239e50398970828a71cef13fa6f1e7b2f6039e45e09322dbi0",
@@ -10889,7 +10909,8 @@
 		"tokenId": "b144fd35ae2ae248b2a3492c22351384db4f4dcbcebfd8ac600a2c9835347a9ei0",
 		"eyeColor": "green",
 		"shadow":true,
-		"hoodie":true
+		"hoodie":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "eabf9a8085340fc7de12fe729347399d79d4c85b93d9d8b8a2aa8a17ad274b97i0",
@@ -10925,7 +10946,8 @@
 		"tokenId": "90f564468225f70782a80069320af6b14fcd61c6570013708fd3d25517b68654i0",
 		"eyeColor": "green",
 		"hoodie":true,
-		"mask":true
+		"mask":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "5d0f4bdae9eac9256e2bc2adc07ae10987d18df0ebd9084e82f288f012a33960i0",
@@ -10937,7 +10959,8 @@
 		"tokenId": "1af12dcf7afc0e74688741921d0290a1ac56276b9d630af13764778a1b4659fdi0",
 		"eyeColor": "green",
 		"hoodie":true,
-		"shadow":true
+		"shadow":true,
+		"OGHoodies":true
 	},
 	{
 		"tokenId": "3c818ddda48f95a057cc6799020e5ea257d94b6f7caba799257079d476941286i0",
@@ -10947,6 +10970,7 @@
 		"tokenId": "891789ea1688d692455d75707f5ec5b2e7e4356204745574062adbe74a628402i0",
 		"eyeColor": "green",
 		"shadow":true,
-		"hoodie":true
+		"hoodie":true,
+		"OGHoodies":true
 	}
 ]
