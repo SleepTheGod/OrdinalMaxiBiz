@@ -2258,7 +2258,8 @@
 	},
 	{
 		"tokenId": "1135bf8558458a036ca55efbe5720b24e096682d0c59b53ea3cec960d3a7f393i0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"punk":true
 	},
 	{
 		"tokenId": "0032cc10f9a9ee235f9445af3b9dfbc115ff829cda228f22017ba2ff1d718129i0",
@@ -10712,7 +10713,8 @@
 	},
 	{
 		"tokenId": "d6ab6df3f69c511cc75d4470e3a9b8febfbe0898cdc22e8065361e4d05c7105di0",
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"sick":true
 	},
 	{
 		"tokenId": "046eafd1562b111641f59333dd7e9ed09d4bc6a6ca0ac5cd0febbf6a3a06a4bei0",
