@@ -1200,7 +1200,8 @@
 		"eyeColor": "green",
 		"weapon":true,
 		"faceCover":true,
-		"gasMask":true
+		"gasMask":true,
+		"punk":true
 	},
 	{
 		"tokenId": "765b9fd7806e3115dde06d90d0f7a5abdd9b475bc52edb4278fa2fe5a6814dcfi0",
