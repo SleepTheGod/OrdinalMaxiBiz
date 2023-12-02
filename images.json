@@ -1307,7 +1307,7 @@
 	{
 		"tokenId": "a25d60b0104e5f8e2368b685f91374655e0679e2c16b5bd5f0f1f6b297bee44ei0",
 		"eyeColor": "green",
-		"realPeople":true
+		"realRef":true
 	},
 	{
 		"tokenId": "21f381809ae9edf34959baf77f296d76c6511dd3c07aec56fd5bb02ef86fbfe4i0",
@@ -2748,7 +2748,7 @@
 		"tokenId": "a000f9cc4644a9d0472aab02791fe4bff2af5e1a588a74af876eab4534196c35i0",
 		"eyeColor": "green",
 		"shadow":true,
-		"realPeople":true
+		"realRef":true
 	},
 	{
 		"tokenId": "197a014ffb6eb4db93f6840d12cb7308bc8721192f1d7daf7fe1dd154d28f386i0",
@@ -3792,7 +3792,7 @@
 	{
 		"tokenId": "7ea4746b597c5727f38c7ff9d58af45dfa4c4d841dcff849fd6ba677e42d7abbi0",
 		"eyeColor": "green",
-		"realPeople":true
+		"realRef":true
 	},
 	{
 		"tokenId": "6051362ab59a8f6741c148baf975b089f8a240d0a935599cf6ff9799e301c5c6i0",
@@ -4920,7 +4920,7 @@
 	{
 		"tokenId": "7771461ccc9aee79a64cbe4b28d50add343baf333a43b68f745dd15d02b0829bi0",
 		"eyeColor": "green",
-		"realPeople":true
+		"realRef":true
 	},
 	{
 		"tokenId": "1b5bff39c55df85eb465af396edf4186b41982efa6083e3a259e327e4f1489cfi0",
@@ -5038,7 +5038,7 @@
 		"eyeColor": "green",
 		"smoking":true,
 		"faceCover":true,
-		"realPeople":true
+		"realRef":true
 	},
 	{
 		"tokenId": "0a737fa22ab4d4b31aabd536307d8efd0326722c70a5cef0517bd407a8db246di0",
@@ -6798,7 +6798,7 @@
 		"tokenId": "0f3e8fd976391459c587a849e0a279a8a95c796307f30c342677075236d0b694i0",
 		"eyeColor": "green",
 		"hat":true,
-		"realPeople":true
+		"realRef":true
 	},
 	{
 		"tokenId": "ee2d1e7408da072295c35c0f46cdd8d0d72816a9312871d6e93425b95546f9f4i0",
@@ -8049,7 +8049,7 @@
 	{
 		"tokenId": "f1e1c8cf37fca239274dbe46783bcba4a3228588b8332031973bdaff9bd1f867i0",
 		"eyeColor": "green",
-		"realPeople":true,
+		"realRef":true,
 		"hands":true,
 		"music":true,
 		"earphone":true,
@@ -9827,7 +9827,7 @@
 		"tokenId": "891c01a77e123f3fe46eb36a104366cc399d2071dad3f945e96e3fa82dfe5c2ai0",
 		"eyeColor": "green",
 		"smoking":true,
-		"realPeople":true
+		"realRef":true
 	},
 	{
 		"tokenId": "48405139db42305ff8f5d2fcdfd889cfa09f417bae1c5318c8f25925aba45e43i0",
