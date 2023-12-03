@@ -10,6 +10,9 @@ document.addEventListener('DOMContentLoaded', function() {
 		const galleryItem = document.createElement('div');
 		galleryItem.classList.add('gallery-item');
 
+		// Setting the 'number' data attribute
+		galleryItem.dataset.number = Array.isArray(image.number) ? image.number.join(', ') : image.number.toString();
+
 		// Set eyeColor and other optional attributes as data attributes
 		const attributes = ['eyeColor', 'female', 'hat', 'speaking', 'smoking', 'noFace', 'demon', 'threePlusEye', 'lines', 'earphone', 'music', 'hands', 'ghost', 'emoji', 'crown', 'oneEye', 'sick', 'animal', 'alien', 'weapon', 'ape', 'openScalp', 'miner', 'shadow', 'lfg', 'clown', 'hoodie', 'OGHoodies', 'realRef', 'fiction', 'freeRoss', 'letterhead', 'glasses', 'robot', 'punk', 'undead', 'faceCover', 'gasMask'];
 		attributes.forEach(attr => {
@@ -141,6 +144,11 @@ document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(che
 });
 
 function filterGallery() {
+	// Ignore filtering if there's a search term
+	if (document.getElementById('search-bar').value.trim()) {
+        return; 
+    }
+
 	const checkedAttributes = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"]:not([name="eyeColor"], [name="no-trait"])'))
 		.filter(checkbox => checkbox.checked)
 		.map(checkbox => checkbox.name);
@@ -157,7 +165,7 @@ function filterGallery() {
 		if (isNoTraitChecked) {
 			// If "No Trait" is checked, count the attributes and check if only eyeColor is present
 			const attributeCount = Object.keys(item.dataset).length;
-			shouldDisplay = shouldDisplay && (attributeCount === 1); // This assumes eyeColor is the only attribute
+			shouldDisplay = shouldDisplay && (attributeCount === 2); // This assumes eyeColor and number are the only attributes
 		} else if (checkedAttributes.length > 0) {
 			// If other attribute filters are checked, ensure they all match
 			shouldDisplay = shouldDisplay && checkedAttributes.every(attr => item.dataset[attr] === 'true');
@@ -179,3 +187,31 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	filterGallery(); // Initial call to filterGallery to apply the default state
 });
+
+function debounce(func, delay) {
+    let debounceTimer;
+    return function() {
+        const context = this;
+        const args = arguments;
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(() => func.apply(context, args), delay);
+    };
+}
+
+function searchGallery() {
+    const searchTerm = document.getElementById('search-bar').value.trim();
+    document.querySelectorAll('.gallery-item').forEach(item => {
+        // Split the numbers by comma and trim whitespace, then check if any matches the searchTerm exactly
+        const numbers = item.dataset.number.split(',').map(n => n.trim());
+        const match = numbers.some(number => number === searchTerm);
+        item.style.display = match ? 'block' : 'none';
+    });
+
+    // If the search bar is cleared, return to the previous filter state
+    if (!searchTerm) {
+        filterGallery();
+    }
+
+}
+
+document.getElementById('search-bar').addEventListener('input', debounce(searchGallery, 500));
