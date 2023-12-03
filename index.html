@@ -162,10 +162,6 @@
 			padding-top: 100%; /* Square aspect ratio */
 			}
 	
-		.image-container:hover {
-			background: rgba(255, 165, 0); /* Orange overlay on hover */
-			}
-	
 		.image-container a, .image-container img {
 			position: absolute;
 			top: 0;
@@ -184,23 +180,6 @@
 			height: 100%;
 			object-fit: contain;
 			border-radius: 15px;
-			}
-	
-		.image-container::before {
-			content: '';
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
-			background: transparent;
-			transition: background-color 0.3s ease;
-			z-index: 2; /* Overlay */
-			border-radius: 15px;
-			}
-	
-		.image-container:hover::before {
-			background: rgba(255, 165, 0, 0.2);
 			}
 
 		.header-controls {
@@ -237,6 +216,21 @@
 			font-weight: bold;
 			z-index: 3; /* Ensure this is above other elements */
 			}
+
+		.tooltip {
+			display: none;
+			position: absolute;
+			white-space: pre-line; /* This will make \n work as expected */
+			z-index: 10;
+			padding: 10px;
+			background: black;
+			color: white;
+			border: 2px solid #e67e22;
+			box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Soft shadow */
+			border-radius: 5px;
+			font-size: 0.9em;
+			font-weight: bold; /* Make the text bold */
+			}
 	</style>
 </head>
 <body>
@@ -248,7 +242,7 @@
     <a href="https://x.com/OrdinalMaxiBiz" target="_blank">
         <img src="https://math0616.github.io/OrdinalMaxiBiz/OMB.png" alt="Title Image">
     </a>
-</div>
+</div>		
 
 <div class="header-controls">
 	<div class="filter-dropdown">
@@ -258,43 +252,43 @@
 			<label for="eyeColorRed"><input type="checkbox" id="eyeColorRed" name="eyeColor" value="red"> Red Eyes</label>
 			<label for="eyeColorBlue"><input type="checkbox" id="eyeColorBlue" name="eyeColor" value="blue"> Blue Eyes</label>
 			<label for="eyeColorGreen"><input type="checkbox" id="eyeColorGreen" name="eyeColor" value="green"> Green Eyes</label>
-			<label for="ape"><input type="checkbox" id="ape" name="ape"> Ape</label>
-			<label for="hoodie"><input type="checkbox" id="hoodie" name="hoodie"> Hoodie</label>
-			<label for="OGHoodies"><input type="checkbox" id="OGHoodies" name="OGHoodies"> OG Hoodies</label>
-			<label for="shadow"><input type="checkbox" id="shadow" name="shadow"> ShadowDAO</label>
-			<label for="miner"><input type="checkbox" id="miner" name="miner"> Miner</label>
-			<label for="alien"><input type="checkbox" id="alien" name="alien"> Alien</label>
-			<label for="oneEye"><input type="checkbox" id="oneEye" name="oneEye"> One Eye</label>
-			<label for="threePlusEye"><input type="checkbox" id="threePlusEye" name="threePlusEye"> 3+ Eyes</label>
-			<label for="noFace"><input type="checkbox" id="noFace" name="noFace"> No Face</label>
-			<label for="undead"><input type="checkbox" id="undead" name="undead"> Undead</label>
-			<label for="demon"><input type="checkbox" id="demon" name="demon"> Demon</label>
-			<label for="punk"><input type="checkbox" id="punk" name="punk"> Punk</label>
-			<label for="openScalp"><input type="checkbox" id="openScalp" name="openScalp"> Open Scalp</label>
-			<label for="freeRoss"><input type="checkbox" id="freeRoss" name="freeRoss"> Free Ross</label>
-			<label for="ghost"><input type="checkbox" id="ghost" name="ghost"> Ghost</label>
-			<label for="robot"><input type="checkbox" id="robot" name="robot"> Robot</label>
-			<label for="crown"><input type="checkbox" id="crown" name="crown"> Crown</label>
-			<label for="clown"><input type="checkbox" id="clown" name="clown"> Clown</label>
-			<label for="female"><input type="checkbox" id="female" name="female"> Female</label>
-			<label for="lines"><input type="checkbox" id="lines" name="lines"> Lines</label>
-			<label for="faceCover"><input type="checkbox" id="faceCover" name="faceCover"> Face Cover</label>
-			<label for="gasMask"><input type="checkbox" id="gasMask" name="gasMask"> Gas Mask</label>
-			<label for="hat"><input type="checkbox" id="hat" name="hat"> Hat</label>		
-			<label for="glasses"><input type="checkbox" id="glasses" name="glasses"> Glasses</label>
-			<label for="letterhead"><input type="checkbox" id="letterhead" name="letterhead"> Letterhead</label>
-			<label for="speaking"><input type="checkbox" id="speaking" name="speaking"> Speaking</label>
-			<label for="lfg"><input type="checkbox" id="lfg" name="lfg"> LFG</label>
-			<label for="smoking"><input type="checkbox" id="smoking" name="smoking"> Smoking</label>
-			<label for="animal"><input type="checkbox" id="animal" name="animal"> Animal</label>
-			<label for="weapon"><input type="checkbox" id="weapon" name="weapon"> Weapon</label>
-			<label for="hands"><input type="checkbox" id="hands" name="hands"> Hands</label>
-			<label for="music"><input type="checkbox" id="music" name="music"> Music</label>
-			<label for="earphone"><input type="checkbox" id="earphone" name="earphone"> Earphone</label>
-			<label for="emoji"><input type="checkbox" id="emoji" name="emoji"> Emoji</label>
-			<label for="realRef"><input type="checkbox" id="realRef" name="realRef"> Real Ref</label>
-			<label for="fiction"><input type="checkbox" id="fiction" name="fiction"> Fiction</label>
-			<label for="sick"><input type="checkbox" id="sick" name="sick"> Sick!</label>
+			<label for="Ape"><input type="checkbox" id="Ape" name="Ape"> Ape</label>
+			<label for="Hoodie"><input type="checkbox" id="Hoodie" name="Hoodie"> Hoodie</label>
+			<label for="OGHoodies"><input type="checkbox" id="OGHoodies" name="OGHoodies"> OGHoodies</label>
+			<label for="ShadowDAO"><input type="checkbox" id="ShadowDAO" name="ShadowDAO"> ShadowDAO</label>
+			<label for="Miner"><input type="checkbox" id="Miner" name="Miner"> Miner</label>
+			<label for="Alien"><input type="checkbox" id="Alien" name="Alien"> Alien</label>
+			<label for="OneEye"><input type="checkbox" id="OneEye" name="OneEye"> OneEye</label>
+			<label for="ThreePlusEyes"><input type="checkbox" id="ThreePlusEyes" name="ThreePlusEyes"> 3+ Eyes</label>
+			<label for="NoFace"><input type="checkbox" id="NoFace" name="NoFace"> NoFace</label>
+			<label for="Undead"><input type="checkbox" id="Undead" name="Undead"> Undead</label>
+			<label for="Demon"><input type="checkbox" id="Demon" name="Demon"> Demon</label>
+			<label for="Punk"><input type="checkbox" id="Punk" name="Punk"> Punk</label>
+			<label for="OpenScalp"><input type="checkbox" id="OpenScalp" name="OpenScalp"> OpenScalp</label>
+			<label for="FreeRoss"><input type="checkbox" id="FreeRoss" name="FreeRoss"> FreeRoss</label>
+			<label for="Ghost"><input type="checkbox" id="Ghost" name="Ghost"> Ghost</label>
+			<label for="Robot"><input type="checkbox" id="Robot" name="Robot"> Robot</label>
+			<label for="Crown"><input type="checkbox" id="Crown" name="Crown"> Crown</label>
+			<label for="Clown"><input type="checkbox" id="Clown" name="Clown"> Clown</label>
+			<label for="Female"><input type="checkbox" id="Female" name="Female"> Female</label>
+			<label for="Lines"><input type="checkbox" id="Lines" name="Lines"> Lines</label>
+			<label for="FaceCover"><input type="checkbox" id="FaceCover" name="FaceCover"> FaceCover</label>
+			<label for="GasMask"><input type="checkbox" id="GasMask" name="GasMask"> GasMask</label>
+			<label for="Hat"><input type="checkbox" id="Hat" name="Hat"> Hat</label>		
+			<label for="Glasses"><input type="checkbox" id="Glasses" name="Glasses"> Glasses</label>
+			<label for="Letterhead"><input type="checkbox" id="Letterhead" name="Letterhead"> Letterhead</label>
+			<label for="Speaking"><input type="checkbox" id="Speaking" name="Speaking"> Speaking</label>
+			<label for="LFG"><input type="checkbox" id="LFG" name="LFG"> LFG</label>
+			<label for="Smoking"><input type="checkbox" id="Smoking" name="Smoking"> Smoking</label>
+			<label for="Animal"><input type="checkbox" id="Animal" name="Animal"> Animal</label>
+			<label for="Weapon"><input type="checkbox" id="Weapon" name="Weapon"> Weapon</label>
+			<label for="Hands"><input type="checkbox" id="Hands" name="Hands"> Hands</label>
+			<label for="Music"><input type="checkbox" id="Music" name="Music"> Music</label>
+			<label for="Earphone"><input type="checkbox" id="Earphone" name="Earphone"> Earphone</label>
+			<label for="Emoji"><input type="checkbox" id="Emoji" name="Emoji"> Emoji</label>
+			<label for="RealRef"><input type="checkbox" id="RealRef" name="RealRef"> RealRef</label>
+			<label for="Fiction"><input type="checkbox" id="Fiction" name="Fiction"> Fiction</label>
+			<label for="Sick"><input type="checkbox" id="Sick" name="Sick"> Sick!</label>
 			<label for="no-trait"><input type="checkbox" id="no-trait" name="no-trait"> No Special Traits</label>
 			<!-- Add other checkboxes for each attribute -->
 		</div>

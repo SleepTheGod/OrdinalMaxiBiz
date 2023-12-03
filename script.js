@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		galleryItem.dataset.number = Array.isArray(image.number) ? image.number.join(', ') : image.number.toString();
 
 		// Set eyeColor and other optional attributes as data attributes
-		const attributes = ['eyeColor', 'female', 'hat', 'speaking', 'smoking', 'noFace', 'demon', 'threePlusEye', 'lines', 'earphone', 'music', 'hands', 'ghost', 'emoji', 'crown', 'oneEye', 'sick', 'animal', 'alien', 'weapon', 'ape', 'openScalp', 'miner', 'shadow', 'lfg', 'clown', 'hoodie', 'OGHoodies', 'realRef', 'fiction', 'freeRoss', 'letterhead', 'glasses', 'robot', 'punk', 'undead', 'faceCover', 'gasMask'];
+		const attributes = ['eyeColor', 'Female', 'Hat', 'Speaking', 'Smoking', 'NoFace', 'Demon', 'ThreePlusEyes', 'Lines', 'Earphone', 'Music', 'Hands', 'Ghost', 'Emoji', 'Crown', 'OneEye', 'Sick', 'Animal', 'Alien', 'Weapon', 'Ape', 'OpenScalp', 'Miner', 'ShadowDAO', 'LFG', 'Clown', 'Hoodie', 'OGHoodies', 'RealRef', 'Fiction', 'FreeRoss', 'Letterhead', 'Glasses', 'Robot', 'Punk', 'Undead', 'FaceCover', 'GasMask'];
 		attributes.forEach(attr => {
 			if (image[attr]) {
 			galleryItem.dataset[attr] = image[attr];
@@ -35,6 +35,21 @@ document.addEventListener('DOMContentLoaded', function() {
 		img.dataset.src = imageUrl;
 		img.alt = `Ordinal Maxi Biz #${image.tokenId}`;
 		img.classList.add('lazyload');
+
+		let hoverTimeout; // Variable to store the hover state timeout
+
+		// Add mouseover event listener with a delay for the tooltip
+		img.addEventListener('mouseover', function(event) {
+			hoverTimeout = setTimeout(function() {
+				showTooltip(event, image);
+			}, 1000); // Delay of 1 second
+		});
+
+		// Add mouseout event listener to hide tooltip and clear the hover timeout
+		img.addEventListener('mouseout', function() {
+			clearTimeout(hoverTimeout);
+			hideTooltip();
+		});
 
 		// Append image to its container
 		imageContainer.appendChild(img);
@@ -137,6 +152,50 @@ document.addEventListener('DOMContentLoaded', function() {
         event.stopPropagation();
     });
 });
+
+// Function to show the tooltip
+function showTooltip(event, image) {
+	const tooltip = document.createElement('div');
+	tooltip.className = 'tooltip';
+	tooltip.textContent = createTooltipContent(image); // Use the same createTooltipContent function from above
+	document.body.appendChild(tooltip);
+  
+	// Get the bounding rectangle of the image
+    const imgRect = event.target.getBoundingClientRect();
+
+    // Position the tooltip at the top left corner of the image
+    tooltip.style.left = `${imgRect.left + window.scrollX}px`;
+    tooltip.style.top = `${imgRect.top + window.scrollY}px`;
+    tooltip.style.display = 'block';
+  }
+  
+// Function to hide the tooltip
+function hideTooltip() {
+	const tooltip = document.querySelector('.tooltip');
+	if (tooltip) {
+	tooltip.remove();
+	}
+}
+
+function createTooltipContent(image) {
+    let tooltipContent = '';
+    let hasSpecialTraits = false;
+
+    for (const attr in image) {
+        if (image.hasOwnProperty(attr) && image[attr] === true) {
+            tooltipContent += `${attr}\n`; // Each attribute name on a new line
+            hasSpecialTraits = true;
+        }
+    }
+
+    // If no special traits are found, display "No Special Traits"
+    if (!hasSpecialTraits) {
+        tooltipContent = 'No Special Traits';
+    }
+
+    return tooltipContent.trim();
+}
+
 
 // Add event listeners to checkboxes
 document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(checkbox => {
