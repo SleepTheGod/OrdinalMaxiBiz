@@ -231,6 +231,19 @@
 			font-size: 0.9em;
 			font-weight: bold; /* Make the text bold */
 			}
+
+			#data-container {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin-top: 20px; /* Adjust this value as needed */
+				gap: 20px; /* This adds space between each data point */
+			}
+
+		#floorPrice, #owners, #totalListed {
+			margin: 5px 0;
+			/* Add additional styling as needed */
+			}
 	</style>
 </head>
 <body>
@@ -293,6 +306,13 @@
 			<!-- Add other checkboxes for each attribute -->
 		</div>
 	</div>
+
+    <div id="data-container">
+        <div><span>Floor: </span><span id="floorPrice">Loading...</span></div>
+        <div><span>Owners: </span><span id="owners">Loading...</span></div>
+        <div><span>Listed: </span><span id="totalListed">Loading...</span></div>
+    </div>
+
 	<div class="search-container">
         <input type="text" id="search-bar" placeholder="Search by #">
     </div>
