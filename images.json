@@ -11884,7 +11884,8 @@
 	{
 		"id": "f4bb116e578813849a9aa66ff033fa3b61fcd4626bb4393db5132d59e2505e89i0",
 		"number": [409,11305255],
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"Glasses": true
 	},
 	{
 		"id": "fd9803f922c2c3460baf24076371942c1922c45e48d8041db817affc3adffe92i0",
