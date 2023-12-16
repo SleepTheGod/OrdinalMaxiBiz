@@ -1,82 +1,133 @@
 document.addEventListener('DOMContentLoaded', function() {
-	fetch('images.json')
-	.then(response => response.json())
-	.then(data => {
-		const gallery = document.querySelector('.gallery');
-		data.forEach(image => {
-		const imageUrl = `https://ord-mirror.magiceden.dev/content/${image.id}`;
+    Promise.all([
+        fetch('images.json').then(response => response.json()),
+        fetch('tokens.json').then(response => response.json())
+    ])
+    .then(([imagesData, tokensData]) => {
+        const mergedData = mergeData(imagesData, tokensData);
+        createGallery(mergedData);
+		setupFilterEventListeners(); // Setup event listeners for filters
+    })
+    .catch(error => console.error('Error loading data:', error));
 
-		// Create gallery item container
-		const galleryItem = document.createElement('div');
-		galleryItem.classList.add('gallery-item');
+});
 
-		// Setting the 'number' data attribute
-		galleryItem.dataset.number = Array.isArray(image.number) ? image.number.join(', ') : image.number.toString();
+function mergeData(imagesData, tokensData) {
+    const tokensMap = new Map(tokensData.map(token => [token.id, token]));
+    return imagesData.map(image => {
+        const token = tokensMap.get(image.id);
+        return token ? { ...image, ...token } : image;
+    });
+}
 
-		// Set eyeColor and other optional attributes as data attributes
-		const attributes = ['eyeColor', 'Female', 'Hat', 'Speaking', 'Smoking', 'NoFace', 'Demon', 'ThreePlusEyes', 'Lines', 'Earphone', 'Music', 'Hands', 'Ghost', 'Emoji', 'Crown', 'OneEye', 'Sick', 'Animal', 'Alien', 'Weapon', 'Ape', 'OpenScalp', 'Miner', 'ShadowDAO', 'LFG', 'Clown', 'Hoodie', 'OGHoodies', 'RealRef', 'Fiction', 'FreeRoss', 'Letterhead', 'Glasses', 'Robot', 'Punk', 'Undead', 'FaceCover', 'GasMask'];
-		attributes.forEach(attr => {
-			if (image[attr]) {
-			galleryItem.dataset[attr] = image[attr];
-			}
-		});
+function createGallery(mergedData) {
+    // Sort mergedData by listedPrice, and then by the second number if listedPrice is undefined or not present
+    mergedData.sort((a, b) => {
+        let aPrice = a.listedPrice !== 'undefined' && a.listedPrice !== undefined ? parseFloat(a.listedPrice) : Infinity;
+        let bPrice = b.listedPrice !== 'undefined' && b.listedPrice !== undefined ? parseFloat(b.listedPrice) : Infinity;
 
-		// Create link element
-		const link = document.createElement('a');
-		link.href = `https://magiceden.io/ordinals/item-details/${image.id}`;
-		link.target = "_blank";
+        if (aPrice === Infinity && bPrice === Infinity) {
+            // Extract the second number if it exists, otherwise use the first/only number
+            let aNumber = extractSecondNumber(a.number);
+            let bNumber = extractSecondNumber(b.number);
 
-		// Create image container
-		const imageContainer = document.createElement('div');
-		imageContainer.classList.add('image-container');
+            return aNumber - bNumber;
+        } else {
+            // Sort by price when available
+            return aPrice - bPrice;
+        }
+    });
 
-		// Create and set image element
-		const img = document.createElement('img');
-		img.dataset.src = imageUrl;
-		img.alt = `Ordinal Maxi Biz #${image.id}`;
-		img.classList.add('lazyload');
+    const gallery = document.querySelector('.gallery');
+    mergedData.forEach(image => {
+	const imageUrl = `https://ord-mirror.magiceden.dev/content/${image.id}`;
 
-		let hoverTimeout; // Variable to store the hover state timeout
+	// Create gallery item container
+	const galleryItem = document.createElement('div');
+	galleryItem.classList.add('gallery-item');
 
-		// Add mouseover event listener with a delay for the tooltip
-		img.addEventListener('mouseover', function(event) {
-			hoverTimeout = setTimeout(function() {
-				showTooltip(event, image);
-			}, 1000); // Delay of 1 second
-		});
+	// Setting the 'number' data attribute
+	galleryItem.dataset.number = Array.isArray(image.number) ? image.number.join(', ') : image.number.toString();
 
-		// Add mouseout event listener to hide tooltip and clear the hover timeout
-		img.addEventListener('mouseout', function() {
-			clearTimeout(hoverTimeout);
-			hideTooltip();
-		});
+	// Set the listedPrice data attribute, even if it's undefined
+	galleryItem.dataset.listedPrice = image.listedPrice;
+	galleryItem.dataset.id = image.id;
 
-		// Append image to its container
-		imageContainer.appendChild(img);
-
-		// Append image container to link
-		link.appendChild(imageContainer);
-
-		// Append link to gallery item
-		galleryItem.appendChild(link);
-
-		// Price tag with Bitcoin symbol
-		if (image.price) {
-			const priceTag = document.createElement('div');
-			priceTag.classList.add('price-tag');
-			priceTag.textContent = `₿${image.price}`;
-			galleryItem.appendChild(priceTag);
+	// Set eyeColor and other optional attributes as data attributes
+	const attributes = ['eyeColor', 'Female', 'Hat', 'Speaking', 'Smoking', 'NoFace', 'Demon', 'ThreePlusEyes', 'Lines', 'Earphone', 'Music', 'Hands', 'Ghost', 'Emoji', 'Crown', 'OneEye', 'Sick', 'Animal', 'Alien', 'Weapon', 'Ape', 'OpenScalp', 'Miner', 'ShadowDAO', 'LFG', 'Clown', 'Hoodie', 'OGHoodies', 'RealRef', 'Fiction', 'FreeRoss', 'Letterhead', 'Glasses', 'Robot', 'Punk', 'Undead', 'FaceCover', 'GasMask'];
+	attributes.forEach(attr => {
+		if (image[attr]) {
+		galleryItem.dataset[attr] = image[attr];
 		}
+	});
 
-		// Append gallery item to gallery
-		gallery.appendChild(galleryItem);
-		});
-		
-		initializeLazyLoad(); // After adding all images to the gallery, initialize lazy loading
-		updateCount(); // This will update the count when the page loads
-	})
-	.catch(error => console.error('Error loading image data:', error));
-});  
+	// Create link element
+	const link = document.createElement('a');
+	link.href = `https://magiceden.io/ordinals/item-details/${image.id}`;
+	link.target = "_blank";
+
+	// Create image container
+	const imageContainer = document.createElement('div');
+	imageContainer.classList.add('image-container');
+
+	// Create and set image element
+	const img = document.createElement('img');
+	img.dataset.src = imageUrl;
+	img.alt = `Ordinal Maxi Biz #${image.id}`;
+	img.classList.add('lazyload');
+
+	let hoverTimeout; // Variable to store the hover state timeout
+
+	// Add mouseover event listener with a delay for the tooltip
+	img.addEventListener('mouseover', function(event) {
+		hoverTimeout = setTimeout(function() {
+			showTooltip(event, image);
+		}, 1000); // Delay of 1 second
+	});
+
+	// Add mouseout event listener to hide tooltip and clear the hover timeout
+	img.addEventListener('mouseout', function() {
+		clearTimeout(hoverTimeout);
+		hideTooltip();
+	});
+
+	// Append image to its container
+	imageContainer.appendChild(img);
+
+	// Append image container to link
+	link.appendChild(imageContainer);
+
+	// Append link to gallery item
+	galleryItem.appendChild(link);
+
+	// Price tag with Bitcoin symbol
+	if (image.listedPrice && image.listedPrice !== 'undefined') {
+		const priceTag = document.createElement('div');
+		priceTag.classList.add('price-tag');
+		priceTag.textContent = `₿${image.listedPrice}`;
+		galleryItem.appendChild(priceTag);
+	}
+
+	// Append gallery item to gallery
+	gallery.appendChild(galleryItem);
+
+	});
+	
+	initializeLazyLoad(); // After adding all images to the gallery, initialize lazy loading
+	updateCount(); // This will update the count when the page loads
+
+}
+
+function extractSecondNumber(numberData) {
+    // Ensure numberData is a string
+    let numberString = String(numberData);
+
+    // Split the number string by commas and trim each part
+    let numbers = numberString.split(',').map(n => n.trim());
+
+    // Use the second number if available, otherwise the first
+    return numbers.length > 1 ? parseInt(numbers[1], 10) : parseInt(numbers[0], 10);
+}
 
 function initializeLazyLoad() {
 const lazyImages = document.querySelectorAll('img.lazyload');
@@ -94,6 +145,16 @@ const imageObserver = new IntersectionObserver((entries, observer) => {
 lazyImages.forEach(img => {
 	imageObserver.observe(img);
 });
+}
+
+function setupFilterEventListeners() {
+    // Event listeners for existing attribute filters
+    document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(checkbox => {
+        checkbox.addEventListener('change', filterGallery);
+    });
+
+    // Event listener for the listedPrice filter
+    document.getElementById('filter-listedPrice').addEventListener('change', filterGallery);
 }
 
 function updateCount() {
@@ -196,46 +257,51 @@ function createTooltipContent(image) {
     return tooltipContent.trim();
 }
 
-
 // Add event listeners to checkboxes
 document.querySelectorAll('.filter-dropdown input[type="checkbox"]').forEach(checkbox => {
 	checkbox.addEventListener('change', filterGallery);
 });
 
 function filterGallery() {
-	// Ignore filtering if there's a search term
-	if (document.getElementById('search-bar').value.trim()) {
-        return; 
+    // Ignore filtering if there's a search term
+    if (document.getElementById('search-bar').value.trim()) {
+        return;
     }
 
-	const checkedAttributes = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"]:not([name="eyeColor"], [name="no-trait"])'))
-		.filter(checkbox => checkbox.checked)
-		.map(checkbox => checkbox.name);
-	const checkedEyeColors = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"][name="eyeColor"]:checked'))
-		.map(checkbox => checkbox.value);
-	const isNoTraitChecked = document.getElementById('no-trait').checked;
+    const gallery = document.querySelector('.gallery');
+    let galleryItems = Array.from(document.querySelectorAll('.gallery-item'));
+    const checkedAttributes = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"]:not([name="eyeColor"], [name="no-trait"])'))
+        .filter(checkbox => checkbox.checked)
+        .map(checkbox => checkbox.name);
+    const checkedEyeColors = Array.from(document.querySelectorAll('.filter-dropdown input[type="checkbox"][name="eyeColor"]:checked'))
+        .map(checkbox => checkbox.value);
+    const isNoTraitChecked = document.getElementById('no-trait').checked;
+    const isListedPriceChecked = document.getElementById('filter-listedPrice').checked;
 
-	document.querySelectorAll('.gallery-item').forEach(item => {
-		const matchesEyeColor = checkedEyeColors.length === 0 || checkedEyeColors.includes(item.dataset.eyeColor);
+    // Apply filters first
+    galleryItems.forEach(item => {
+        const matchesEyeColor = checkedEyeColors.length === 0 || checkedEyeColors.includes(item.dataset.eyeColor);
+        let shouldDisplay = matchesEyeColor;
 
-		// Start with shouldDisplay set to the result of matchesEyeColor
-		let shouldDisplay = matchesEyeColor;
+        if (isNoTraitChecked) {
+            const attributeCount = Object.keys(item.dataset).length;
+            shouldDisplay = shouldDisplay && (attributeCount === 3 || (attributeCount === 4 && item.dataset.listedPrice)); // Assumes id, eyeColor, number, and optionally listedPrice are the only attributes
+        } else if (checkedAttributes.length > 0) {
+            shouldDisplay = shouldDisplay && checkedAttributes.every(attr => item.dataset[attr] === 'true');
+        }
 
-		if (isNoTraitChecked) {
-			// If "No Trait" is checked, count the attributes and check if only eyeColor is present
-			const attributeCount = Object.keys(item.dataset).length;
-			shouldDisplay = shouldDisplay && (attributeCount === 2); // This assumes eyeColor and number are the only attributes
-		} else if (checkedAttributes.length > 0) {
-			// If other attribute filters are checked, ensure they all match
-			shouldDisplay = shouldDisplay && checkedAttributes.every(attr => item.dataset[attr] === 'true');
-		}
+        if (isListedPriceChecked) {
+            shouldDisplay = shouldDisplay && item.dataset.listedPrice && item.dataset.listedPrice !== 'undefined';
+        }
 
-		// If no filters are checked, shouldDisplay remains true based on the matchesEyeColor result
-		item.style.display = shouldDisplay ? 'block' : 'none';
-	});
+        item.style.display = shouldDisplay ? 'block' : 'none';
+    });
 
-	updateCount(); // Call updateCount after filtering is done to update the display count
+    updateCount();
 }
+
+// Call filterGallery when the listed price checkbox changes
+document.getElementById('filter-listedPrice').addEventListener('change', filterGallery);
 
 // Event listeners
 document.addEventListener('DOMContentLoaded', () => {
