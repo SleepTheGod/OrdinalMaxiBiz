@@ -967,7 +967,7 @@
 		"number": 965695,
 		"eyeColor": "blue",
 		"Sick":true,
-		"clean": true
+		"Clean": true
 	},
 	{
 		"id": "2906099ea9ce0db57400092d953d6ce9be0f57e527e9429cac8b5b06527cc656i0",
@@ -1204,7 +1204,7 @@
 		"id": "3bfc63f112e88d1101cec8f4a51046d72a8766433e6febce341d80f5ee20ab92i0",
 		"number": 965730,
 		"eyeColor": "blue",
-		"clean": true
+		"Clean": true
 	},
 	{
 		"id": "d53b759fcfa2da81348fb4b1cfbe0d1b47487390094a4c39f0a84bf943313edai0",
@@ -1336,7 +1336,7 @@
 		"number": [2098, 10443768],
 		"eyeColor": "green",
 		"Sick":true,
-		"clean": true
+		"Clean": true
 	},
 	{
 		"id": "431d3c5fa2c47997f9f7c7fd6d6d1f6be2304aab6557d5610ab2dc3268cc3e64i0",
@@ -2501,7 +2501,7 @@
 		"id": "838f7d36c76542085f53b822801c416a34e4627ec76e5763a774a6cdce342f26i0",
 		"number": [1941,10613971],
 		"eyeColor": "green",
-		"clean": true
+		"Clean": true
 	},
 	{
 		"id": "bc307a0be8ce23014656ba9410b285f018cb7dbb66a18d3521200b1064a87f21i0",
@@ -2968,7 +2968,7 @@
 		"number": [1855,10827823],
 		"eyeColor": "green",
 		"Hat": true,
-		"clean": true
+		"Clean": true
 	},
 	{
 		"id": "e30cde72e70697f8026f0f01b138c005c179a31d5d0dfcf5ec5005d46578942di0",
@@ -3238,7 +3238,7 @@
 		"number": [1820,10827866],
 		"eyeColor": "green",
 		"ThreePlusEyes": true,
-		"clean": true
+		"Clean": true
 	},
 	{
 		"id": "a000f9cc4644a9d0472aab02791fe4bff2af5e1a588a74af876eab4534196c35i0",
@@ -3692,7 +3692,7 @@
 		"eyeColor": "green",
 		"Emoji": true,
 		"Earphone": true,
-		"clean": true
+		"Clean": true
 	},
 	{
 		"id": "79da9991c9afeb640f928723085ed905ab31aaf6023c8fbd286139e5e178bb62i0",
@@ -3795,7 +3795,7 @@
 		"number": [1704,11078913],
 		"eyeColor": "green",
 		"Letterhead": true,
-		"clean": true
+		"Clean": true
 	},
 	{
 		"id": "1b8b1291cc05860bc2d9061d93d9e9c8212729064f1bf77cfa8789df8164cb0fi0",
@@ -3940,7 +3940,7 @@
 		"number": [1672,11097566],
 		"eyeColor": "green",
 		"Letterhead": true,
-		"clean": true
+		"Clean": true
 	},
 	{
 		"id": "e947b964f2a0ed2dcb85c1cb04749ce42d13c700d46899913bbb133578784a47i0",
@@ -5110,7 +5110,7 @@
 		"id": "c00c5e76e2a30968dea7eb6543d4685af3200e26b4448fed0f6dc7ccfa65bf0ai0",
 		"number": [1561,11108190],
 		"eyeColor": "green",
-		"clean": true
+		"Clean": true
 	},
 	{
 		"id": "4fc275452ed1052a9de379c2bbf209f9dc73ac51c03b327c6f91e55307519930i0",
@@ -5876,7 +5876,7 @@
 		"number": [1427,11181319],
 		"eyeColor": "green",
 		"Earphone": true,
-		"clean": true
+		"Clean": true
 	},
 	{
 		"id": "a8e313d96012fcde3d7d6ff607aab75a2812666c8c3d8816f812fc6e3bc94641i0",
@@ -7646,7 +7646,7 @@
 		"id": "98e2f47e19a139c1e4767d77f991fb7b20f882f058d601beb8bd35eb6e853a6fi0",
 		"number": [1137,11210073],
 		"eyeColor": "green",
-		"clean": true
+		"Clean": true
 	},
 	{
 		"id": "4d67fec8537725a4790b27d46ed36d6c72b878ae98d671648fa50559465d1b0ci0",
@@ -7882,7 +7882,7 @@
 		"number": [1072,11272895],
 		"eyeColor": "green",
 		"Hat": true,
-		"clean": true
+		"Clean": true
 	},
 	{
 		"id": "2b48b2cb627455941b000ec8469a44dc0df61e4c680ef10fa5bdaffb64419b6fi0",
@@ -9675,7 +9675,7 @@
 		"eyeColor": "green",
 		"Hat": true,
 		"Earphone": true,
-		"clean": true
+		"Clean": true
 	},
 	{
 		"id": "4562faa13f8299e4aae3e52d58b79b16ef0a17fd0a58a010ad71e0ed1b2e9686i0",
@@ -9688,7 +9688,7 @@
 		"number": [763,11287170],
 		"eyeColor": "green",
 		"Letterhead": true,
-		"clean": true
+		"Clean": true
 	},
 	{
 		"id": "41b63089f791b0abc049d52f8de6af5c2cf8fee8c98874bdcf176247005f944fi0",
@@ -10917,7 +10917,7 @@
 		"number": [579,11299745],
 		"eyeColor": "green",
 		"Hat": true,
-		"clean": true
+		"Clean": true
 	},
 	{
 		"id": "02992a8aaa1f211978f685239464c18368375d9efa2ee37a08a0b265c47307c8i0",
@@ -11367,7 +11367,7 @@
 		"id": "68a9206436814c3841af66cb8aa99e23f4579cbb8a89993a979a1d3e3a14aecai0",
 		"number": [659,11299816],
 		"eyeColor": "green",
-		"clean": true
+		"Clean": true
 	},
 	{
 		"id": "2b66926c0911c2fb07a577b2d1e5f09d8460c3c467410b192460a48e89f0b8a6i0",
@@ -11731,7 +11731,7 @@
 		"number": [443,11305228],
 		"eyeColor": "green",
 		"Hat": true,
-		"clean": true
+		"Clean": true
 	},
 	{
 		"id": "f3a126be7f83d50a02ad3fb1d87653f3c1add3902e2a2330de26cd5074a19dadi0",
