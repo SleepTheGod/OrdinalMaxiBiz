@@ -1335,7 +1335,8 @@
 		"id": "d2fce83e82df3e477217b24c9b37e5f2c91c43b17c1619b4aff95ad674d97263i0",
 		"number": [2098, 10443768],
 		"eyeColor": "green",
-		"Sick":true
+		"Sick":true,
+		"clean": true
 	},
 	{
 		"id": "431d3c5fa2c47997f9f7c7fd6d6d1f6be2304aab6557d5610ab2dc3268cc3e64i0",
@@ -1388,8 +1389,7 @@
 		"id": "e2343613825328ac16fba3104d16d6cfb680a72f21492ad1224ce40728cb72e2i0",
 		"number": [2090, 10443804],
 		"eyeColor": "green",
-		"OpenScalp":true,
-		"clean": true
+		"OpenScalp":true
 	},
 	{
 		"id": "f28af484e6b029f37fbdec33425a89adc7d152af14300e571c3064f4b7e04fe7i0",
@@ -2500,7 +2500,8 @@
 	{
 		"id": "838f7d36c76542085f53b822801c416a34e4627ec76e5763a774a6cdce342f26i0",
 		"number": [1941,10613971],
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"clean": true
 	},
 	{
 		"id": "bc307a0be8ce23014656ba9410b285f018cb7dbb66a18d3521200b1064a87f21i0",
@@ -3236,7 +3237,8 @@
 		"id": "8cbf53e4969472c3756f03ca20a3559ee576e520825ff4a603a8f130460bc0aei0",
 		"number": [1820,10827866],
 		"eyeColor": "green",
-		"ThreePlusEyes": true
+		"ThreePlusEyes": true,
+		"clean": true
 	},
 	{
 		"id": "a000f9cc4644a9d0472aab02791fe4bff2af5e1a588a74af876eab4534196c35i0",
@@ -4983,8 +4985,7 @@
 	{
 		"id": "2c7f65805dff13551b21d0a24cb0abab2131f2ac1d8553571b9e4fb21a047409i0",
 		"number": [1554,11108170],
-		"eyeColor": "green",
-		"clean": true
+		"eyeColor": "green"
 	},
 	{
 		"id": "2e6c7349468b58576feb133d5db7e84fa246ddfad6dca73523e1bd5a39509f7ai0",
@@ -5215,8 +5216,7 @@
 	{
 		"id": "1e62a6243c6a494c2821d519418c904ad627c1ee4db4799741462845fd257e1ai0",
 		"number": [1433,11181212],
-		"eyeColor": "green",
-		"clean": true
+		"eyeColor": "green"
 	},
 	{
 		"id": "0272688cd5c7883df45391a80bb7cbc9a90faca0eb5bc7536fd2c85f6d49d61bi0",
@@ -5874,7 +5874,8 @@
 		"id": "060c8e1bc35a1544a74b5c3e33b3695598e95f97fe8cc3f8b8628d95e7068852i0",
 		"number": [1427,11181319],
 		"eyeColor": "green",
-		"Earphone": true
+		"Earphone": true,
+		"clean": true
 	},
 	{
 		"id": "a8e313d96012fcde3d7d6ff607aab75a2812666c8c3d8816f812fc6e3bc94641i0",
@@ -7643,7 +7644,8 @@
 	{
 		"id": "98e2f47e19a139c1e4767d77f991fb7b20f882f058d601beb8bd35eb6e853a6fi0",
 		"number": [1137,11210073],
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"clean": true
 	},
 	{
 		"id": "4d67fec8537725a4790b27d46ed36d6c72b878ae98d671648fa50559465d1b0ci0",
@@ -7878,7 +7880,8 @@
 		"id": "59b4220ed2b464e1c8a5748b0f0c9f450920f31ebd4d30db017f21a9f62694c1i0",
 		"number": [1072,11272895],
 		"eyeColor": "green",
-		"Hat": true
+		"Hat": true,
+		"clean": true
 	},
 	{
 		"id": "2b48b2cb627455941b000ec8469a44dc0df61e4c680ef10fa5bdaffb64419b6fi0",
@@ -9670,7 +9673,8 @@
 		"number": [745,11287168],
 		"eyeColor": "green",
 		"Hat": true,
-		"Earphone": true
+		"Earphone": true,
+		"clean": true
 	},
 	{
 		"id": "4562faa13f8299e4aae3e52d58b79b16ef0a17fd0a58a010ad71e0ed1b2e9686i0",
@@ -10911,7 +10915,8 @@
 		"id": "85c22306e3c5a7e500fe96f6ed27de2b51f28613c759a8db770b7e2907cff463i0",
 		"number": [579,11299745],
 		"eyeColor": "green",
-		"Hat": true
+		"Hat": true,
+		"clean": true
 	},
 	{
 		"id": "02992a8aaa1f211978f685239464c18368375d9efa2ee37a08a0b265c47307c8i0",
@@ -11360,7 +11365,8 @@
 	{
 		"id": "68a9206436814c3841af66cb8aa99e23f4579cbb8a89993a979a1d3e3a14aecai0",
 		"number": [659,11299816],
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"clean": true
 	},
 	{
 		"id": "2b66926c0911c2fb07a577b2d1e5f09d8460c3c467410b192460a48e89f0b8a6i0",
