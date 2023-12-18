@@ -1175,7 +1175,7 @@
 		"number": 965726,
 		"eyeColor": "blue",
 		"Hat":true,
-		"Glasses":true
+		"sunGlasses":true
 	},
 	{
 		"id": "29ab5033499e4f7dcfec927de5a99e95f5daf644de6dafb90e23951a0d001741i0",
@@ -1521,7 +1521,7 @@
 		"number": [2094, 10443829],
 		"eyeColor": "green",
 		"Hat":true,
-		"Glasses":true
+		"sunGlasses":true
 	},
 	{
 		"id": "eaf4064151b4673662083196814d8b5acc049b43bc7d1c2f6c705ad0bb78103bi0",
@@ -12377,7 +12377,7 @@
 		"number": [382,11412812],
 		"eyeColor": "green",
 		"Smoking": true,
-		"Glasses": true
+		"sunGlasses": true
 	},
 	{
 		"id": "90d120e7219690044812d1972675b5c096f66673a790254f9a4089de8250a3c2i0",
