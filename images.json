@@ -385,7 +385,9 @@
 		"number": 199117,
 		"eyeColor": "red",
 		"Speaking":true,
-		"Glasses":true
+		"Glasses":true,
+		"RealRef": true,
+		"Powell": true
 	},
 	{
 		"id": "4e6aa8f39b3d1ec445c5a1ce0992c69213d989ad555c5ab1f20eb2c934af10f9i0",
