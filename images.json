@@ -637,7 +637,8 @@
 	{
 		"id": "f5bf2f283ca73b9b0a987a8f385f8a25c662f66ec824bf10b16782509eebd9d0i0",
 		"number": 965233,
-		"eyeColor": "blue"
+		"eyeColor": "blue",
+		"TTEasterEgg":true
 	},
 	{
 		"id": "99290aef3c8151109e6ae1383b676ef61e6eba512d100371c41ce8fe5c9c699ei0",
@@ -897,7 +898,8 @@
 		"eyeColor": "blue",
 		"Hat":true,
 		"Smoking":true,
-		"sunGlasses":true
+		"sunGlasses":true,
+		"TTEasterEgg":true
 	},
 	{
 		"id": "d256bd2fd5b8bc739d7aefe117af75eb2d49b91519814778c5f0f332bbe2663di0",
