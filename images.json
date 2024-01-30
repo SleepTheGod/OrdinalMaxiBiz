@@ -7568,7 +7568,8 @@
 	{
 		"id": "5f4a9f5f7c326f6bdefae4998037b8fa4c7ce0bce2abe218b7e1cc7899c7b3b9i0",
 		"number": [1126,11210037],
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"FaceCover": true
 	},
 	{
 		"id": "ac860f0213abb5f57616d1c877f461e483a01dcbeb8384c2d9897c2861751728i0",
@@ -9469,7 +9470,8 @@
 	{
 		"id": "a481e3d8cb9f6241097e35bfa555e2fdd29909653b667c6c37af90787f797187i0",
 		"number": [834,11287119],
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"Glasses": true
 	},
 	{
 		"id": "0b4f2c7de360c23979d05dc26cd2bfcee204e7a90dee842684e8605d0c800a96i0",
@@ -9896,7 +9898,8 @@
 		"id": "62aea6040847d87acaf7c04acadf564ef1781f48f4289b407a23c9a81ea30790i0",
 		"number": [723,11287187],
 		"eyeColor": "green",
-		"Hands": true
+		"Hands": true,
+		"Fiction": true
 	},
 	{
 		"id": "132691597229296f9d24908d70f112afab4f28467d65044c4c475189e0ffda67i0",
@@ -11717,7 +11720,9 @@
 	{
 		"id": "ca16455daf38a9d9ccbfae9f4338af1d664067b8b6388e98078f9f9051c45285i0",
 		"number": [481,11305020],
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"Glasses": true,
+		"Punk": true
 	},
 	{
 		"id": "b2c0f975b071a04d53a65d5aa57c9606d330061306b0d2fe3c622ffa28cfa7aei0",
@@ -12148,7 +12153,8 @@
 		"id": "8694a30bb984e375bc54a0c26a41f2179a68b526e5b50228a769abb06f1ff93ei0",
 		"number": [305,11412262],
 		"eyeColor": "green",
-		"Speaking": true
+		"Speaking": true,
+		"Hands": true
 	},
 	{
 		"id": "486af54bfd77fb384435ffdd176870271ea7b0bff05f7eb2a5442ad6e1822143i0",
@@ -12425,7 +12431,8 @@
 	{
 		"id": "581919a971854760ea0add16c290f6ec70174a20d84da460f8c493aef7f4409fi0",
 		"number": [313,11412801],
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"TTEasterEgg":true
 	},
 	{
 		"id": "cecc78b7fe96a520c4d01796f786b456e52d5e6c44142b15a1e4d81e6db3c0ebi0",
@@ -12592,7 +12599,8 @@
 		"eyeColor": "green",
 		"Smoking": true,
 		"Hat": true,
-		"sunGlasses": true
+		"sunGlasses": true,
+		"TTEasterEgg":true
 	},
 	{
 		"id": "9a51c67e4e212bfc5a1f58bf17c64ad9b8b2418a565820582dd6aae6e66d4f60i0",
@@ -13113,7 +13121,8 @@
 	{
 		"id": "3d5b7f50b7c3b3684f0b86d2770d74983d4973b56877478ebd0a51551616b65di0",
 		"number": [281,11523635],
-		"eyeColor": "green"
+		"eyeColor": "green",
+		"TTEasterEgg":true
 	},
 	{
 		"id": "a8c3bc20cbab98842463bd6c7bc796770fcd9ea13ee004cf736e57b1d1b1bf28i0",
